@@ -1,158 +1,158 @@
 ---
-title: "xAI's Grok API Is Cheaper Than GPT-6 Astra and Claude Opus 5. We Ran the Numbers."
-description: "Grok's flagship model costs a fraction of GPT-6 Astra and undercuts Claude Opus 5. Here's the real per-token math, a working code example, and where the cheap price stops being a deal."
-category: "AI Coding Tools"
+title: "A API do Grok da xAI É Mais Barata que o GPT-6 Astra e o Claude Opus 5. Fizemos as Contas."
+description: "O modelo carro-chefe do Grok custa uma fração do GPT-6 Astra e é mais barato que o Claude Opus 5. Veja a matemática real por token, um exemplo de código funcional, e onde o preço baixo para de ser vantagem."
+category: "Ferramentas de IA para Código"
 date: 2026-09-08
 readingTime: "7 min"
 image: "./images/grok-api-pricing.webp"
-imageAlt: "Close-up editorial photo of a laptop screen showing a blurred code editor and a token cost comparison chart, with US dollar bills and coins softly out of focus on the desk in the foreground"
+imageAlt: "Foto editorial em close-up da tela de um notebook mostrando um editor de código desfocado e um gráfico de comparação de custo por token, com notas e moedas de dólar americano suavemente fora de foco na mesa em primeiro plano"
 ---
 
-Every API pricing page looks reasonable on its own. Line them up side by side, though, and the gap between xAI's Grok API and the two biggest names in the space gets hard to ignore. We pulled the current per-token rates for Grok, OpenAI, and Anthropic's API lineups and ran the same workload through all three to see what it actually costs in dollars, not just cents-per-million-tokens on a marketing page.
+Toda página de preços de API parece razoável sozinha. Colocadas lado a lado, porém, a diferença entre a API do Grok da xAI e os dois maiores nomes do setor fica difícil de ignorar. Coletamos as taxas atuais por token do Grok, da OpenAI e das linhas de API da Anthropic, e rodamos a mesma carga de trabalho nas três pra ver quanto custa de verdade em dólares, não só em centavos-por-milhão-de-tokens numa página de marketing.
 
-Short version: at the flagship tier, Grok 4.6 is roughly 6x cheaper than GPT-6 Astra and 3x cheaper than Claude Opus 5 for the same input/output mix. It's not the cheapest model on the market at every tier, but at the top end, the gap is bigger than most developers probably assume.
+Versão resumida: no nível carro-chefe, o Grok 4.6 é aproximadamente 6x mais barato que o GPT-6 Astra e 3x mais barato que o Claude Opus 5 pra mesma mistura de entrada/saída. Não é o modelo mais barato do mercado em todos os níveis, mas no topo, a diferença é maior do que a maioria dos desenvolvedores provavelmente imagina.
 
-## What the Grok API Actually Is
+## O Que a API do Grok Realmente É
 
-The Grok API is xAI's developer platform for calling Grok models programmatically, separate from the Grok chatbot app and separate from X Premium. You don't need an X subscription to use it, and paying for X doesn't give you API credits. It's billing you'd recognize from any other LLM provider: pay per token, metered per request, billed monthly or prepaid through console credits.
+A API do Grok é a plataforma de desenvolvedores da xAI pra chamar os modelos Grok de forma programática, separada do app de chat do Grok e separada do X Premium. Você não precisa de uma assinatura do X pra usá-la, e pagar pelo X não te dá créditos de API. É uma cobrança que você reconheceria de qualquer outro provedor de LLM: paga por token, medida por requisição, cobrada mensalmente ou pré-paga via créditos do console.
 
-The API is OpenAI-SDK compatible, which matters more than it sounds. If you already have code calling OpenAI's API, switching to Grok is usually a base URL and API key swap, not a rewrite.
+A API é compatível com o SDK da OpenAI, o que importa mais do que parece. Se você já tem código chamando a API da OpenAI, trocar pro Grok normalmente é só uma troca de URL base e chave de API, não uma reescrita.
 
-## How to Get a Grok API Key
+## Como Conseguir uma Chave de API do Grok
 
-1. Go to [console.x.ai](https://console.x.ai) and sign up with an email. No waitlist, no X Premium requirement.
-2. New accounts get **$25 in free credits** to start testing without a card.
-3. In the console sidebar, open **API Keys** → **Create API Key**.
-4. Copy the key immediately. It starts with `xai-` and xAI doesn't store the plaintext value, so if you lose it, you generate a new one.
+1. Acesse [console.x.ai](https://console.x.ai) e cadastre-se com um e-mail. Sem lista de espera, sem exigência de X Premium.
+2. Contas novas recebem **$25 em créditos grátis** pra começar a testar sem cartão.
+3. Na barra lateral do console, abra **API Keys** → **Create API Key**.
+4. Copie a chave imediatamente. Ela começa com `xai-` e a xAI não guarda o valor em texto puro, então se você a perder, precisa gerar uma nova.
 
-Rate limits scale with how much you've spent since January 1, 2026: new accounts start around 150 requests/second and 50M tokens/minute, climbing to 500 RPS and 100M TPM once you cross $5,000 in cumulative spend. Fine for prototyping and most production apps; something to plan around if you're building at real scale.
+Os limites de taxa aumentam conforme quanto você gastou desde 1º de janeiro de 2026: contas novas começam em torno de 150 requisições/segundo e 50M tokens/minuto, subindo pra 500 RPS e 100M TPM depois que você ultrapassa $5.000 em gasto acumulado. Suficiente pra prototipagem e a maioria dos apps em produção; algo a planejar se você está construindo em escala real.
 
-## A Working Code Example
+## Um Exemplo de Código Funcional
 
-Because the API mirrors OpenAI's SDK, this is the entire integration if you're using Python:
+Como a API espelha o SDK da OpenAI, esta é a integração inteira se você estiver usando Python:
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
     <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
-    <span class="prompt-card-label">grok_example.py</span>
-    <button class="copy-btn" data-copy-target="prompt-python">Copy</button>
+    <span class="prompt-card-label">grok_exemplo.py</span>
+    <button class="copy-btn" data-copy-target="prompt-python">Copiar</button>
   </div>
   <pre id="prompt-python"><code>from openai import OpenAI
 client = OpenAI(
-    api_key="your_xai_api_key",
+    api_key="sua_chave_api_xai",
     base_url="https://api.x.ai/v1",
 )
 response = client.responses.create(
     model="grok-4.6",
-    input="Explain the difference between a race condition and a deadlock.",
+    input="Explique a diferença entre uma condição de corrida e um deadlock.",
 )
 print(response.output_text)</code></pre>
 </div>
 
-Or with plain curl, if you're just testing the key works:
+Ou com curl puro, se você só quer testar se a chave funciona:
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
     <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
     <span class="prompt-card-label">terminal</span>
-    <button class="copy-btn" data-copy-target="prompt-curl">Copy</button>
+    <button class="copy-btn" data-copy-target="prompt-curl">Copiar</button>
   </div>
   <pre id="prompt-curl"><code>curl https://api.x.ai/v1/responses \
   -H "Authorization: Bearer $XAI_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "model": "grok-4.6",
-    "input": "Explain the difference between a race condition and a deadlock."
+    "input": "Explique a diferença entre uma condição de corrida e um deadlock."
   }'</code></pre>
 </div>
 
-Grok supports function calling and structured outputs, so agentic and tool-use workflows built for OpenAI or Claude's function-calling format port over with minor adjustments, not a redesign.
+O Grok suporta function calling e saídas estruturadas, então fluxos agênticos e de uso de ferramentas construídos pro formato de function-calling da OpenAI ou do Claude são portados com ajustes pequenos, não um redesenho.
 
-## The Price Table
+## A Tabela de Preços
 
-Here's what each provider charges per million tokens at three comparable tiers: flagship, mid-tier/efficient, and budget/coding-specific.
+Aqui está o que cada provedor cobra por milhão de tokens em três níveis comparáveis: carro-chefe, intermediário/eficiente, e econômico/específico pra código.
 
 <div style="max-width:900px;margin:24px auto;overflow-x:auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
   <table style="width:100%;border-collapse:collapse;background:#ffffff;box-shadow:0 1px 4px rgba(0,0,0,0.08);border-radius:8px;overflow:hidden;">
     <thead>
       <tr style="background:var(--ink-deep);color:#ffffff;">
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">Tier</th>
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">🧠 Model</th>
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">📥 Input / 1M</th>
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">📤 Output / 1M</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">Nível</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">🧠 Modelo</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">📥 Entrada / 1M</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">📤 Saída / 1M</th>
       </tr>
     </thead>
     <tbody>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;font-weight:600;" rowspan="3">🚀 Flagship</td>
+        <td style="padding:12px 16px;font-weight:600;" rowspan="3">🚀 Carro-chefe</td>
         <td style="padding:12px 16px;">Grok 4.6</td>
-        <td style="padding:12px 16px;">$2.00</td>
-        <td style="padding:12px 16px;">$6.00</td>
+        <td style="padding:12px 16px;">$2,00</td>
+        <td style="padding:12px 16px;">$6,00</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
         <td style="padding:12px 16px;">GPT-6 Astra</td>
-        <td style="padding:12px 16px;">$10.00</td>
-        <td style="padding:12px 16px;">$50.00</td>
+        <td style="padding:12px 16px;">$10,00</td>
+        <td style="padding:12px 16px;">$50,00</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
         <td style="padding:12px 16px;">Claude Opus 5</td>
-        <td style="padding:12px 16px;">$5.00</td>
-        <td style="padding:12px 16px;">$25.00</td>
+        <td style="padding:12px 16px;">$5,00</td>
+        <td style="padding:12px 16px;">$25,00</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
-        <td style="padding:12px 16px;font-weight:600;" rowspan="3">⚙️ Mid-tier</td>
+        <td style="padding:12px 16px;font-weight:600;" rowspan="3">⚙️ Intermediário</td>
         <td style="padding:12px 16px;">Grok 4.3</td>
-        <td style="padding:12px 16px;">$1.25</td>
-        <td style="padding:12px 16px;">$2.50</td>
+        <td style="padding:12px 16px;">$1,25</td>
+        <td style="padding:12px 16px;">$2,50</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
         <td style="padding:12px 16px;">GPT-5.6 Terra</td>
-        <td style="padding:12px 16px;">$2.00</td>
-        <td style="padding:12px 16px;">$12.00</td>
+        <td style="padding:12px 16px;">$2,00</td>
+        <td style="padding:12px 16px;">$12,00</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
         <td style="padding:12px 16px;">Claude Sonnet 5</td>
-        <td style="padding:12px 16px;">$2.00</td>
-        <td style="padding:12px 16px;">$10.00</td>
+        <td style="padding:12px 16px;">$2,00</td>
+        <td style="padding:12px 16px;">$10,00</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;font-weight:600;" rowspan="3">💸 Budget / coding</td>
+        <td style="padding:12px 16px;font-weight:600;" rowspan="3">💸 Econômico / código</td>
         <td style="padding:12px 16px;">Grok Build 0.1</td>
-        <td style="padding:12px 16px;">$1.00</td>
-        <td style="padding:12px 16px;">$2.00</td>
+        <td style="padding:12px 16px;">$1,00</td>
+        <td style="padding:12px 16px;">$2,00</td>
       </tr>
       <tr style="background:#fafafa;">
         <td style="padding:12px 16px;">GPT-5.6 Luna</td>
-        <td style="padding:12px 16px;">$0.20</td>
-        <td style="padding:12px 16px;">$1.20</td>
+        <td style="padding:12px 16px;">$0,20</td>
+        <td style="padding:12px 16px;">$1,20</td>
       </tr>
       <tr>
         <td style="padding:12px 16px;">Claude Haiku 4.5</td>
-        <td style="padding:12px 16px;">$1.00</td>
-        <td style="padding:12px 16px;">$5.00</td>
+        <td style="padding:12px 16px;">$1,00</td>
+        <td style="padding:12px 16px;">$5,00</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-*Grok's flagship and mid tiers roughly double in price once a single request's prompt crosses 200K tokens (Grok 4.6 goes to $4/$12); GPT-6 Astra similarly steps up past 272K input tokens.*
+*Os níveis carro-chefe e intermediário do Grok aproximadamente dobram de preço quando o prompt de uma única requisição ultrapassa 200K tokens (o Grok 4.6 vai pra $4/$12); o GPT-6 Astra sobe de forma parecida acima de 272K tokens de entrada.*
 
-## We Ran the Numbers
+## Fizemos as Contas
 
-Rates per million tokens don't mean much until you attach them to a real workload. Say you're running an AI coding assistant in production that processes **10 million input tokens and 2 million output tokens in a month** — a realistic load for a small team's internal tool with steady daily use.
+Taxas por milhão de tokens não significam muito até você aplicá-las numa carga de trabalho real. Digamos que você roda um assistente de código com IA em produção que processa **10 milhões de tokens de entrada e 2 milhões de tokens de saída por mês** — uma carga realista pra uma ferramenta interna de um time pequeno com uso diário constante.
 
 <div style="max-width:900px;margin:24px auto;overflow-x:auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
   <table style="width:100%;border-collapse:collapse;background:#ffffff;box-shadow:0 1px 4px rgba(0,0,0,0.08);border-radius:8px;overflow:hidden;">
     <thead>
       <tr style="background:var(--ink-deep);color:#ffffff;">
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">Tier</th>
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">🧠 Model</th>
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">💵 Monthly cost</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">Nível</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">🧠 Modelo</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">💵 Custo mensal</th>
       </tr>
     </thead>
     <tbody>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;font-weight:600;">🚀 Flagship</td>
+        <td style="padding:12px 16px;font-weight:600;">🚀 Carro-chefe</td>
         <td style="padding:12px 16px;">Grok 4.6</td>
         <td style="padding:12px 16px;font-weight:600;color:var(--teal);">$32</td>
       </tr>
@@ -167,9 +167,9 @@ Rates per million tokens don't mean much until you attach them to a real workloa
         <td style="padding:12px 16px;">$200</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
-        <td style="padding:12px 16px;font-weight:600;">⚙️ Mid-tier</td>
+        <td style="padding:12px 16px;font-weight:600;">⚙️ Intermediário</td>
         <td style="padding:12px 16px;">Grok 4.3</td>
-        <td style="padding:12px 16px;font-weight:600;color:var(--teal);">$17.50</td>
+        <td style="padding:12px 16px;font-weight:600;color:var(--teal);">$17,50</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
         <td style="padding:12px 16px;"></td>
@@ -182,9 +182,9 @@ Rates per million tokens don't mean much until you attach them to a real workloa
         <td style="padding:12px 16px;">$44</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;font-weight:600;">💸 Budget / coding</td>
+        <td style="padding:12px 16px;font-weight:600;">💸 Econômico / código</td>
         <td style="padding:12px 16px;">GPT-5.6 Luna</td>
-        <td style="padding:12px 16px;font-weight:600;color:var(--teal);">$4.40</td>
+        <td style="padding:12px 16px;font-weight:600;color:var(--teal);">$4,40</td>
       </tr>
       <tr style="background:#fafafa;">
         <td style="padding:12px 16px;"></td>
@@ -200,46 +200,46 @@ Rates per million tokens don't mean much until you attach them to a real workloa
   </table>
 </div>
 
-Two things jump out. First, at the flagship tier, Grok 4.6 isn't just cheaper, it's in a different price class: $32 versus $100 for Claude Opus 5 and $200 for GPT-6 Astra for identical usage. Second, Grok isn't automatically the cheapest option everywhere — GPT-5.6 Luna undercuts every Grok tier at the budget end, because Luna is OpenAI's deliberately stripped-down, high-volume model. Cheap has a ceiling and a floor at every provider; Grok's advantage is concentrated at the top.
+Duas coisas chamam atenção. Primeiro, no nível carro-chefe, o Grok 4.6 não é só mais barato, está numa classe de preço diferente: $32 contra $100 do Claude Opus 5 e $200 do GPT-6 Astra pro mesmo uso. Segundo, o Grok não é automaticamente a opção mais barata em todo lugar — o GPT-5.6 Luna fica abaixo de todos os níveis do Grok na ponta econômica, porque o Luna é o modelo deliberadamente enxuto e de alto volume da OpenAI. O barato tem um teto e um piso em cada provedor; a vantagem do Grok se concentra no topo.
 
-## Where Grok Actually Wins or Loses
+## Onde o Grok Realmente Ganha ou Perde
 
-**It wins on price-to-capability at the top end.** Third-party evaluations from Vals AI put Grok 4.6 around 95.6% on SWE-bench Verified, in the same range as Claude Opus 5's reported ~96% and well ahead of what most mid-tier models score, at a fraction of Opus 5's price. If your workload leans on a flagship-tier model anyway, Grok is the cheapest way into that performance bracket right now.
+**Ele ganha em custo-benefício no topo.** Avaliações independentes da Vals AI colocam o Grok 4.6 em torno de 95,6% no SWE-bench Verified, na mesma faixa dos ~96% relatados pelo Claude Opus 5 e bem à frente do que a maioria dos modelos intermediários pontua, por uma fração do preço do Opus 5. Se sua carga de trabalho depende de um modelo de nível carro-chefe de qualquer forma, o Grok é a forma mais barata de entrar nessa faixa de performance agora.
 
-**It wins on real-time data access.** Grok's API has built-in web and X search as a callable tool ($5 per 1,000 calls), which OpenAI and Anthropic don't offer natively in the same way — you'd normally wire up your own search integration. For anything that needs current information mid-conversation, that's a real convenience, not just a pricing footnote.
+**Ele ganha em acesso a dados em tempo real.** A API do Grok tem busca na web e no X embutida como uma ferramenta chamável ($5 por 1.000 chamadas), algo que a OpenAI e a Anthropic não oferecem nativamente da mesma forma — normalmente você teria que montar sua própria integração de busca. Pra qualquer coisa que precisa de informação atual no meio da conversa, isso é uma conveniência real, não só uma nota de rodapé de preço.
 
-**It loses on ecosystem maturity.** OpenAI and Anthropic have years more of third-party tooling, framework integrations, eval libraries, and Stack Overflow answers built around them. Grok's OpenAI-compatible API closes most of that gap for basic usage, but for anything relying on provider-specific SDK features, you'll find fewer examples.
+**Ele perde em maturidade de ecossistema.** OpenAI e Anthropic têm anos a mais de ferramentas de terceiros, integrações de frameworks, bibliotecas de avaliação e respostas no Stack Overflow construídas em torno delas. A API compatível com a OpenAI do Grok fecha a maior parte dessa lacuna pro uso básico, mas pra qualquer coisa que depende de recursos específicos do SDK de um provedor, você vai encontrar menos exemplos.
 
-**It loses at the very bottom of the price range.** If your workload is high-volume, low-complexity (classification, simple extraction, short completions), GPT-5.6 Luna or a similarly stripped-down model will beat Grok on pure cost.
+**Ele perde no fundo do poço da faixa de preço.** Se sua carga de trabalho é de alto volume e baixa complexidade (classificação, extração simples, completions curtas), o GPT-5.6 Luna ou um modelo igualmente enxuto vai vencer o Grok em custo puro.
 
-## When It's Worth Switching
+## Quando Vale a Pena Trocar
 
-If you're running flagship-tier workloads and pricing is a real line item, not an afterthought, testing Grok 4.6 against your current provider is a low-risk move: $25 in free credits covers a meaningful evaluation before you commit a card. If your app already leans on OpenAI- or Anthropic-specific tooling (Assistants-style features, Claude's Model Context Protocol integrations, provider-specific fine-tuning), the migration cost may outweigh the per-token savings unless you're at a scale where the price gap adds up to real money.
+Se você está rodando cargas de trabalho de nível carro-chefe e o preço é um item de linha real, não uma reflexão tardia, testar o Grok 4.6 contra seu provedor atual é uma jogada de baixo risco: $25 em créditos grátis cobrem uma avaliação significativa antes de você comprometer um cartão. Se seu app já depende fortemente de ferramentas específicas da OpenAI ou da Anthropic (recursos no estilo Assistants, integrações do Model Context Protocol do Claude, fine-tuning específico do provedor), o custo de migração pode superar a economia por token, a menos que você esteja numa escala em que a diferença de preço vire dinheiro real.
 
-For anyone building a coding agent or vibe-coding workflow evaluating [Gemini's Antigravity](/google-antigravity) or Claude-based tooling on model choice, Grok is now a legitimate line item in that comparison, not just a curiosity.
+Pra quem constrói um agente de código ou fluxo de vibe coding avaliando o [Antigravity do Gemini](/google-antigravity) ou ferramentas baseadas em Claude na escolha de modelo, o Grok agora é um item de linha legítimo nessa comparação, não só uma curiosidade.
 
-## FAQ
+## Perguntas Frequentes
 
-### Is the Grok API free?
+### A API do Grok é grátis?
 
-Not ongoing, but new accounts get $25 in free credits, which is enough to run real evaluation workloads before you pay anything. After that, it's pay-per-token like every other major provider.
+Não de forma contínua, mas contas novas recebem $25 em créditos grátis, suficiente pra rodar avaliações reais de carga de trabalho antes de pagar qualquer coisa. Depois disso, é pagamento por token como qualquer outro grande provedor.
 
-### Do I need X Premium or SuperGrok to use the API?
+### Preciso do X Premium ou do SuperGrok pra usar a API?
 
-No. The Grok API, X Premium, and SuperGrok are billed completely separately. You can use the API with zero X subscription.
+Não. A API do Grok, o X Premium e o SuperGrok são cobrados de forma completamente separada. Você pode usar a API sem nenhuma assinatura do X.
 
-### Is the Grok API compatible with OpenAI's SDK?
+### A API do Grok é compatível com o SDK da OpenAI?
 
-Yes. Point the OpenAI Python or Node SDK at `https://api.x.ai/v1` with your xAI key, and most existing OpenAI integrations work with minimal changes.
+Sim. Aponte o SDK Python ou Node da OpenAI pra `https://api.x.ai/v1` com sua chave da xAI, e a maioria das integrações existentes da OpenAI funciona com mudanças mínimas.
 
-### Which Grok model should I use for coding?
+### Qual modelo do Grok devo usar pra programação?
 
-Grok Build 0.1 is xAI's coding-specific model at $1/$2 per million tokens, cheaper than the general-purpose Grok 4.6 for that use case. For the highest raw coding benchmark scores, Grok 4.6 itself is the stronger (and pricier) option.
+O Grok Build 0.1 é o modelo específico pra código da xAI, a $1/$2 por milhão de tokens, mais barato que o Grok 4.6 de uso geral pra esse caso de uso. Pras pontuações mais altas de benchmark de código, o próprio Grok 4.6 é a opção mais forte (e mais cara).
 
-## The Bottom Line
+## Conclusão
 
-The headline number holds up under real math: at the flagship tier, Grok's API is dramatically cheaper than GPT-6 Astra and meaningfully cheaper than Claude Opus 5, without a corresponding drop in benchmark performance. It's not a universal discount, though. Budget-tier workloads have cheaper options elsewhere, and the ecosystem around Grok is still catching up to the two incumbents. If your use case sits at the top end where model quality actually matters, it's worth the twenty minutes it takes to burn through the free credits and see the price difference on your own workload.
+O número de destaque se confirma na matemática real: no nível carro-chefe, a API do Grok é dramaticamente mais barata que o GPT-6 Astra e significativamente mais barata que o Claude Opus 5, sem uma queda correspondente na performance de benchmark. Não é um desconto universal, porém. Cargas de trabalho de nível econômico têm opções mais baratas em outros lugares, e o ecossistema em torno do Grok ainda está alcançando os dois provedores estabelecidos. Se seu caso de uso está no topo, onde a qualidade do modelo realmente importa, vale os vinte minutos que leva pra gastar os créditos grátis e ver a diferença de preço na sua própria carga de trabalho.
 
 ---
 
-*Sources: [xAI — API Docs: Models & Pricing](https://docs.x.ai/docs/models), [xAI — API Quickstart](https://docs.x.ai/developers/quickstart), [xAI — Grok API](https://x.ai/api), [Vals AI — Grok 4.6 SWE-bench results](https://benchlm.ai/models/grok-4-6), [BenchLM — Claude API Pricing](https://benchlm.ai/anthropic/api-pricing), [BenchLM — OpenAI API Pricing](https://benchlm.ai/openai/api-pricing).*
+*Fontes: [xAI — API Docs: Models & Pricing](https://docs.x.ai/docs/models), [xAI — API Quickstart](https://docs.x.ai/developers/quickstart), [xAI — Grok API](https://x.ai/api), [Vals AI — Grok 4.6 SWE-bench results](https://benchlm.ai/models/grok-4-6), [BenchLM — Claude API Pricing](https://benchlm.ai/anthropic/api-pricing), [BenchLM — OpenAI API Pricing](https://benchlm.ai/openai/api-pricing).*

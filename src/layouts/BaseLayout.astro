@@ -8,10 +8,10 @@ interface Props {
   description?: string;
 }
 
-const { title, description = 'Tested AI prompts and workflows for developers.' } = Astro.props;
+const { title, description = 'Prompts de IA testados e fluxos de trabalho para desenvolvedores.' } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <script is:inline>
       const storedTheme = localStorage.getItem('theme');
@@ -23,9 +23,10 @@ const { title, description = 'Tested AI prompts and workflows for developers.' }
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="description" content={description} />
-    <meta name="msvalidate.01" content="7F1E88061119512AF9AED1A7622C0E92" />
+    <meta name="google-site-verification" content="-tDgPKFSgBPg9tLKzyO5i2wvzNrYFMj0jC9yy8IaT5c" />
+    <!-- TODO: verificação do Bing Webmaster Tools pendente pra este domínio -->
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
-    <title>{title} · inteligenciaartificialdev.com</title>
+    <title>{title} · inteligenciartificial.dev.br</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,14 +49,14 @@ const { title, description = 'Tested AI prompts and workflows for developers.' }
     </noscript>
 
     <!-- Google tag (gtag.js) -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-80X56DDDL3"></script>
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-HCTMEQRYFZ"></script>
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag('js', new Date());
-      gtag('config', 'G-80X56DDDL3');
+      gtag('config', 'G-HCTMEQRYFZ');
     </script>
   </head>
   <body>

@@ -2,19 +2,19 @@
 import NewsletterForm from './NewsletterForm.astro';
 
 const categories = [
-  { label: 'Home', href: '/' },
+  { label: 'Início', href: '/' },
   { label: 'Chatbots', href: '/blog?category=Chatbots' },
-  { label: 'Prompts', href: '/blog?category=Prompt+Engineering' },
-  { label: 'AI Tools', href: '/blog?category=AI+Coding+Tools' },
+  { label: 'Prompts', href: '/blog?category=Engenharia+de+Prompt' },
+  { label: 'Ferramentas de IA', href: '/blog?category=Ferramentas+de+IA+para+C%C3%B3digo' },
   { label: 'Reviews', href: '/blog?category=Reviews' },
-  { label: 'Tutorials', href: '/blog?category=Tutorials' },
-  { label: 'Case Studies', href: '/blog?category=Case+Studies' },
+  { label: 'Tutoriais', href: '/blog?category=Tutoriais' },
+  { label: 'Estudos de Caso', href: '/blog?category=Estudos+de+Caso' },
 ];
 
 const quickLinks = [
-  { label: 'About Us', href: '/about' },
-  { label: 'Contact', href: '/contact' },
-  { label: 'Advertise', href: '/advertise' },
+  { label: 'Sobre nós', href: '/about' },
+  { label: 'Contato', href: '/contact' },
+  { label: 'Anuncie', href: '/advertise' },
 ];
 ---
 <footer class="site-footer">
@@ -22,17 +22,18 @@ const quickLinks = [
     <div class="about-col">
       <a href="/" class="brand">
         <img src="/images/robot-logo.png" alt="" width="26" height="26" />
-        <span class="brand-text"><span class="brand-gradient">AI</span> DEV</span>
+        <span class="brand-text"><span class="brand-gradient">Inteligência Artificial</span><span class="brand-divider">|</span>Dev</span>
       </a>
       <p class="tagline">
-        AI DEV is your practical guide to prompt engineering and AI tools for
-        developers. We deliver tested prompts and honest comparisons to help
-        you build software faster with AI.
+        Inteligência Artificial Dev é seu guia prático de engenharia de
+        prompt e ferramentas de IA para desenvolvedores. Entregamos prompts
+        testados e comparações honestas pra você construir software mais
+        rápido com IA.
       </p>
     </div>
 
     <div>
-      <p class="col-title">Quick Links</p>
+      <p class="col-title">Links Rápidos</p>
       <ul>
         {quickLinks.map((l) => (
           <li><a href={l.href}>{l.label}</a></li>
@@ -41,7 +42,7 @@ const quickLinks = [
     </div>
 
     <div>
-      <p class="col-title">Category</p>
+      <p class="col-title">Categorias</p>
       <ul>
         {categories.map((c) => (
           <li><a href={c.href}>{c.label}</a></li>
@@ -51,18 +52,19 @@ const quickLinks = [
 
     <div>
       <p class="col-title">Newsletter</p>
-      <p class="newsletter-copy">Sign up for our newsletter to get updates, news, and free prompts.</p>
+      <p class="newsletter-copy">Assine nossa newsletter e receba novidades, notícias e prompts gratuitos.</p>
       <NewsletterForm compact />
     </div>
   </div>
 
   <div class="bottom">
     <div class="container bottom-inner">
-      <p>© {new Date().getFullYear()} AI DEV. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Inteligência Artificial Dev. Todos os direitos reservados.</p>
       <div class="legal-links">
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/terms-of-use">Terms of Use</a>
-        <a href="/cookie-policy">Cookie Policy</a>
+        <a href="/privacy-policy">Política de Privacidade</a>
+        <a href="/terms-of-use">Termos de Uso</a>
+        <a href="/cookie-policy">Política de Cookies</a>
+        <a href="/transparency">Transparência</a>
       </div>
     </div>
   </div>
@@ -91,8 +93,8 @@ const quickLinks = [
   .brand-text {
     font-family: var(--font-mono);
     font-weight: 700;
-    font-size: 1.05rem;
-    letter-spacing: 0.02em;
+    font-size: 0.9rem;
+    letter-spacing: 0.01em;
     color: var(--ink-strong);
   }
 
@@ -101,6 +103,11 @@ const quickLinks = [
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+  }
+
+  .brand-divider {
+    margin: 0 6px;
+    color: var(--line);
   }
 
   .tagline {

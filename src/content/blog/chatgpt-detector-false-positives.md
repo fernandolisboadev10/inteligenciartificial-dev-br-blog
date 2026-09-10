@@ -1,116 +1,116 @@
 ---
-title: "We Fed AI Detectors Human-Written Essays. They Flagged Real Students as Cheaters."
-description: "AI detectors flagged an 1841 essay and a 2012 Wikipedia article as 'fake' in our own test. Here's the real data on false positives, and how to protect yourself."
-category: "Tutorials"
+title: "Alimentamos Detectores de IA com Redações Escritas por Humanos. Eles Marcaram Alunos de Verdade como Trapaceiros."
+description: "Detectores de IA marcaram uma redação de 1841 e um artigo da Wikipédia de 2012 como 'falsos' no nosso próprio teste. Aqui estão os dados reais sobre falsos positivos, e como se proteger."
+category: "Tutoriais"
 date: 2026-09-08
 readingTime: "9 min"
 image: "./images/chatgpt-detector-false-positives.webp"
-imageAlt: "Close-up editorial photo of a printed essay with sentences highlighted in red and a red pen on top, next to a laptop showing a blurred AI detection score"
+imageAlt: "Foto editorial em close-up de uma redação impressa com frases destacadas em vermelho e uma caneta vermelha em cima, ao lado de um notebook mostrando uma pontuação de detecção de IA desfocada"
 ---
 
-In February 2026, a federal judge ordered Adelphi University to erase a plagiarism finding against a student named Orion Newby. His professor had run a World Civilizations paper through Turnitin's AI detector, which flagged it as AI-generated. Newby, who receives support through the university's program for students with learning and neurological disabilities, submitted independent checks from Grammarly and ZeroGPT that both called the essay human-written. Adelphi disciplined him anyway. It took a lawsuit and six figures in legal fees to fix it.
+Em fevereiro de 2026, um juiz federal ordenou que a Adelphi University apagasse uma acusação de plágio contra um aluno chamado Orion Newby. O professor dele tinha passado um trabalho de Civilizações Mundiais pelo detector de IA do Turnitin, que marcou o texto como gerado por IA. Newby, que recebe apoio através do programa da universidade para alunos com deficiências de aprendizagem e neurológicas, apresentou verificações independentes da Grammarly e do ZeroGPT, ambas afirmando que a redação foi escrita por um humano. Mesmo assim, a Adelphi o puniu. Foi preciso um processo judicial e seis dígitos em custos legais pra reverter isso.
 
-That case is now cited as the first time a student won a federal lawsuit over a false AI-plagiarism accusation. It's not an isolated glitch. To see how bad the underlying problem actually is, we ran our own test: real human writing, decades old, through a live AI detector, right alongside text we generated ourselves.
+Esse caso hoje é citado como a primeira vez que um aluno venceu um processo federal por uma falsa acusação de plágio por IA. Não é um erro isolado. Pra ver o tamanho real do problema, fizemos nosso próprio teste: escrita humana real, com décadas de idade, passada por um detector de IA em atividade, lado a lado com texto que geramos nós mesmos.
 
-## What We Tested
+## O Que Testamos
 
-We built four samples, each clearly labeled by what it actually is:
+Montamos quatro amostras, cada uma claramente identificada pelo que ela realmente é:
 
-- **Sample A — Human, literary**: The opening of Ralph Waldo Emerson's essay "Self-Reliance," published in 1841. Unambiguously human, written 179 years before ChatGPT existed.
-- **Sample B — Human, plain/encyclopedic**: The lead paragraph of Wikipedia's "Photosynthesis" article, pulled from a May 2012 revision, long before large language models were writing web content. Used under Wikipedia's CC BY-SA license.
-- **Sample C — 100% AI-generated**: A paragraph explaining how immune memory works, written by Claude (Anthropic's AI model) for this test, with no editing.
-- **Sample D — AI-generated, then edited**: The same paragraph as Sample C, rewritten with contractions, informal transitions, and looser sentence structure, simulating a student who drafted with AI and then rewrote it in their own voice.
+- **Amostra A — Humana, literária**: A abertura do ensaio "Self-Reliance" de Ralph Waldo Emerson, publicado em 1841. Inequivocamente humana, escrita 179 anos antes do ChatGPT existir.
+- **Amostra B — Humana, simples/enciclopédica**: O parágrafo de abertura do artigo "Fotossíntese" da Wikipédia, retirado de uma revisão de maio de 2012, muito antes de modelos de linguagem grandes escreverem conteúdo pra web. Usado sob a licença CC BY-SA da Wikipédia.
+- **Amostra C — 100% gerada por IA**: Um parágrafo explicando como funciona a memória imunológica, escrito pelo Claude (modelo de IA da Anthropic) pra este teste, sem nenhuma edição.
+- **Amostra D — Gerada por IA, depois editada**: O mesmo parágrafo da Amostra C, reescrito com contrações, transições informais e estrutura de frases mais solta, simulando um aluno que fez o rascunho com IA e depois reescreveu com a própria voz.
 
-We ran all four through Sapling's free AI detector, one of the more established tools in the space. We also tried GPTZero, ZeroGPT, and Quillbot's detector, but couldn't complete anonymous tests on any of them; each either required an account to see a result or blocked automated submission entirely, which is itself worth noting; these tools have gotten harder to casually verify since 2023, not easier.
+Passamos as quatro pelo detector gratuito de IA da Sapling, uma das ferramentas mais estabelecidas do setor. Também tentamos o GPTZero, o ZeroGPT e o detector do Quillbot, mas não conseguimos completar testes anônimos em nenhum deles; cada um exigia uma conta pra ver o resultado ou bloqueava totalmente o envio automatizado, o que já vale a pena notar; essas ferramentas ficaram mais difíceis de verificar casualmente desde 2023, não mais fáceis.
 
-## The Results
+## Os Resultados
 
 <div style="max-width:900px;margin:24px auto;overflow-x:auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
   <table style="width:100%;border-collapse:collapse;background:#ffffff;box-shadow:0 1px 4px rgba(0,0,0,0.08);border-radius:8px;overflow:hidden;">
     <thead>
       <tr style="background:var(--ink-deep);color:#ffffff;">
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">Sample</th>
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">Actually written by</th>
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">Sapling's verdict</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">Amostra</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">Escrita de verdade por</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">Veredito da Sapling</th>
       </tr>
     </thead>
     <tbody>
       <tr style="border-bottom:1px solid #eee;">
         <td style="padding:12px 16px;">A — Emerson, 1841</td>
-        <td style="padding:12px 16px;">Human</td>
-        <td style="padding:12px 16px;font-weight:600;color:var(--rose);">84.2% Fake</td>
+        <td style="padding:12px 16px;">Humano</td>
+        <td style="padding:12px 16px;font-weight:600;color:var(--rose);">84,2% Falso</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
-        <td style="padding:12px 16px;">B — Wikipedia, 2012</td>
-        <td style="padding:12px 16px;">Human</td>
-        <td style="padding:12px 16px;font-weight:600;color:var(--rose);">100.0% Fake</td>
+        <td style="padding:12px 16px;">B — Wikipédia, 2012</td>
+        <td style="padding:12px 16px;">Humano</td>
+        <td style="padding:12px 16px;font-weight:600;color:var(--rose);">100,0% Falso</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;">C — AI paragraph</td>
-        <td style="padding:12px 16px;">AI</td>
-        <td style="padding:12px 16px;font-weight:600;">100.0% Fake</td>
+        <td style="padding:12px 16px;">C — Parágrafo de IA</td>
+        <td style="padding:12px 16px;">IA</td>
+        <td style="padding:12px 16px;font-weight:600;">100,0% Falso</td>
       </tr>
       <tr>
-        <td style="padding:12px 16px;">D — AI, then edited</td>
-        <td style="padding:12px 16px;">AI + human edit</td>
-        <td style="padding:12px 16px;font-weight:600;">100.0% Fake</td>
+        <td style="padding:12px 16px;">D — IA, depois editado</td>
+        <td style="padding:12px 16px;">IA + edição humana</td>
+        <td style="padding:12px 16px;font-weight:600;">100,0% Falso</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-"Fake" is Sapling's own label for text it believes is AI-generated. In our small test, it flagged both human samples as confidently as it flagged the actual AI text. It correctly caught our two AI paragraphs, including the lightly edited one, but that's not much comfort when it also called an 1841 essay "fake" with 84% confidence.
+"Falso" é o rótulo da própria Sapling pra texto que ela acredita ser gerado por IA. No nosso pequeno teste, ela marcou as duas amostras humanas com a mesma confiança que marcou o texto de IA de verdade. Ela acertou nossos dois parágrafos de IA, incluindo o levemente editado, mas isso não é grande consolo quando ela também chamou um ensaio de 1841 de "falso" com 84% de confiança.
 
-We want to be upfront about the limits of this: this is one detector, four samples, one sitting. It's not a scientific survey. It's a demonstration that a real, currently marketed detector can fail on real human writing in the most basic way possible, which is exactly the failure mode described in the research below, at far larger scale.
+Queremos ser transparentes sobre os limites disso: é um detector, quatro amostras, uma única rodada. Não é uma pesquisa científica. É uma demonstração de que um detector real, atualmente comercializado, pode falhar em escrita humana real da forma mais básica possível, exatamente o tipo de falha descrito na pesquisa abaixo, em escala muito maior.
 
-## Do AI Detectors Actually Work?
+## Os Detectores de IA Realmente Funcionam?
 
-Our test is a small, ad-hoc echo of a much larger, well-documented problem.
+Nosso teste é um eco pequeno e informal de um problema muito maior e bem documentado.
 
-A [Stanford study](https://www.sciencedirect.com/science/article/pii/S2666389923001307) published in the journal *Patterns* ran 91 real TOEFL essays written by non-native English speakers through seven commercial AI detectors. On average, **61.3% were flagged as AI-generated**. Essays from native English speakers were flagged just **5.1%** of the time. The researchers' explanation: non-native writing tends to use simpler, more predictable sentence structures, and detectors mistake that low variability for a machine's fingerprint, not a person's.
+Um [estudo de Stanford](https://www.sciencedirect.com/science/article/pii/S2666389923001307) publicado na revista *Patterns* passou 91 redações reais do TOEFL, escritas por falantes não nativos de inglês, por sete detectores comerciais de IA. Em média, **61,3% foram marcadas como geradas por IA**. Redações de falantes nativos de inglês foram marcadas em apenas **5,1%** das vezes. A explicação dos pesquisadores: a escrita de não nativos tende a usar estruturas de frase mais simples e previsíveis, e os detectores confundem essa baixa variabilidade com a "assinatura" de uma máquina, não de uma pessoa.
 
-That bias compounds. [Common Sense Media](https://getcoai.com/news/ai-detection-tools-disadvantage-black-students-study-finds/) surveyed over a thousand US teenagers and found Black students were falsely accused of using AI at roughly **twice the rate** of white or Latino students, 20% versus 7% and 10%. Separate research has found similar disparities for neurodivergent students, including those with ADHD and autism.
+Esse viés se acumula. A [Common Sense Media](https://getcoai.com/news/ai-detection-tools-disadvantage-black-students-study-finds/) entrevistou mais de mil adolescentes americanos e descobriu que alunos negros foram falsamente acusados de usar IA a uma taxa aproximadamente **duas vezes maior** que alunos brancos ou latinos, 20% contra 7% e 10%. Pesquisas separadas encontraram disparidades parecidas para alunos neurodivergentes, incluindo os com TDAH e autismo.
 
-Turnitin, the detector most widely deployed in US schools, originally claimed a **1% false positive rate**. In June 2023, the company acknowledged the real rate was higher, without publishing a corrected number. The [Washington Post's own testing](https://lawlibguides.sandiego.edu/c.php?g=1443311&p=10721367) found a false positive rate closer to 50% on a smaller sample. Even OpenAI, the company that popularized the AI text these tools try to catch, gave up on its own classifier: it correctly identified only 26% of AI-written text, incorrectly flagged human text as AI-written 9% of the time, and OpenAI [discontinued it entirely in July 2023](https://www.searchenginejournal.com/openai-shuts-down-flawed-ai-detector/492565/) for "low rate of accuracy."
+O Turnitin, o detector mais usado nas escolas americanas, originalmente afirmava uma **taxa de falso positivo de 1%**. Em junho de 2023, a empresa reconheceu que a taxa real era mais alta, sem publicar um número corrigido. Os [próprios testes do Washington Post](https://lawlibguides.sandiego.edu/c.php?g=1443311&p=10721367) encontraram uma taxa de falso positivo mais próxima de 50% numa amostra menor. Até a OpenAI, a empresa que popularizou o texto de IA que essas ferramentas tentam pegar, desistiu do próprio classificador: ele identificava corretamente apenas 26% do texto escrito por IA, marcava incorretamente texto humano como IA em 9% das vezes, e a OpenAI [descontinuou a ferramenta completamente em julho de 2023](https://www.searchenginejournal.com/openai-shuts-down-flawed-ai-detector/492565/) por "baixa taxa de precisão".
 
-The institutional response has followed the data. More than 25 universities, including MIT, Yale, NYU, UC Berkeley, and Vanderbilt, have banned or restricted AI detectors in academic misconduct cases. The University of Pittsburgh disabled Turnitin's AI detector outright, concluding the tool wasn't reliable enough to use without a substantial risk of false accusations.
+A resposta institucional seguiu os dados. Mais de 25 universidades, incluindo MIT, Yale, NYU, UC Berkeley e Vanderbilt, baniram ou restringiram o uso de detectores de IA em casos de má conduta acadêmica. A University of Pittsburgh desativou completamente o detector de IA do Turnitin, concluindo que a ferramenta não era confiável o suficiente pra usar sem um risco substancial de acusações falsas.
 
-## How to Protect Yourself From a False Positive
+## Como Se Proteger de um Falso Positivo
 
-If you write your own work and you're still worried about getting flagged, a few habits genuinely help:
+Se você escreve seu próprio trabalho e ainda está preocupado em ser marcado, alguns hábitos realmente ajudam:
 
-- **Write and save in a platform with version history.** Google Docs' version history, or any tool that timestamps your drafts, is far stronger evidence than a detector score in either direction. This is exactly the kind of evidence that helped Newby's case.
-- **Keep your research trail.** Browser history, saved sources, and notes showing your work developing over time back up a "yes, I wrote this" claim better than anything after the fact.
-- **Don't rely on a detector to defend yourself, and don't let one accuse you either.** If a detector flags your work, ask what other evidence is being used. A percentage score alone, on either side, isn't proof of anything, per the universities that have already reached that conclusion.
-- **If you did use AI and edited it yourself, that editing may not save you.** Our Sample D shows a lightly rewritten AI paragraph got flagged just as hard as the unedited one. Light paraphrasing doesn't reliably beat these tools, in either direction, be that using it to hide AI use or worrying it will hide honest human writing.
-- **Know your institution's actual policy**, not just its software. Many schools, following Pitt and Vanderbilt's lead, now require a detector score to be backed by other evidence before any disciplinary action. If yours doesn't say that explicitly, ask.
+- **Escreva e salve numa plataforma com histórico de versões.** O histórico de versões do Google Docs, ou qualquer ferramenta que registre a data dos seus rascunhos, é uma evidência muito mais forte que a pontuação de um detector, em qualquer direção. É exatamente esse tipo de evidência que ajudou no caso de Newby.
+- **Mantenha seu rastro de pesquisa.** Histórico do navegador, fontes salvas e anotações mostrando seu trabalho se desenvolvendo ao longo do tempo sustentam melhor um "sim, eu escrevi isso" do que qualquer coisa depois do fato.
+- **Não confie num detector pra se defender, e não deixe que um te acuse também.** Se um detector marcar seu trabalho, pergunte que outra evidência está sendo usada. Uma pontuação percentual sozinha, em qualquer direção, não é prova de nada, segundo as próprias universidades que já chegaram a essa conclusão.
+- **Se você usou IA e editou por conta própria, essa edição pode não te salvar.** Nossa Amostra D mostra que um parágrafo de IA levemente reescrito foi marcado com a mesma força que o não editado. Uma paráfrase leve não bate essas ferramentas de forma confiável, em nenhuma das duas direções, seja usando isso pra esconder o uso de IA ou temendo que isso esconda uma escrita humana honesta.
+- **Conheça a política real da sua instituição**, não só o software dela. Muitas escolas, seguindo o exemplo de Pitt e Vanderbilt, agora exigem que a pontuação de um detector seja respaldada por outras evidências antes de qualquer ação disciplinar. Se a sua não diz isso explicitamente, pergunte.
 
-## FAQ
+## Perguntas Frequentes
 
-### Can AI detectors reliably tell human writing from AI writing?
+### Os detectores de IA conseguem diferenciar de forma confiável escrita humana de escrita por IA?
 
-Not consistently. Our own small test flagged two pieces of unambiguously human writing as "Fake" with as much confidence as actual AI text. Peer-reviewed research on much larger samples backs that up, with false positive rates ranging from roughly 5% up to 61% depending on the writer's background.
+Não de forma consistente. Nosso próprio teste pequeno marcou dois textos inequivocamente humanos como "Falso" com a mesma confiança que marcou texto de IA de verdade. Pesquisas revisadas por pares, com amostras muito maiores, confirmam isso, com taxas de falso positivo variando de cerca de 5% até 61%, dependendo do perfil de quem escreveu.
 
-### Which AI detector is most accurate?
+### Qual detector de IA é mais preciso?
 
-None of the major ones, including Turnitin, GPTZero, Sapling, and ZeroGPT, have published false positive rates low enough for universities to treat a score as standalone proof. More than 25 major universities now require additional evidence before acting on a detector's result.
+Nenhum dos principais, incluindo Turnitin, GPTZero, Sapling e ZeroGPT, publicou taxas de falso positivo baixas o suficiente pra universidades tratarem uma pontuação como prova isolada. Mais de 25 grandes universidades agora exigem evidências adicionais antes de agir com base no resultado de um detector.
 
-### Why do detectors flag non-native English speakers and plain writing so often?
+### Por que os detectores marcam tanto falantes não nativos de inglês e escrita simples?
 
-Detectors largely work by measuring "perplexity," how predictable a piece of text is. Simpler sentence structures, common in non-native English writing and in plain, information-dense prose like older Wikipedia articles, read as statistically predictable, which is the same signal detectors use to spot AI text. The writing style is the problem, not the writer.
+Os detectores em geral funcionam medindo "perplexidade", o quão previsível é um texto. Estruturas de frase mais simples, comuns na escrita em inglês de não nativos e em prosa simples e densa em informação, como artigos antigos da Wikipédia, soam estatisticamente previsíveis, o mesmo sinal que os detectores usam pra identificar texto de IA. O estilo de escrita é o problema, não quem escreve.
 
-### Does editing AI-generated text help it pass a detector?
+### Editar um texto gerado por IA ajuda a passar por um detector?
 
-Not reliably, at least against the detector we tested. Our lightly rewritten AI paragraph (Sample D) was flagged as confidently as the unedited version. Heavier rewriting can lower detection scores in some tools, but there's no consistent threshold, which cuts both ways: it's not a dependable way to hide AI use, and it's not a dependable way to prove you didn't use it either.
+Não de forma confiável, pelo menos contra o detector que testamos. Nosso parágrafo de IA levemente reescrito (Amostra D) foi marcado com a mesma confiança que a versão não editada. Uma reescrita mais pesada pode reduzir a pontuação de detecção em algumas ferramentas, mas não há um limite consistente, o que funciona nos dois sentidos: não é uma forma confiável de esconder o uso de IA, e também não é uma forma confiável de provar que você não usou.
 
-### What should I do if I'm falsely accused of using AI?
+### O que fazer se eu for falsamente acusado de usar IA?
 
-Gather independent evidence: document version history, research notes, browser history, and drafts. Point out, calmly, that detector scores alone aren't considered reliable proof by many universities' own current policies, and ask what additional evidence is being used against you before accepting any outcome.
+Reúna evidências independentes: histórico de versões, anotações de pesquisa, histórico do navegador e rascunhos. Aponte, com calma, que a pontuação de um detector sozinha não é considerada prova confiável pelas políticas atuais de muitas universidades, e pergunte que evidência adicional está sendo usada contra você antes de aceitar qualquer resultado.
 
-## The Bottom Line
+## Conclusão
 
-AI detectors aren't lying when they hand back a percentage, but that number is a lot less meaningful than it looks. In our own quick test, a 185-year-old essay by one of America's most famous writers got flagged as 84% fake, and a decade-old Wikipedia paragraph got flagged as 100% fake. Larger, peer-reviewed research shows the same failure at scale, hitting non-native English speakers, Black students, and neurodivergent students hardest. Universities that have actually studied their own detection tools have mostly reached the same conclusion: a score is a signal, not a verdict. Treat it that way, whether you're a student worried about being falsely accused or a teacher deciding what to do with a flag.
+Os detectores de IA não estão mentindo quando devolvem uma porcentagem, mas esse número é bem menos significativo do que parece. No nosso próprio teste rápido, um ensaio de 185 anos de um dos escritores mais famosos dos EUA foi marcado como 84% falso, e um parágrafo da Wikipédia com uma década foi marcado como 100% falso. Pesquisas maiores e revisadas por pares mostram a mesma falha em escala, atingindo com mais força falantes não nativos de inglês, alunos negros e alunos neurodivergentes. Universidades que de fato estudaram suas próprias ferramentas de detecção chegaram, em geral, à mesma conclusão: uma pontuação é um sinal, não um veredito. Trate assim, seja você um aluno preocupado em ser falsamente acusado ou um professor decidindo o que fazer com uma marcação.
 
 ---
 
-*Sources: [CBS New York — Orion Newby wins AI plagiarism lawsuit](https://www.cbsnews.com/newyork/news/orion-newby-adelphi-university-ai-plagiarism-accusations/), [Liang et al., "GPT detectors are biased against non-native English writers," Patterns (2023)](https://www.sciencedirect.com/science/article/pii/S2666389923001307), [Common Sense Media study via CO/AI](https://getcoai.com/news/ai-detection-tools-disadvantage-black-students-study-finds/), [Vanderbilt University — Guidance on AI Detection](https://www.vanderbilt.edu/brightspace/2023/08/16/guidance-on-ai-detection-and-why-were-disabling-turnitins-ai-detector/), [Search Engine Journal — OpenAI Shuts Down Flawed AI Detector](https://www.searchenginejournal.com/openai-shuts-down-flawed-ai-detector/492565/), [University of San Diego — The Problems with AI Detectors](https://lawlibguides.sandiego.edu/c.php?g=1443311&p=10721367). Live detection test run on [Sapling AI Detector](https://sapling.ai/ai-content-detector), September 2026.*
+*Fontes: [CBS New York — Orion Newby vence processo de plágio por IA](https://www.cbsnews.com/newyork/news/orion-newby-adelphi-university-ai-plagiarism-accusations/), [Liang et al., "GPT detectors are biased against non-native English writers," Patterns (2023)](https://www.sciencedirect.com/science/article/pii/S2666389923001307), [estudo da Common Sense Media via CO/AI](https://getcoai.com/news/ai-detection-tools-disadvantage-black-students-study-finds/), [Vanderbilt University — Guidance on AI Detection](https://www.vanderbilt.edu/brightspace/2023/08/16/guidance-on-ai-detection-and-why-were-disabling-turnitins-ai-detector/), [Search Engine Journal — OpenAI Shuts Down Flawed AI Detector](https://www.searchenginejournal.com/openai-shuts-down-flawed-ai-detector/492565/), [University of San Diego — The Problems with AI Detectors](https://lawlibguides.sandiego.edu/c.php?g=1443311&p=10721367). Teste de detecção ao vivo rodado no [Sapling AI Detector](https://sapling.ai/ai-content-detector), setembro de 2026.*

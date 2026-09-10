@@ -5,13 +5,13 @@ interface Props {
 const { compact = false } = Astro.props;
 ---
 <!--
-  No backend of its own (static site) — this form needs to point at an
-  external email service's endpoint (e.g. ConvertKit, Mailchimp, Beehiiv).
-  Swap the `action` below for the real endpoint once one is chosen.
+  Sem backend próprio (site estático) — este formulário precisa apontar pro
+  endpoint de um serviço de e-mail externo (ex.: ConvertKit, Mailchimp,
+  Beehiiv). Troque a `action` abaixo pelo endpoint real quando escolher um.
 -->
 <form class="newsletter" class:list={{ compact }} action="https://api.example-esp.com/subscribe" method="POST">
-  <input type="email" name="email" placeholder="you@email.com" required aria-label="Email" />
-  <button type="submit" class="button button-primary">Subscribe</button>
+  <input type="email" name="email" placeholder="voce@email.com" required aria-label="E-mail" />
+  <button type="submit" class="button button-primary">Assinar</button>
 </form>
 
 <style>

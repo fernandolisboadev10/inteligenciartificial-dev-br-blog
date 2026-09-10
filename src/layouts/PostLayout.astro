@@ -15,7 +15,7 @@ interface Props {
 }
 const { title, description, category, date, readingTime, image, imageAlt } = Astro.props;
 
-const formattedDate = date.toLocaleDateString('en-US', {
+const formattedDate = date.toLocaleDateString('pt-BR', {
   day: '2-digit',
   month: 'long',
   year: 'numeric',
@@ -82,15 +82,15 @@ const formattedDate = date.toLocaleDateString('en-US', {
 
     if (navigator.clipboard?.writeText) {
       navigator.clipboard.writeText(text).then(
-        () => showFeedback('Copied!', false),
+        () => showFeedback('Copiado!', false),
         () => {
           const ok = legacyCopy(text);
-          showFeedback(ok ? 'Copied!' : 'Press Ctrl+C', !ok);
+          showFeedback(ok ? 'Copiado!' : 'Pressione Ctrl+C', !ok);
         },
       );
     } else {
       const ok = legacyCopy(text);
-      showFeedback(ok ? 'Copied!' : 'Press Ctrl+C', !ok);
+      showFeedback(ok ? 'Copiado!' : 'Pressione Ctrl+C', !ok);
     }
   });
 </script>
@@ -137,7 +137,7 @@ const formattedDate = date.toLocaleDateString('en-US', {
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 16px 32px -20px rgba(91, 33, 182, 0.35);
+    box-shadow: 0 16px 32px -20px rgba(10, 122, 61, 0.35);
   }
 
   :global(.prompt-card-bar) {
@@ -183,7 +183,7 @@ const formattedDate = date.toLocaleDateString('en-US', {
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     background: rgba(255, 255, 255, 0.06);
-    color: #ece7fb;
+    color: #f0f0f0;
     cursor: pointer;
     transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   }

@@ -19,7 +19,7 @@ for (const file of readdirSync(blogDir)) {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://inteligenciaartificialdev.com',
+  site: 'https://inteligenciartificial.dev.br',
   integrations: [
     sitemap({
       serialize(item) {

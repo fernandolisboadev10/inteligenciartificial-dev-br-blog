@@ -8,31 +8,31 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
 );
 
 const categories = [
-  'Prompt Engineering',
-  'AI Coding Tools',
-  'Tutorials',
-  'Case Studies',
+  'Engenharia de Prompt',
+  'Ferramentas de IA para Código',
+  'Tutoriais',
+  'Estudos de Caso',
   'Chatbots',
   'Reviews',
 ];
 ---
-<BaseLayout title="Blog" description="Articles on prompt engineering, AI tools, and workflows for developers.">
+<BaseLayout title="Blog" description="Artigos sobre engenharia de prompt, ferramentas de IA e fluxos de trabalho para desenvolvedores.">
   <div class="container">
     <header class="page-header">
       <h1>Blog</h1>
-      <p>Prompt engineering, AI tools, and workflows for devs.</p>
+      <p>Engenharia de prompt, ferramentas de IA e fluxos de trabalho pra devs.</p>
     </header>
 
     <input
       type="search"
       id="search-input"
       class="search-input"
-      placeholder="Search articles…"
-      aria-label="Search articles"
+      placeholder="Buscar artigos…"
+      aria-label="Buscar artigos"
     />
 
     <div class="filters" id="filters">
-      <button class="filter active" data-category="all">All</button>
+      <button class="filter active" data-category="all">Todos</button>
       {categories.map((c) => (
         <button class="filter" data-category={c}>{c}</button>
       ))}
@@ -59,7 +59,7 @@ const categories = [
       ))}
     </div>
 
-    <p class="no-results" id="no-results" hidden>No articles match your search.</p>
+    <p class="no-results" id="no-results" hidden>Nenhum artigo encontrado.</p>
   </div>
 </BaseLayout>
 

@@ -1,74 +1,74 @@
 ---
-title: "ChatGPT's Sol, Terra, and Luna Models: What You're Actually Talking To"
-description: "Discover what ChatGPT's Sol, Terra, and Luna models actually do, and find out which one your subscription gives you access to."
+title: "Os Modelos Sol, Terra e Luna do ChatGPT: Com Quem Você Está Falando de Verdade"
+description: "Descubra o que os modelos Sol, Terra e Luna do ChatGPT realmente fazem, e veja a qual deles a sua assinatura te dá acesso."
 category: "Chatbots"
 date: 2026-09-03
 readingTime: "7 min"
 image: "./images/chatgpt-sol-terra-luna-models-explained.webp"
-imageAlt: "ChatGPT Sol Terra Luna models comparison illustration"
+imageAlt: "Ilustração comparativa dos modelos Sol, Terra e Luna do ChatGPT"
 ---
 
-Open ChatGPT's model picker today and something feels off. The names don't match what you remember. That's because ChatGPT's Sol Terra Luna models replaced the old single-flagship setup, and most users have no idea which one answers their questions every day.
+Abra o seletor de modelos do ChatGPT hoje e algo parece estranho. Os nomes não batem com o que você lembrava. Isso porque os modelos Sol, Terra e Luna do ChatGPT substituíram o antigo esquema de um único modelo principal, e a maioria dos usuários não faz ideia de qual deles responde às perguntas deles todos os dias.
 
-This shift happened quietly. OpenAI didn't throw a press conference. It just split its lineup into three permanent tiers, each tuned for a different kind of work, and let the naming settle into place over the summer.
+Essa mudança aconteceu em silêncio. A OpenAI não fez coletiva de imprensa. Ela simplesmente dividiu sua linha em três níveis permanentes, cada um ajustado pra um tipo de trabalho diferente, e deixou os nomes se estabilizarem ao longo do verão.
 
-I dug through OpenAI's own documentation and a handful of independent breakdowns to figure out what changed, why it matters, and which model your subscription actually hands you. Here's the plain-English version.
+Pesquisei a documentação da própria OpenAI e alguns resumos independentes pra entender o que mudou, por que isso importa, e qual modelo sua assinatura realmente te entrega. Aqui vai a versão em português claro.
 
-## A Quick History of How We Got Here
+## Um Resumo Rápido de Como Chegamos Aqui
 
-For most of ChatGPT's existence, the choice was simple. One smart model, maybe a cheaper backup sitting next to it. That changed with GPT-5, and it changed again with GPT-5.5.
+Durante a maior parte da existência do ChatGPT, a escolha era simples. Um modelo inteligente, talvez um backup mais barato do lado. Isso mudou com o GPT-5, e mudou de novo com o GPT-5.5.
 
-GPT-5.5 was built specifically for agentic work, tasks where the model doesn't just reply once but grinds through several steps on its own: writing code, running searches, checking its own output before handing it back. It's still live across every paid ChatGPT tier and the API, and it still holds up well for that kind of job.
+O GPT-5.5 foi construído especificamente pra trabalho agêntico, tarefas em que o modelo não só responde uma vez, mas avança sozinho por vários passos: escrever código, rodar buscas, checar sua própria saída antes de entregar o resultado. Ele ainda está ativo em todos os planos pagos do ChatGPT e na API, e ainda se sai bem nesse tipo de trabalho.
 
-Then, in the summer of 2026, OpenAI reshuffled the naming scheme again. GPT-5.6 entered limited preview on June 26 and rolled out generally on July 9. But this time, instead of one model wearing the GPT-5.6 badge, OpenAI split it three ways: Sol, Terra, and Luna.
+Depois, no verão de 2026, a OpenAI reorganizou o esquema de nomes de novo. O GPT-5.6 entrou em prévia limitada em 26 de junho e foi lançado de forma geral em 9 de julho. Mas dessa vez, em vez de um único modelo usando o selo GPT-5.6, a OpenAI dividiu em três: Sol, Terra e Luna.
 
-## Sol, Terra, and Luna: The Three Tiers in Plain English
+## Sol, Terra e Luna: Os Três Níveis em Português Claro
 
-Picture the number, 5.6, as the generation. Sol, Terra, and Luna are the personalities living inside that generation. Each one can keep improving on its own schedule without OpenAI needing to slap a new version number on everything every few months.
+Imagine o número, 5.6, como a geração. Sol, Terra e Luna são as personalidades que vivem dentro dessa geração. Cada uma pode continuar melhorando no seu próprio ritmo, sem a OpenAI precisar colar um novo número de versão em tudo a cada poucos meses.
 
-**Sol** is the flagship. It handles hard reasoning, long autonomous runs, and heavy coding work, the jobs where you actually want the model to sit and think before it answers.
+O **Sol** é o carro-chefe. Ele lida com raciocínio difícil, execuções autônomas longas e trabalho pesado de código, os trabalhos em que você realmente quer que o modelo pare e pense antes de responder.
 
-**Terra** sits in the middle. It's the everyday workhorse, priced far below the old GPT-5.5 flagship while matching its performance on most common tasks.
+O **Terra** fica no meio. É o cavalo de batalha do dia a dia, com preço bem abaixo do antigo carro-chefe GPT-5.5, mas equiparando a performance dele na maioria das tarefas comuns.
 
-**Luna** is the fast, cheap option built for quick back-and-forth chat rather than deep reasoning.
+O **Luna** é a opção rápida e barata, feita pra conversas rápidas de ida e volta em vez de raciocínio profundo.
 
-All three share a 1.05 million-token context window and can output up to 128,000 tokens per response. That's enough room for a long document, a sprawling codebase, or a conversation that's gone on for hours. They also share the same knowledge cutoff: February 16, 2026.
+Os três compartilham uma janela de contexto de 1,05 milhão de tokens e podem gerar até 128 mil tokens por resposta. Espaço suficiente pra um documento longo, uma base de código extensa, ou uma conversa que já dura horas. Eles também compartilham a mesma data-limite de conhecimento: 16 de fevereiro de 2026.
 
-## No More Choosing "Instant" vs. "Thinking"
+## Chega de Escolher Entre "Instantâneo" e "Pensando"
 
-Here's a change worth knowing even if you never think about model names. On August 6, 2026, OpenAI folded its old Instant and Thinking toggle into a single reasoning effort slider.
+Aqui vai uma mudança que vale a pena conhecer, mesmo que você nunca pense sobre nomes de modelos. Em 6 de agosto de 2026, a OpenAI incorporou o antigo alternador Instantâneo e Pensando num único controle deslizante de esforço de raciocínio.
 
-You no longer pick between a fast, shallow model and a slow, careful one. You pick how much effort the same model spends on your specific question, from quick and cheap all the way up to "ultra thinking," the top setting available on Sol.
+Você não escolhe mais entre um modelo rápido e raso e um lento e cuidadoso. Você escolhe quanto esforço o mesmo modelo gasta na sua pergunta específica, desde rápido e barato até o "pensamento ultra", a configuração máxima disponível no Sol.
 
-In practice, this means you don't need to remember to flip a switch before asking something hard. If Sol takes longer than usual to answer, it's spending more of its effort budget on you, not swapping to a different model behind the scenes.
+Na prática, isso significa que você não precisa lembrar de apertar um botão antes de perguntar algo difícil. Se o Sol demora mais que o normal pra responder, ele está gastando mais do orçamento de esforço dele com você, não trocando de modelo por trás dos panos.
 
-## Sol's Party Trick: Running Several Subagents at Once
+## O Truque do Sol: Rodar Vários Subagentes ao Mesmo Tempo
 
-Sol has one capability Terra and Luna don't get: ultra mode. Instead of working through a task as one long chain of thought, Sol can break the job into pieces and run several subagents in parallel that coordinate with each other.
+O Sol tem uma capacidade que o Terra e o Luna não têm: o modo ultra. Em vez de resolver uma tarefa como uma única cadeia longa de raciocínio, o Sol pode quebrar o trabalho em partes e rodar vários subagentes em paralelo que se coordenam entre si.
 
-OpenAI reported this pushed its score on a command-line coding benchmark from 88.8% to 91.9% ✅, a real jump for the kind of multi-file, multi-step coding work developers run into constantly.
+A OpenAI relatou que isso elevou sua pontuação num benchmark de código de linha de comando de 88,8% para 91,9% ✅, um salto real pro tipo de trabalho de código com múltiplos arquivos e múltiplas etapas que os desenvolvedores enfrentam constantemente.
 
-It's not free, computationally speaking. Ultra mode costs more and runs slower per query than Sol's default setting. But for a messy refactor, or any task that genuinely benefits from attacking it from several angles at once, it's the closest thing ChatGPT offers to throwing more brainpower at a problem.
+Não é de graça, em termos computacionais. O modo ultra custa mais e roda mais devagar por consulta que a configuração padrão do Sol. Mas pra uma refatoração bagunçada, ou qualquer tarefa que genuinamente se beneficie de ser atacada por vários ângulos ao mesmo tempo, é o mais próximo que o ChatGPT oferece de jogar mais poder de raciocínio num problema.
 
-## Which Model Are You Actually Using?
+## Qual Modelo Você Está Usando de Verdade?
 
-Your plan tier decides this, and most people have never checked.
+Seu plano decide isso, e a maioria das pessoas nunca checou.
 
-- 🆓 **Free** ($0/month): Defaults to Luna, with capped usage. As of late August 2026, ads also started appearing in the interface across European markets.
-- 💵 **Go** ($8/month): Also defaults to Luna, but with a higher message ceiling, more image generations, and longer memory.
-- 💰 **Plus** ($20/month): Defaults to Sol, with the reasoning effort slider unlocked.
-- 🚀 **Pro** ($100 to $200/month): Gets Sol Pro, the highest usage limits, and access to ultra mode.
-- 🏢 **Team / Business / Enterprise**: Built around Sol and Terra, with admin controls and data protections layered on top, priced per seat.
+- 🆓 **Free** ($0/mês): Usa o Luna por padrão, com uso limitado. Desde o final de agosto de 2026, anúncios também começaram a aparecer na interface nos mercados europeus.
+- 💵 **Go** ($8/mês): Também usa o Luna por padrão, mas com um teto de mensagens maior, mais gerações de imagem e memória mais longa.
+- 💰 **Plus** ($20/mês): Usa o Sol por padrão, com o controle de esforço de raciocínio liberado.
+- 🚀 **Pro** ($100 a $200/mês): Recebe o Sol Pro, os limites de uso mais altos, e acesso ao modo ultra.
+- 🏢 **Team / Business / Enterprise**: Construídos em torno do Sol e do Terra, com controles administrativos e proteções de dados adicionais, com preço por assento.
 
-If you're on a free account, you're talking to Luna. It's quick and genuinely useful, but it's not the model behind OpenAI's hardest reasoning demos. If you're paying for Plus or higher, you already have Sol. The only thing you might be missing is knowing to nudge that reasoning slider up when a question actually deserves it.
+Se você está numa conta grátis, está falando com o Luna. Ele é rápido e genuinamente útil, mas não é o modelo por trás das demonstrações de raciocínio mais difíceis da OpenAI. Se você paga o Plus ou um plano superior, você já tem o Sol. A única coisa que talvez esteja faltando é saber que precisa empurrar esse controle de raciocínio pra cima quando uma pergunta realmente merece.
 
-## 📊 Sol vs. Terra vs. Luna at a Glance
+## 📊 Sol vs. Terra vs. Luna em um Relance
 
 <div style="max-width:900px;margin:24px auto;overflow-x:auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
   <table style="width:100%;border-collapse:collapse;background:#ffffff;box-shadow:0 1px 4px rgba(0,0,0,0.08);border-radius:8px;overflow:hidden;">
     <thead>
       <tr style="background:var(--ink-deep);color:#ffffff;">
-        <th style="padding:14px 16px;text-align:left;font-size:14px;">Feature</th>
+        <th style="padding:14px 16px;text-align:left;font-size:14px;">Recurso</th>
         <th style="padding:14px 16px;text-align:left;font-size:14px;">☀️ Sol</th>
         <th style="padding:14px 16px;text-align:left;font-size:14px;">🌍 Terra</th>
         <th style="padding:14px 16px;text-align:left;font-size:14px;">🌙 Luna</th>
@@ -76,43 +76,43 @@ If you're on a free account, you're talking to Luna. It's quick and genuinely us
     </thead>
     <tbody>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;font-weight:600;">💰 Best for</td>
-        <td style="padding:12px 16px;">Hard reasoning, long agentic runs, complex coding</td>
-        <td style="padding:12px 16px;">Everyday tasks at a lower cost</td>
-        <td style="padding:12px 16px;">Fast, casual chat</td>
+        <td style="padding:12px 16px;font-weight:600;">💰 Melhor pra</td>
+        <td style="padding:12px 16px;">Raciocínio difícil, execuções agênticas longas, código complexo</td>
+        <td style="padding:12px 16px;">Tarefas do dia a dia com custo menor</td>
+        <td style="padding:12px 16px;">Conversa rápida e casual</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
-        <td style="padding:12px 16px;font-weight:600;">⏱️ Speed</td>
-        <td style="padding:12px 16px;">Slower (thinks more)</td>
-        <td style="padding:12px 16px;">Balanced</td>
-        <td style="padding:12px 16px;">Fastest</td>
+        <td style="padding:12px 16px;font-weight:600;">⏱️ Velocidade</td>
+        <td style="padding:12px 16px;">Mais lento (pensa mais)</td>
+        <td style="padding:12px 16px;">Equilibrado</td>
+        <td style="padding:12px 16px;">Mais rápido</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;font-weight:600;">📊 Context window</td>
-        <td style="padding:12px 16px;">1.05M tokens</td>
-        <td style="padding:12px 16px;">1.05M tokens</td>
-        <td style="padding:12px 16px;">1.05M tokens</td>
+        <td style="padding:12px 16px;font-weight:600;">📊 Janela de contexto</td>
+        <td style="padding:12px 16px;">1,05M tokens</td>
+        <td style="padding:12px 16px;">1,05M tokens</td>
+        <td style="padding:12px 16px;">1,05M tokens</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
-        <td style="padding:12px 16px;font-weight:600;">📤 Max output</td>
-        <td style="padding:12px 16px;">128,000 tokens</td>
-        <td style="padding:12px 16px;">128,000 tokens</td>
-        <td style="padding:12px 16px;">128,000 tokens</td>
+        <td style="padding:12px 16px;font-weight:600;">📤 Saída máxima</td>
+        <td style="padding:12px 16px;">128.000 tokens</td>
+        <td style="padding:12px 16px;">128.000 tokens</td>
+        <td style="padding:12px 16px;">128.000 tokens</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;font-weight:600;">🧠 Reasoning slider</td>
-        <td style="padding:12px 16px;">✅ Full range, up to "ultra thinking"</td>
-        <td style="padding:12px 16px;">✅ Available</td>
-        <td style="padding:12px 16px;">❌ Not applicable</td>
+        <td style="padding:12px 16px;font-weight:600;">🧠 Controle de raciocínio</td>
+        <td style="padding:12px 16px;">✅ Faixa completa, até "pensamento ultra"</td>
+        <td style="padding:12px 16px;">✅ Disponível</td>
+        <td style="padding:12px 16px;">❌ Não se aplica</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
-        <td style="padding:12px 16px;font-weight:600;">🤖 Parallel subagents (ultra mode)</td>
-        <td style="padding:12px 16px;">✅ Exclusive to Sol</td>
+        <td style="padding:12px 16px;font-weight:600;">🤖 Subagentes paralelos (modo ultra)</td>
+        <td style="padding:12px 16px;">✅ Exclusivo do Sol</td>
         <td style="padding:12px 16px;">❌</td>
         <td style="padding:12px 16px;">❌</td>
       </tr>
       <tr>
-        <td style="padding:12px 16px;font-weight:600;">💳 Default on plan</td>
+        <td style="padding:12px 16px;font-weight:600;">💳 Padrão no plano</td>
         <td style="padding:12px 16px;">Plus, Pro, Team/Business/Enterprise</td>
         <td style="padding:12px 16px;">Team/Business/Enterprise</td>
         <td style="padding:12px 16px;">Free, Go</td>
@@ -121,32 +121,32 @@ If you're on a free account, you're talking to Luna. It's quick and genuinely us
   </table>
 </div>
 
-## Frequently Asked Questions
+## Perguntas Frequentes
 
-### Is Sol the same as GPT-5.6?
+### O Sol é o mesmo que o GPT-5.6?
 
-Not exactly. GPT-5.6 is the generation, and Sol is one of three tiers inside it, alongside Terra and Luna. Sol is the flagship version built for hard reasoning and long agentic tasks, while Terra and Luna cover everyday use and fast chat.
+Não exatamente. O GPT-5.6 é a geração, e o Sol é um dos três níveis dentro dela, junto com Terra e Luna. O Sol é a versão carro-chefe, construída pra raciocínio difícil e tarefas agênticas longas, enquanto Terra e Luna cobrem o uso do dia a dia e conversa rápida.
 
-### Which ChatGPT model do free users get?
+### Qual modelo do ChatGPT os usuários gratuitos recebem?
 
-Free and Go accounts both default to Luna, the fastest and cheapest tier. Luna handles everyday questions well but isn't built for deep reasoning or long autonomous coding runs the way Sol is.
+As contas Free e Go usam o Luna por padrão, o nível mais rápido e barato. O Luna lida bem com perguntas do dia a dia, mas não foi construído pra raciocínio profundo ou execuções longas e autônomas de código como o Sol.
 
-### What does the reasoning effort slider actually do?
+### O que o controle de esforço de raciocínio realmente faz?
 
-It replaces the old Instant versus Thinking toggle. Instead of switching models, you tell Sol how much effort to spend on a given answer, from quick responses up to "ultra thinking" for the hardest problems.
+Ele substitui o antigo alternador Instantâneo versus Pensando. Em vez de trocar de modelo, você diz ao Sol quanto esforço gastar numa resposta específica, desde respostas rápidas até o "pensamento ultra" pros problemas mais difíceis.
 
-### Is ultra mode worth the extra cost?
+### O modo ultra vale o custo extra?
 
-For simple questions, no. For messy, multi-file coding tasks or problems that benefit from tackling several angles at once, ultra mode's parallel subagents can meaningfully improve results, according to OpenAI's own benchmark data.
+Pra perguntas simples, não. Pra tarefas de código bagunçadas com múltiplos arquivos, ou problemas que se beneficiam de ser atacados por vários ângulos ao mesmo tempo, os subagentes paralelos do modo ultra podem melhorar os resultados de forma significativa, segundo os próprios dados de benchmark da OpenAI.
 
-## The Bottom Line
+## Conclusão
 
-You don't need to memorize this lineup to use ChatGPT well. But it explains a lot: why the same question sometimes gets a fast, shallow answer and sometimes a much deeper one (that's the reasoning slider), why some accounts feel noticeably sharper than others (Sol versus Luna), and why a coding task that felt sluggish might actually be Sol quietly running several subagents to get it right.
+Você não precisa decorar essa linha de produtos pra usar bem o ChatGPT. Mas isso explica muita coisa: por que a mesma pergunta às vezes recebe uma resposta rápida e rasa e às vezes uma bem mais profunda (isso é o controle de raciocínio), por que algumas contas parecem visivelmente mais afiadas que outras (Sol contra Luna), e por que uma tarefa de código que pareceu lenta pode ser na verdade o Sol rodando silenciosamente vários subagentes pra acertar.
 
-Model names will keep shifting. That's been true since GPT-3.5. But the underlying pattern looks like it's here to stay: a flagship for hard problems, a workhorse for daily use, and a fast, cheap option for quick questions, all living under one name.
+Os nomes dos modelos vão continuar mudando. Isso é verdade desde o GPT-3.5. Mas o padrão por trás disso parece que veio pra ficar: um carro-chefe pros problemas difíceis, um cavalo de batalha pro uso diário, e uma opção rápida e barata pras perguntas do dia a dia, tudo vivendo sob um mesmo nome.
 
-Next time someone asks which ChatGPT model they're using, you'll actually know the answer.
+Na próxima vez que alguém perguntar qual modelo do ChatGPT está usando, você vai saber a resposta de verdade.
 
 ---
 
-*Sources: [OpenAI — GPT-5.6](https://openai.com/index/gpt-5-6/), [OpenAI — Previewing GPT-5.6 Sol](https://openai.com/index/previewing-gpt-5-6-sol/), [OpenAI Help Center](https://help.openai.com/en/articles/20001354-gpt-56-in-chatgpt), [AI Toolbox](https://www.ai-toolbox.co/chatgpt-models/chatgpt-models-explained-complete-comparison-2026), [MindStudio](https://www.mindstudio.ai/blog/what-is-gpt-5-6-sol-terra-luna-explained).*
+*Fontes: [OpenAI — GPT-5.6](https://openai.com/index/gpt-5-6/), [OpenAI — Previewing GPT-5.6 Sol](https://openai.com/index/previewing-gpt-5-6-sol/), [OpenAI Help Center](https://help.openai.com/en/articles/20001354-gpt-56-in-chatgpt), [AI Toolbox](https://www.ai-toolbox.co/chatgpt-models/chatgpt-models-explained-complete-comparison-2026), [MindStudio](https://www.mindstudio.ai/blog/what-is-gpt-5-6-sol-terra-luna-explained).*
