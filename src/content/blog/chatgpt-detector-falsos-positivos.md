@@ -4,7 +4,7 @@ description: "Detectores de IA marcaram uma redação de 1841 e um artigo da Wik
 category: "Tutoriais"
 date: 2026-09-08
 readingTime: "9 min"
-image: "./images/chatgpt-detector-false-positives.webp"
+image: "./images/chatgpt-detector-falsos-positivos.webp"
 imageAlt: "Foto editorial em close-up de uma redação impressa com frases destacadas em vermelho e uma caneta vermelha em cima, ao lado de um notebook mostrando uma pontuação de detecção de IA desfocada"
 ---
 

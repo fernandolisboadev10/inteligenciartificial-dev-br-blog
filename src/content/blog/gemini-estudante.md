@@ -1,10 +1,10 @@
 ---
 title: "O Google Vai Te Dar o Gemini Pro Grátis por Um Ano Se Você For Estudante. Aqui Está a Letra Miúda."
-description: "A oferta pra estudantes do Google dá um ano grátis de Google AI Pro pra universitários dos EUA. Veja o que realmente está incluído, quem realmente se qualifica, e as pegadinhas escondidas nos termos."
+description: "A oferta de estudante do Google dá um ano grátis de Google AI Pro pra universitários dos EUA — e um ano grátis de Google AI Plus pra estudantes elegíveis em mais de 140 países, Brasil incluído. Veja o que realmente está incluído, quem realmente se qualifica, e as pegadinhas escondidas nos termos."
 category: "Tutoriais"
 date: 2026-09-08
 readingTime: "8 min"
-image: "./images/gemini-student.webp"
+image: "./images/gemini-estudante.webp"
 imageAlt: "Foto editorial em close-up da mesa de um universitário com um notebook desfocado mostrando uma interface de chat de IA, uma carteirinha de estudante e um cartão de crédito suavemente fora de foco em primeiro plano"
 ---
 
@@ -44,7 +44,7 @@ A oferta se divide em dois níveis dependendo de onde você mora, e a diferença
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
         <td style="padding:12px 16px;font-weight:600;">💰 Preço normal</td>
         <td style="padding:12px 16px;">$19,99/mês</td>
-        <td style="padding:12px 16px;">Preço regional mais baixo</td>
+        <td style="padding:12px 16px;">R$ 24,99/mês no Brasil (equivalente regional em outros países)</td>
       </tr>
       <tr>
         <td style="padding:12px 16px;font-weight:600;">⏳ Duração grátis</td>
@@ -57,6 +57,8 @@ A oferta se divide em dois níveis dependendo de onde você mora, e a diferença
 
 Se você está fora dos EUA, em outras palavras, você não está recebendo o que as manchetes descrevem. Você está recebendo o plano intermediário do Google, com metade do aumento de uso e cerca de 1/12 do armazenamento. O Google AI Pro em si também só está disponível pra estudantes dos EUA; o resto do mundo elegível (mais de 140 mercados) é direcionado pro AI Plus por design, não por engano.
 
+**E se você é estudante no Brasil?** Você se qualifica pro nível internacional. O Brasil não está entre os países excluídos da oferta (veja a lista completa mais abaixo), então um estudante brasileiro elegível resgata o mesmo Google AI Plus com os 400 GB e o dobro do limite de uso do Gemini — só que a assinatura paga que vem depois do ano grátis roda no preço nacional: o Google AI Plus custa **R$ 24,99 por mês** no Brasil (cerca de R$ 299,88 no ano), bem abaixo dos $19,99 cobrados dos estudantes americanos no AI Pro.
+
 ## Quem Realmente Se Qualifica
 
 A lista de elegibilidade é maior do que "ser estudante", e cada item é um lugar onde a oferta pode discretamente falhar:
@@ -67,6 +69,8 @@ A lista de elegibilidade é maior do que "ser estudante", e cada item é um luga
 - **Verificação via SheerID**, um serviço de identidade terceirizado que checa sua matrícula (geralmente via e-mail da escola ou upload de documento). A SheerID diz que não vende dados de estudantes e apaga os documentos de verificação após um período de retenção, mas você está entregando comprovante de matrícula a uma empresa que não é o Google
 - **Não estar em situações específicas**: membros de família num plano compartilhado do Google One, assinantes do Pixel Pass, e contas com determinados pacotes de terceiros/afiliados são excluídos
 - **Fora de uma pequena lista de países excluídos** pra faixa internacional do AI Plus: Bolívia, Albânia, Canadá, Macau, Hong Kong e Tunísia são exclusões nomeadas, junto com os EUA (que têm sua própria faixa separada de AI Pro)
+
+O Brasil não aparece nessa lista de exclusões, então estudantes brasileiros que cumprem os outros requisitos se qualificam normalmente pro Google AI Plus.
 
 Nenhum desses itens desqualifica a maioria dos estudantes, mas qualquer um deles é suficiente pra te tirar do fluxo se você não prestar atenção.
 
@@ -92,7 +96,7 @@ Se você está fora dos EUA no Google AI Plus, esse acúmulo é mais fraco. Os l
 
 ## O Que Acontece Quando o Ano Acaba
 
-Nada dramático, e esse é o ponto: foi desenhado pra te converter automaticamente. A menos que você cancele antes, o Google **cobra seu cartão o preço padrão** no dia em que seus 12 meses terminam — $19,99/mês pelo AI Pro nos EUA, um equivalente regional pro AI Plus em outros lugares.
+Nada dramático, e esse é o ponto: foi desenhado pra te converter automaticamente. A menos que você cancele antes, o Google **cobra seu cartão o preço padrão** no dia em que seus 12 meses terminam — $19,99/mês pelo AI Pro nos EUA, **R$ 24,99/mês pelo AI Plus aqui no Brasil**, ou o equivalente regional em outros países.
 
 Também tem uma pegadinha anual que a maioria das pessoas perde: você precisa **reverificar seu status de estudante via SheerID a cada 12 meses, aproximadamente, por até 4 anos consecutivos** pra continuar renovando o desconto. Perca uma reverificação e você perde a oferta, convertendo pro preço cheio mesmo se ainda estiver matriculado.
 
@@ -116,7 +120,7 @@ Os 12 meses são genuinamente grátis, sem cobrança antecipada. A pegadinha é 
 
 ### Estudantes internacionais recebem o mesmo negócio que estudantes dos EUA?
 
-Não. Estudantes dos EUA recebem o Google AI Pro (o nível mais alto). Estudantes em mais de 140 outros mercados recebem o Google AI Plus, que tem metade do aumento de uso e uma fração do armazenamento. Um punhado de países, incluindo o Canadá, é excluído até desse nível.
+Não. Estudantes dos EUA recebem o Google AI Pro (o nível mais alto). Estudantes em mais de 140 outros mercados, incluindo o Brasil, recebem o Google AI Plus, que tem metade do aumento de uso e uma fração do armazenamento. Um punhado de países, como Canadá e Bolívia, é excluído até desse nível — o Brasil não está entre eles.
 
 ### Posso usar meu e-mail da universidade pra me inscrever?
 
@@ -124,7 +128,7 @@ Ainda não, no momento do lançamento da oferta — você precisa de uma Conta d
 
 ### O que acontece se eu esquecer de cancelar?
 
-Seu cartão é cobrado automaticamente o preço padrão da assinatura ($19,99/mês pelo AI Pro nos EUA) no dia em que seu ano grátis termina. Coloque um lembrete antes do mês 11 pra revisar se você quer continuar pagando, rebaixar o plano, ou cancelar.
+Seu cartão é cobrado automaticamente o preço padrão da assinatura ($19,99/mês pelo AI Pro nos EUA, R$ 24,99/mês pelo AI Plus no Brasil) no dia em que seu ano grátis termina. Coloque um lembrete antes do mês 11 pra revisar se você quer continuar pagando, rebaixar o plano, ou cancelar.
 
 ### O Google AI Pro vale a pena especificamente pra estudantes de programação?
 
@@ -136,4 +140,4 @@ A oferta é real, e pra estudantes dos EUA é um negócio genuinamente bom: um a
 
 ---
 
-*Fontes: [Google — College students get 12 months of Google AI free](https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/), [Google One Help — Claim a Google One student offer](https://support.google.com/googleone/answer/17422238?hl=en), [Gemini for Students](https://gemini.google/students/).*
+*Fontes: [Google — College students get 12 months of Google AI free](https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/), [Google One Help — Claim a Google One student offer](https://support.google.com/googleone/answer/17422238?hl=pt-BR), [Gemini for Students](https://gemini.google/students/), [Tecnoblog — Google lança plano mais barato com IA avançada no Brasil](https://tecnoblog.net/noticias/google-lanca-plano-mais-barato-com-ia-avancada-no-brasil-saiba-o-preco/).*

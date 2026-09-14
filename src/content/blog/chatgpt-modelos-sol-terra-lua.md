@@ -4,7 +4,7 @@ description: "Descubra o que os modelos Sol, Terra e Luna do ChatGPT realmente f
 category: "Chatbots"
 date: 2026-09-03
 readingTime: "7 min"
-image: "./images/chatgpt-sol-terra-luna-models-explained.webp"
+image: "./images/chatgpt-modelos-sol-terra-lua.webp"
 imageAlt: "Ilustração comparativa dos modelos Sol, Terra e Luna do ChatGPT"
 ---
 

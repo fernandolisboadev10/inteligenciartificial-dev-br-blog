@@ -20,6 +20,15 @@ for (const file of readdirSync(blogDir)) {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://inteligenciartificial.dev.br',
+  redirects: {
+    '/chatgpt-detector-false-positives': '/chatgpt-detector-falsos-positivos',
+    '/chatgpt-sol-terra-luna-models': '/chatgpt-modelos-sol-terra-lua',
+    '/chatgpt-study-commands': '/chatgpt-comandos-para-estudar',
+    '/gemini-student': '/gemini-estudante',
+    '/grok-api-pricing': '/grok-api-preco',
+    '/claude-code-hidden-features': '/claude-code-recursos-ocultos',
+    '/deepseek-vs-chatgpt-pomodoro-timer': '/deepseek-vs-chatgpt-timer-pomodoro',
+  },
   integrations: [
     sitemap({
       serialize(item) {

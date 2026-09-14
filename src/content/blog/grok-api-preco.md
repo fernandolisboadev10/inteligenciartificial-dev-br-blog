@@ -4,7 +4,7 @@ description: "O modelo carro-chefe do Grok custa uma fração do GPT-6 Astra e �
 category: "Ferramentas de IA para Código"
 date: 2026-09-08
 readingTime: "7 min"
-image: "./images/grok-api-pricing.webp"
+image: "./images/grok-api-preco.webp"
 imageAlt: "Foto editorial em close-up da tela de um notebook mostrando um editor de código desfocado e um gráfico de comparação de custo por token, com notas e moedas de dólar americano suavemente fora de foco na mesa em primeiro plano"
 ---
 

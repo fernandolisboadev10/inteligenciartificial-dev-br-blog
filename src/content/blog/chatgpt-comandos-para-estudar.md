@@ -4,7 +4,7 @@ description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de
 category: "Engenharia de Prompt"
 date: 2026-09-07
 readingTime: "5 min"
-image: "./images/chatgpt-study-commands.webp"
+image: "./images/chatgpt-comandos-para-estudar.webp"
 imageAlt: "Homem confiante usando um notebook à noite, cercado por rótulos neon brilhantes de comandos de estudo do ChatGPT como /mindmap, /flashcards e /quizboard"
 ---
 
