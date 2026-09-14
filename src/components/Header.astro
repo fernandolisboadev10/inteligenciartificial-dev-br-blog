@@ -23,7 +23,8 @@ const currentHref = Astro.url.pathname + Astro.url.search;
     <a href="/" class="brand">
       <img class="brand-icon" src="/images/robot-logo.png" alt="" width="30" height="30" />
       <span class="brand-text">
-        <span class="brand-gradient">Inteligência Artificial</span><span class="brand-divider">|</span>Dev
+        <span class="brand-text-full"><span class="brand-gradient">Inteligência Artificial</span><span class="brand-divider">|</span>Dev</span>
+        <span class="brand-text-short"><span class="brand-gradient">IA</span><span class="brand-divider">|</span>Dev</span>
       </span>
     </a>
     <nav class="nav">
@@ -162,6 +163,20 @@ const currentHref = Astro.url.pathname + Astro.url.search;
   .brand-divider {
     margin: 0 6px;
     color: var(--line);
+  }
+
+  .brand-text-short {
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+    .brand-text-full {
+      display: none;
+    }
+
+    .brand-text-short {
+      display: inline;
+    }
   }
 
   .nav {
@@ -362,6 +377,16 @@ const currentHref = Astro.url.pathname + Astro.url.search;
 
     .search-wrap.open .search-form {
       width: 130px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .right-controls {
+      gap: 8px;
+    }
+
+    .search-wrap.open .search-form {
+      width: 100px;
     }
   }
 </style>
