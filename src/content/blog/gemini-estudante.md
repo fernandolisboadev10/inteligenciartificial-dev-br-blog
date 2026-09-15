@@ -1,5 +1,5 @@
 ---
-title: "O Google Vai Te Dar o Gemini Pro Grátis por Um Ano Se Você For Estudante. Aqui Está a Letra Miúda."
+title: "O Google Vai Te Dar 1 Ano de IA Grátis pra Estudante no Brasil — Só Que Não é Bem o 'Gemini Pro'"
 description: "A oferta de estudante do Google dá um ano grátis de Google AI Pro pra universitários dos EUA — e um ano grátis de Google AI Plus pra estudantes elegíveis em mais de 140 países, Brasil incluído. Veja o que realmente está incluído, quem realmente se qualifica, e as pegadinhas escondidas nos termos."
 category: "Tutoriais"
 date: 2026-09-08
@@ -137,6 +137,12 @@ Seu cartão é cobrado automaticamente o preço padrão da assinatura ($19,99/m�
 ## Conclusão
 
 A oferta é real, e pra estudantes dos EUA é um negócio genuinamente bom: um ano inteiro do nível mais alto de IA do Google, 5 TB de armazenamento, e limites de uso melhores, tudo por se inscrever e passar numa checagem de estudante. A letra miúda não é uma fraude, só é fácil de perder: estudantes internacionais recebem um plano menor do que as manchetes sugerem, um cartão é exigido mesmo o ano sendo grátis, e tudo isso é construído pra se converter automaticamente numa assinatura de $19,99/mês se você não cancelar a tempo. Resgate se você for elegível, mas coloque um lembrete no calendário antes de esquecer que se inscreveu em alguma coisa.
+
+<div style="max-width:900px;margin:32px auto;text-align:center;padding:40px 24px;background:#ffffff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,0.08);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <h3 style="margin:0 0 16px;font-size:26px;line-height:1.3;color:var(--ink-deep,#1a1a1a);">Google Gemini: 1 ano <span style="color:#4285f4;">grátis</span> no plano para estudantes</h3>
+  <p style="margin:0 0 24px;font-size:15px;line-height:1.6;color:#555;max-width:640px;margin-left:auto;margin-right:auto;">Estude com o Gemini, faça uploads ilimitados de materiais de aula, notebooks de estudo e visualizações interativas, e tenha acesso ao Gemini Live. Com o plano grátis para estudantes, você pode ter limites de uso maiores, 400 GB de armazenamento e geração de vídeos com o Gemini Omni por 1 ano.</p>
+  <a href="https://gemini.google/br/students/?hl=pt-BR" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#4285f4;color:#ffffff;font-weight:600;font-size:15px;padding:14px 28px;border-radius:999px;text-decoration:none;">Aproveite o plano gratuito para estudantes</a>
+</div>
 
 ---
 
