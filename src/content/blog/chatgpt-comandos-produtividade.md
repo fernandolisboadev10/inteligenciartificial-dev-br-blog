@@ -5,10 +5,10 @@ category: "Engenharia de Prompt"
 date: 2026-09-18
 readingTime: "6 min"
 image: "./images/chatgpt-comandos-produtividade.webp"
-imageAlt: "Profissional confiante numa mesa de escritório usando um notebook, cercado por rótulos neon brilhantes de comandos de produtividade do ChatGPT como /recap, /agenda e /followup"
+imageAlt: "Foto editorial em close-up da mesa de escritório de um profissional, tela do notebook mostrando uma interface de chat desfocada, post-its coloridos na mesa com nomes de comandos de produtividade escritos, uma xícara de café e um caderno por perto, luz natural de dia pela janela do escritório"
 ---
 
-Escrever um prompt novo toda vez que você precisa de um resumo de reunião, um e-mail de cobrança educado ou uma pauta organizada consome um tempo que ninguém tem sobrando no meio do expediente. O mesmo padrão que circula entre estudantes — ensinar ao modelo um punhado de comandos curtos uma única vez — funciona igual de bem pro trabalho, só que com formatos pensados pra rotina de escritório em vez de prova.
+Escrever um prompt novo toda vez que você precisa de um resumo de reunião, um e-mail de cobrança educado ou uma pauta organizada consome um tempo que ninguém tem sobrando no meio do expediente. O mesmo padrão que circula entre estudantes, ensinar ao modelo um punhado de comandos curtos uma única vez, funciona igual de bem pro trabalho, só que com formatos pensados pra rotina de escritório em vez de prova.
 
 A ideia é a mesma. Você cola uma mensagem de configuração que define o que cada comando significa. A partir daí, digitar `/recap [suas anotações]` te devolve decisões, pendências e responsáveis já organizados, em vez de você reler a transcrição inteira sozinho.
 
@@ -46,7 +46,7 @@ Com isso configurado, aqui está pra que serve cada comando.
 
 ## /email
 
-Use quando precisa mandar um e-mail rápido mas não quer soar seco nem gastar 10 minutos escolhendo as palavras certas — cobrança, pedido, resposta a um cliente.
+Use quando precisa mandar um e-mail rápido mas não quer soar seco nem gastar 10 minutos escolhendo as palavras certas: cobrança, pedido, resposta a um cliente.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -202,6 +202,6 @@ Use quando uma tarefa é grande demais pra jogar em cima de alguém como está. 
 
 ## Fazendo isso pegar
 
-O prompt de configuração só dura na conversa atual, a menos que você salve em algum lugar permanente. Se você tem o ChatGPT Plus, Team ou Enterprise, cole em **Instruções Personalizadas** (Configurações → Personalização) ou nas instruções de um **Projeto**, pra que toda conversa nova já conheça os comandos. Claude e Gemini têm o mesmo recurso através das próprias instruções persistentes ou "Projetos" e "Gems" — o prompt em si não precisa mudar, só onde você o salva.
+O prompt de configuração só dura na conversa atual, a menos que você salve em algum lugar permanente. Se você tem o ChatGPT Plus, Team ou Enterprise, cole em **Instruções Personalizadas** (Configurações → Personalização) ou nas instruções de um **Projeto**, pra que toda conversa nova já conheça os comandos. Claude e Gemini têm o mesmo recurso através das próprias instruções persistentes ou "Projetos" e "Gems". O prompt em si não precisa mudar, só onde você o salva.
 
-Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que encaixam na própria rotina — geralmente /recap e /followup pra quem vive de reunião, /email e /decision pra quem lida com clientes e fornecedores. Teste na sua próxima semana de trabalho e fique com os que realmente economizarem tempo de verdade.
+Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que encaixam na própria rotina: geralmente /recap e /followup pra quem vive de reunião, /email e /decision pra quem lida com clientes e fornecedores. Teste na sua próxima semana de trabalho e fique com os que realmente economizarem tempo de verdade.

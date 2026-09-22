@@ -5,7 +5,7 @@ category: "Ferramentas de IA para Código"
 date: 2026-09-07
 readingTime: "7 min"
 image: "./images/google-antigravity.webp"
-imageAlt: "Editor de código holográfico com esferas de agentes de IA brilhantes orbitando um monitor, ilustrando a plataforma de código multiagente do Google Antigravity"
+imageAlt: "Foto grande angular de um monitor ultrawide curvo numa mesa escura de desenvolvedor à noite, mostrando um editor de código com vários painéis coloridos de chat de agentes de IA lado a lado, sugerindo múltiplos agentes trabalhando em paralelo, com uma silhueta desfocada de mãos digitando num teclado mecânico em primeiro plano"
 ---
 
 Se você pesquisou "ferramenta de código do Gemini" recentemente e caiu num nome que não esperava, isso não foi engano. O Google Antigravity agora é o centro da linha de IA pra desenvolvedores do Google, e ele absorveu discretamente uma ferramenta que muita gente ainda usava: o Gemini CLI.

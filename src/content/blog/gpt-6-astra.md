@@ -5,7 +5,7 @@ category: "Chatbots"
 date: 2026-09-07
 readingTime: "8 min"
 image: "./images/gpt-6-astra.webp"
-imageAlt: "Mão robótica translúcida e brilhante alcançando um navegador holográfico e uma interface de código, ilustrando as capacidades de uso de computador do GPT-6 Astra"
+imageAlt: "Foto editorial em close-up da tela de um notebook mostrando uma janela de navegador desfocada em meio a uma ação automatizada com um cursor visível, a mão de um desenvolvedor perto do trackpad, mesa minimalista moderna, luz de dia suave pela janela"
 ---
 
 A OpenAI anunciou o GPT-6 Astra em 3 de setembro de 2026, chamando-o de "o modelo mais inteligente e alinhado do mundo". Um dia depois, ele começou a ser liberado pros usuários pagos do ChatGPT. É o primeiro modelo da OpenAI que o presidente Greg Brockman levantou publicamente como um possível vislumbre inicial de AGI, o que é ou a manchete de IA mais importante do ano ou a frase mais desgastada do setor, dependendo de quem você pergunta.

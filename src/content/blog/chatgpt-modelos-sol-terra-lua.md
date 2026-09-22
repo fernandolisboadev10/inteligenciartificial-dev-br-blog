@@ -5,7 +5,7 @@ category: "Chatbots"
 date: 2026-09-03
 readingTime: "7 min"
 image: "./images/chatgpt-modelos-sol-terra-lua.webp"
-imageAlt: "Ilustração comparativa dos modelos Sol, Terra e Luna do ChatGPT"
+imageAlt: "Foto editorial em close-up da tela de um notebook mostrando três janelas de conversa de chat desfocadas abertas lado a lado para comparação, com um caderno pequeno na mesa mostrando nomes de modelos escritos à mão, iluminação quente de escritório interno"
 ---
 
 Abra o seletor de modelos do ChatGPT hoje e algo parece estranho. Os nomes não batem com o que você lembrava. Isso porque os modelos Sol, Terra e Luna do ChatGPT substituíram o antigo esquema de um único modelo principal, e a maioria dos usuários não faz ideia de qual deles responde às perguntas deles todos os dias.

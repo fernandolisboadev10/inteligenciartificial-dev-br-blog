@@ -5,7 +5,7 @@ category: "Engenharia de Prompt"
 date: 2026-09-07
 readingTime: "5 min"
 image: "./images/chatgpt-comandos-para-estudar.webp"
-imageAlt: "Homem confiante usando um notebook à noite, cercado por rótulos neon brilhantes de comandos de estudo do ChatGPT como /mindmap, /flashcards e /quizboard"
+imageAlt: "Foto editorial em close-up da mesa de um estudante à noite, tela do notebook mostrando uma interface de chat desfocada, post-its coloridos na mesa com nomes de comandos de estudo escritos, livros didáticos empilhados e um marca-texto por perto, luz quente de luminária de mesa"
 ---
 
 Digitar um prompt novo e detalhado toda vez que você quer que o ChatGPT te faça perguntas ou resuma um capítulo cansa rápido. Existe um padrão mais simples que tem circulado entre estudantes nas redes sociais: ensinar ao modelo um punhado de comandos curtos uma única vez, e depois acioná-los com uma linha só pelo resto da sua sessão de estudo.
