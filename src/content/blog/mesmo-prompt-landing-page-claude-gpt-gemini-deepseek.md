@@ -206,6 +206,12 @@ Como ponto de partida, sim: todas funcionaram no celular e no computador. Mas o 
 
 Com o mesmo prompt, os quatro modelos entregaram uma página funcional e bonita, o que já é um resultado notável. O que os separa não está no que você vê ao abrir o arquivo, está no que só aparece quando você mexe no formulário ou navega pelo teclado: validação com mensagens próprias, link de pular navegação, menu que avisa se está aberto. Esse acabamento custou de 9 a 35 vezes mais que o Luna, e nem sempre compensa. Se o objetivo é um rascunho, o mais barato resolve. Se o objetivo é entregar pra um cliente, vale pagar mais ou, melhor ainda, escrever no prompt exatamente o que você espera de acessibilidade e conferir o resultado.
 
+## Leia Também
+
+- [DeepSeek vs ChatGPT: o mesmo prompt de timer Pomodoro](/deepseek-vs-chatgpt-timer-pomodoro/)
+- [API do Grok vs GPT-6 Astra e Claude Opus 5: as contas](/grok-api-preco/)
+- [Vibe coding sem bagunça: 6 hábitos](/vibe-coding-6-habitos-sem-bagunca/)
+
 ---
 
 *Fontes: teste próprio, realizado em 28 de setembro de 2026 pela API do OpenRouter, com uma execução por modelo. Custos e tokens retornados pela própria API. Prompt reproduzido integralmente acima.*

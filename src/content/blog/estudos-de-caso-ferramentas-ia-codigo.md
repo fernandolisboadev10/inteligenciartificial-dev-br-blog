@@ -137,3 +137,9 @@ Colocando os estudos de caso das quatro maiores ferramentas de IA de código lad
 ---
 
 *Fontes: [Anthropic — Estudo de caso Classmethod](https://claude.com/customers/classmethod), [Anthropic — Estudo de caso HubSpot](https://claude.com/customers/hubspot), [Anthropic — Como a IA está transformando o trabalho na Anthropic](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic), [OpenAI — Da assistência à execução: como empresas colocam a IA pra trabalhar](https://openai.com/index/how-enterprises-put-ai-to-work/), [RuntimeWire — Basis, Clay e Exa sobre fluxos de agente do Codex da OpenAI](https://runtimewire.com/article/basis-clay-exa-agent-workflows-openai-codex), [Blog do GitHub — Quantificando o impacto do Copilot com a Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise/), [arXiv — Produtividade de Desenvolvedores Com e Sem o GitHub Copilot](https://arxiv.org/abs/2509.20353), [Blog do Google Cloud — Expandindo o Antigravity pra empresas](https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers/), [Augment Code — Antigravity vs. Gemini Code Assist](https://www.augmentcode.com/tools/google-antigravity-vs-gemini-code-assist).*
+
+## Leia Também
+
+- [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)
+- [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)

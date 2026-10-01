@@ -125,6 +125,13 @@ Pela tabela, o Copilot Pro, a US$ 10 por mês. Mas o mais barato de verdade depe
 
 Nenhuma das três é a melhor em tudo, e o preço de tabela quase não ajuda a decidir. Copilot é a entrada mais barata e a melhor para autocompletar. Antigravity é a que deixa você testar de graça. Claude Code é a que faz mais sentido para delegar trabalho longo, desde que você aceite uma cota que não é publicada. O caminho mais seguro é começar pela camada mais barata da ferramenta que combina com o seu tipo de trabalho, medir por uma semana quanto da cota você realmente gasta, e só então subir de plano.
 
+## Leia Também
+
+- [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)
+- [Google Antigravity explicado](/google-antigravity/)
+- [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
+- [5 recursos do Claude Code que a maioria dos devs nunca ativa](/claude-code-recursos-ocultos/)
+
 ---
 
 *Fontes: [Anthropic, planos e preços](https://claude.com/pricing), [Google Antigravity, documentação de planos](https://antigravity.google/docs/plans/), [GitHub, Copilot passa a cobrar por uso](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/), [CloudZero, preços do Google Antigravity](https://www.cloudzero.com/blog/google-antigravity-pricing/).*

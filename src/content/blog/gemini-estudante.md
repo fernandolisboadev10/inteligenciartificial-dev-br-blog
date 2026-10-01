@@ -1,6 +1,6 @@
 ---
-title: "O Google Vai Te Dar 1 Ano de IA Grátis pra Estudante no Brasil — Só Que Não é Bem o 'Gemini Pro'"
-description: "A oferta de estudante do Google dá um ano grátis de Google AI Pro pra universitários dos EUA — e um ano grátis de Google AI Plus pra estudantes elegíveis em mais de 140 países, Brasil incluído. Veja o que realmente está incluído, quem realmente se qualifica, e as pegadinhas escondidas nos termos."
+title: "Gemini Grátis pra Estudante no Brasil: Como Resgatar 1 Ano de Google AI (e o Que Vem no Plano)"
+description: "Estudante no Brasil ganha 1 ano grátis de Google AI Plus, não de Google AI Pro. Veja quem se qualifica, como resgatar em gemini.google/students, o que vem incluído, o preço depois (R$ 24,99/mês) e as pegadinhas do SheerID."
 category: "Tutoriais"
 date: 2026-09-08
 readingTime: "8 min"
@@ -8,9 +8,11 @@ image: "./images/gemini-estudante.webp"
 imageAlt: "Foto editorial em close-up da mesa de um universitário com um notebook desfocado mostrando uma interface de chat de IA, uma carteirinha de estudante e um cartão de crédito suavemente fora de foco em primeiro plano"
 ---
 
+**Resposta rápida:** sim, estudantes universitários no Brasil podem resgatar **1 ano grátis do Google AI Plus** (o plano pago intermediário do Gemini) em [gemini.google/students](https://gemini.google/students), até **31 de dezembro de 2026**. Precisa de Conta Google pessoal, verificação SheerID e cartão cadastrado. Depois do ano grátis, a cobrança é de R$ 24,99/mês, a menos que você cancele.
+
 Em 19 de agosto de 2026, o Google anunciou que universitários poderiam ganhar um ano inteiro de sua assinatura de IA de graça. A manchete é simples. A letra miúda não é, e ela começa já pelo nome: o que a maioria das pessoas está buscando como "Gemini Pro" na verdade se chama **Google AI Pro**, uma assinatura mais ampla que combina o Gemini com armazenamento do Google One, integrações com Gmail e Docs, e mais. Só alguns estudantes recebem esse nível de graça. Outros são discretamente rebaixados pra um nível mais barato.
 
-Aqui está o que realmente tem na oferta, quem realmente se qualifica, e o que acontece quando o ano grátis acaba.
+Aqui está o que realmente tem na oferta, quem realmente se qualifica, e o que acontece quando o ano grátis acaba. Se você ainda está na dúvida entre pagar ou não por uma IA, veja também nossa comparação de [ChatGPT Plus, Claude Pro e Google AI Pro no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/).
 
 ## O Que Está Realmente Incluído
 
@@ -90,9 +92,9 @@ Essa é a parte que a maioria dos posts de "como resgatar" pula. Se você é um 
 
 O **próprio app Gemini** (chat, Gemini Spark, Deep Research) é um assistente de uso geral sólido pra debugar, explicar conceitos e gerar código boilerplate, mas não é uma ferramenta específica de código como o Claude Code ou o Cursor.
 
-Onde fica mais interessante: o Google AI Pro é a mesma assinatura guarda-chuva que alimenta os níveis de uso mais altos no [Google Antigravity](/google-antigravity), o IDE de código com foco em agentes do Google. Um estudante que resgata o ano grátis de AI Pro efetivamente também ganha um ano grátis dos limites do nível Pro do Antigravity, além do nível individual gratuito que o Antigravity já oferece a todo mundo. Se você já usa ou está considerando o Antigravity, o NotebookLM, ou o Gemini Code Assist, o ano grátis soma valor real em cima do acesso ao chat, não só vantagens do Workspace.
+Onde fica mais interessante: o Google AI Pro é a mesma assinatura guarda-chuva que alimenta os níveis de uso mais altos no [Google Antigravity](/google-antigravity/), o IDE de código com foco em agentes do Google. Um estudante que resgata o ano grátis de AI Pro efetivamente também ganha um ano grátis dos limites do nível Pro do Antigravity, além do nível individual gratuito que o Antigravity já oferece a todo mundo. Se você já usa ou está considerando o Antigravity, o NotebookLM, ou o Gemini Code Assist, o ano grátis soma valor real em cima do acesso ao chat, não só vantagens do Workspace.
 
-Se você está fora dos EUA no Google AI Plus, esse acúmulo é mais fraco. Os limites do nível Plus são mais baixos em todas as superfícies de IA do Google, então o ganho pra programação encolhe junto com tudo o mais.
+Pra escolher entre as ferramentas, a [comparação entre Claude Code, Antigravity e Copilot](/claude-code-vs-antigravity-vs-copilot/) mostra onde cada uma se encaixa. Se você está fora dos EUA no Google AI Plus, esse acúmulo é mais fraco. Os limites do nível Plus são mais baixos em todas as superfícies de IA do Google, então o ganho pra programação encolhe junto com tudo o mais.
 
 ## O Que Acontece Quando o Ano Acaba
 
@@ -104,7 +106,7 @@ Dica prática: coloque um lembrete no calendário pra daqui 11 meses, não 12. I
 
 ## Gemini vs. ChatGPT e Claude Grátis
 
-Se você está pesando se isso vale a chateação do SheerID, aqui está a comparação honesta com o que já é grátis em outros lugares:
+Se você está pesando se isso vale a chateação do SheerID, aqui está a comparação honesta com o que já é grátis em outros lugares (os planos pagos estão no [comparativo de assinaturas no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/)):
 
 - **O nível gratuito do ChatGPT** atualmente oferece chat de texto ilimitado, com limites diários separados pra geração de imagem e busca na web, além de anúncios aparecendo numa seção patrocinada sob as respostas.
 - **O nível gratuito do Claude** te limita a aproximadamente 15–40 mensagens por janela de 5 horas, restringe você a 2 dos 3 níveis de modelo da Anthropic (sem Opus), e não inclui o Claude Code.
@@ -132,13 +134,19 @@ Seu cartão é cobrado automaticamente o preço padrão da assinatura ($19,99/m�
 
 ### O Google AI Pro vale a pena especificamente pra estudantes de programação?
 
-É um bônus real se você já usa ou tem curiosidade pelas ferramentas de código do Google — a mesma assinatura aumenta os limites de uso no Google Antigravity, não só no app de chat do Gemini. Não substitui um assistente de código dedicado como o Claude Code, mas como um ano grátis com um ganho real relacionado a código, vale a pena resgatar mesmo que não seja sua ferramenta principal.
+É um bônus real se você já usa ou tem curiosidade pelas ferramentas de código do Google — a mesma assinatura aumenta os limites de uso no Google Antigravity, não só no app de chat do Gemini. Não substitui um assistente de código dedicado como o Claude Code (veja [quanto ele custa e pra quem serve](/claude-code-review-vale-o-preco/)), mas como um ano grátis com um ganho real relacionado a código, vale a pena resgatar mesmo que não seja sua ferramenta principal.
 
 ## Conclusão
 
 A oferta é real, e pra estudantes dos EUA é um negócio genuinamente bom: um ano inteiro do nível mais alto de IA do Google, 5 TB de armazenamento, e limites de uso melhores, tudo por se inscrever e passar numa checagem de estudante. A letra miúda não é uma fraude, só é fácil de perder: estudantes internacionais recebem um plano menor do que as manchetes sugerem, um cartão é exigido mesmo o ano sendo grátis, e tudo isso é construído pra se converter automaticamente numa assinatura de $19,99/mês se você não cancelar a tempo. Resgate se você for elegível, mas coloque um lembrete no calendário antes de esquecer que se inscreveu em alguma coisa.
 
 [![Página oficial do Google Gemini para estudantes: 1 ano grátis no plano para estudantes, com botão Aproveite o plano gratuito para estudantes](./images/gemini-estudante-oferta.webp)](https://gemini.google/br/students/?hl=pt-BR)
+
+## Leia Também
+
+- [12 comandos personalizados que transformam o ChatGPT numa ferramenta de estudo](/chatgpt-comandos-para-estudar/)
+- [Detectores de IA marcaram redações humanas como trapaça](/chatgpt-detector-falsos-positivos/)
+- [Google Antigravity explicado](/google-antigravity/)
 
 ---
 

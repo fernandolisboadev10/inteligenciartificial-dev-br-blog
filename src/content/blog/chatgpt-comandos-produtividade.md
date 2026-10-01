@@ -205,3 +205,9 @@ Use quando uma tarefa é grande demais pra jogar em cima de alguém como está. 
 O prompt de configuração só dura na conversa atual, a menos que você salve em algum lugar permanente. Se você tem o ChatGPT Plus, Team ou Enterprise, cole em **Instruções Personalizadas** (Configurações → Personalização) ou nas instruções de um **Projeto**, pra que toda conversa nova já conheça os comandos. Claude e Gemini têm o mesmo recurso através das próprias instruções persistentes ou "Projetos" e "Gems". O prompt em si não precisa mudar, só onde você o salva.
 
 Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que encaixam na própria rotina: geralmente /recap e /followup pra quem vive de reunião, /email e /decision pra quem lida com clientes e fornecedores. Teste na sua próxima semana de trabalho e fique com os que realmente economizarem tempo de verdade.
+
+## Leia Também
+
+- [12 comandos personalizados do ChatGPT para estudar](/chatgpt-comandos-para-estudar/)
+- [12 comandos personalizados pra programadores](/chatgpt-comandos-para-programadores/)
+- [ChatGPT Plus, Claude Pro ou Google AI Pro: qual assinar no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/)

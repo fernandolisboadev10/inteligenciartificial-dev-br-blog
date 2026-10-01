@@ -108,3 +108,9 @@ Nenhum dos dois modelos entregou código quebrado. Essa é a primeira descoberta
 Qual é "melhor" depende do que você está fazendo com ele. Prototipando uma ideia de interface que você vai reescrever de qualquer jeito? A saída enxuta e literal do ChatGPT é mais fácil de ler e simplificar. Lançando algo que uma pessoa de verdade vai usar num dia inteiro de trabalho, trocando de aba e deixando em segundo plano o tempo todo? A atenção não solicitada do DeepSeek a atraso e acessibilidade é a diferença entre um brinquedo e uma ferramenta.
 
 Os dois timers continuam ativos acima. Pause um, troque de aba por um minuto, volte, e veja qual dos dois ainda diz a verdade.
+
+## Leia Também
+
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)
+- [Estudos de caso de Claude Code, Codex, Copilot e Antigravity](/estudos-de-caso-ferramentas-ia-codigo/)
+- [Vibe coding sem bagunça: 6 hábitos](/vibe-coding-6-habitos-sem-bagunca/)

@@ -156,3 +156,9 @@ Se você só for levar uma coisa daqui, que seja a rede de segurança. Os hábit
 - Reinicie o chat quando ele entrar em loop, pra uma conversa ruim não afundar o projeto.
 
 Nada disso deixa o vibe coding muito mais lento. Só significa que, quando algo quebrar, e algo vai quebrar, você tem um save pra voltar e uma ideia clara de onde deu errado.
+
+## Leia Também
+
+- [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
+- [5 recursos do Claude Code que a maioria dos devs nunca ativa](/claude-code-recursos-ocultos/)
+- [12 comandos personalizados pra programadores](/chatgpt-comandos-para-programadores/)

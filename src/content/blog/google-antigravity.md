@@ -128,6 +128,12 @@ O Antigravity é a aposta do Google de que o futuro das ferramentas de código s
 
 Se você ainda tem a memória muscular do Gemini CLI, o nível gratuito é a forma mais fácil de ver o que mudou. Se você está escolhendo entre as três ferramentas de código do Google, a resposta honesta é: Antigravity pra qualquer coisa que você quer resolvida de ponta a ponta, Gemini Code Assist se você não quer sair do seu IDE atual, e Jules pra tarefas que você fica feliz em enfileirar e esquecer.
 
+## Leia Também
+
+- [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)
+- [Gemini grátis pra estudante no Brasil](/gemini-estudante/)
+- [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
+
 ---
 
 *Fontes: [Google Developers Blog — Transitioning Gemini CLI to Antigravity CLI](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/), [Google Cloud — Gemini Code Assist overview](https://docs.cloud.google.com/gemini/docs/codeassist/overview), [AI Wiki — Antigravity](https://aiwiki.ai/wiki/antigravity), [Thinkpeak — Google Antigravity Pricing & Access 2026](https://thinkpeak.ai/google-antigravity-pricing-access-2026/).*

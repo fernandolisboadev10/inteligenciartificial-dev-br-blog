@@ -240,6 +240,13 @@ O Grok Build 0.1 é o modelo específico pra código da xAI, a $1/$2 por milhão
 
 O número de destaque se confirma na matemática real: no nível carro-chefe, a API do Grok é dramaticamente mais barata que o GPT-6 Astra e significativamente mais barata que o Claude Opus 5, sem uma queda correspondente na performance de benchmark. Não é um desconto universal, porém. Cargas de trabalho de nível econômico têm opções mais baratas em outros lugares, e o ecossistema em torno do Grok ainda está alcançando os dois provedores estabelecidos. Se seu caso de uso está no topo, onde a qualidade do modelo realmente importa, vale os vinte minutos que leva pra gastar os créditos grátis e ver a diferença de preço na sua própria carga de trabalho.
 
+## Leia Também
+
+- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026-gpt-6-1-sol-codex-cloud/)
+- [GPT-6 Astra explicado: benchmarks e preço](/gpt-6-astra/)
+- [Claude Fable 5.1 explicado: benchmarks e preços](/claude-fable-5-1/)
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)
+
 ---
 
 *Fontes: [xAI — API Docs: Models & Pricing](https://docs.x.ai/docs/models), [xAI — API Quickstart](https://docs.x.ai/developers/quickstart), [xAI — Grok API](https://x.ai/api), [Vals AI — Grok 4.6 SWE-bench results](https://benchlm.ai/models/grok-4-6), [BenchLM — Claude API Pricing](https://benchlm.ai/anthropic/api-pricing), [BenchLM — OpenAI API Pricing](https://benchlm.ai/openai/api-pricing).*

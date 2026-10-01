@@ -151,6 +151,12 @@ Se você usa IA de vez em quando, o gratuito costuma bastar. Vale pagar quando v
 
 No papel, os três planos de cerca de US$ 20 quase empatam, e é justamente por isso que a decisão vale mais pelos detalhes do que pelo preço de tabela. No Brasil, dois detalhes pesam mais que os outros: o Google cobra em reais e o ChatGPT e o Claude cobram em dólar, e os planos de entrada (Google AI Plus e ChatGPT Go) custam menos de metade dos planos principais. Antes de assinar o plano de R$ 100, vale testar o gratuito e o de entrada pra saber se você realmente precisa do topo.
 
+## Leia Também
+
+- [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)
+- [Claude Fable 5.1 explicado: benchmarks e preços](/claude-fable-5-1/)
+- [12 comandos do ChatGPT para produtividade no trabalho](/chatgpt-comandos-produtividade/)
+
 ---
 
 *Fontes: [Exame, ChatGPT, Gemini ou Claude: quanto custa cada IA no Brasil](https://exame.com/inteligencia-artificial/chatgpt-gemini-ou-claude-quanto-custa-cada-ia-no-brasil-e-qual-vale-a-pena/), [Anthropic, planos e preços](https://claude.com/pricing), [Google, planos do Google AI](https://one.google.com/about/google-ai-plans/). Preços em reais dos planos cobrados em dólar são aproximados e variam com o câmbio.*

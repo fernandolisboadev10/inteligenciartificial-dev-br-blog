@@ -211,3 +211,8 @@ Se você usa o Claude Code, existe um caminho ainda mais direto: comandos e skil
 Duas regras valem pra qualquer ferramenta de IA de código. Primeiro, **nunca cole chaves de API, senhas ou dados de clientes** num prompt, mesmo com instrução personalizada ativada. Segundo, **trate tudo que a IA devolve como rascunho**: rode os testes, leia a correção antes de aplicar e confira se a função ou a biblioteca citada realmente existe. Vale ler também [Vibe Coding sem Bagunça](/vibe-coding-6-habitos-sem-bagunca), que trata desse cuidado com mais profundidade.
 
 Você não precisa usar os 12. A maioria dos devs fica com quatro ou cinco: geralmente /bug, /review, /test e /commit. Teste na sua próxima semana de trabalho e fique com os que realmente economizarem tempo.
+
+## Leia Também
+
+- [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
+- [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)

@@ -111,6 +111,12 @@ Reúna evidências independentes: histórico de versões, anotações de pesquis
 
 Os detectores de IA não estão mentindo quando devolvem uma porcentagem, mas esse número é bem menos significativo do que parece. No nosso próprio teste rápido, um ensaio de 185 anos de um dos escritores mais famosos dos EUA foi marcado como 84% falso, e um parágrafo da Wikipédia com uma década foi marcado como 100% falso. Pesquisas maiores e revisadas por pares mostram a mesma falha em escala, atingindo com mais força falantes não nativos de inglês, alunos negros e alunos neurodivergentes. Universidades que de fato estudaram suas próprias ferramentas de detecção chegaram, em geral, à mesma conclusão: uma pontuação é um sinal, não um veredito. Trate assim, seja você um aluno preocupado em ser falsamente acusado ou um professor decidindo o que fazer com uma marcação.
 
+## Leia Também
+
+- [12 comandos personalizados do ChatGPT para estudar](/chatgpt-comandos-para-estudar/)
+- [Gemini grátis pra estudante no Brasil](/gemini-estudante/)
+- [Modelos Sol, Terra e Luna do ChatGPT: com quem você fala](/chatgpt-modelos-sol-terra-lua/)
+
 ---
 
 *Fontes: [CBS New York — Orion Newby vence processo de plágio por IA](https://www.cbsnews.com/newyork/news/orion-newby-adelphi-university-ai-plagiarism-accusations/), [Liang et al., "GPT detectors are biased against non-native English writers," Patterns (2023)](https://www.sciencedirect.com/science/article/pii/S2666389923001307), [estudo da Common Sense Media via CO/AI](https://getcoai.com/news/ai-detection-tools-disadvantage-black-students-study-finds/), [Vanderbilt University — Guidance on AI Detection](https://www.vanderbilt.edu/brightspace/2023/08/16/guidance-on-ai-detection-and-why-were-disabling-turnitins-ai-detector/), [Search Engine Journal — OpenAI Shuts Down Flawed AI Detector](https://www.searchenginejournal.com/openai-shuts-down-flawed-ai-detector/492565/), [University of San Diego — The Problems with AI Detectors](https://lawlibguides.sandiego.edu/c.php?g=1443311&p=10721367). Teste de detecção ao vivo rodado no [Sapling AI Detector](https://sapling.ai/ai-content-detector), setembro de 2026.*

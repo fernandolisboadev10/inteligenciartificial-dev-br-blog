@@ -106,6 +106,12 @@ Depende do uso. O Claude Code é feito pra delegar tarefas inteiras e entende o 
 
 O Claude Code é uma ferramenta poderosa cujo maior obstáculo não é a qualidade, é o custo de usá-la sem controle. Pra quem trabalha em código de médio e grande porte, delega tarefas longas e aprende a gerenciar a cota, ele entrega uma experiência que autocompletar não entrega. Pra quem quer só sugestões dentro do editor ou um gasto fixo sem surpresa, existem opções mais baratas e previsíveis. A forma mais segura de decidir é começar pelo plano Pro, usar por duas semanas em tarefas reais e olhar o `/usage`: se a cota acaba antes do fim do dia, o problema é mais de hábito do que de plano, e vale ajustar antes de pensar em pagar mais.
 
+## Leia Também
+
+- [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
+- [Vibe coding sem bagunça: 6 hábitos](/vibe-coding-6-habitos-sem-bagunca/)
+- [ChatGPT Plus, Claude Pro ou Google AI Pro: qual assinar no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/)
+
 ---
 
 *Fontes: [Anthropic, visão geral do Claude Code](https://code.claude.com/docs/en/overview), [Anthropic, gerenciando custos do Claude Code](https://code.claude.com/docs/en/costs), [Anthropic, planos e preços](https://claude.com/pricing), [Hack'celeration, Claude Code Review](https://hackceleration.com/labs/review/claude-code). Este review se baseia em fontes públicas e não em um período de uso pessoal.*

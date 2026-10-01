@@ -113,6 +113,13 @@ $10 por milhão de tokens de entrada e $50 por milhão de tokens de saída, com 
 
 O Fable 5.1 não é um lançamento de ponto menor. Dobrar um benchmark de ciência, empurrar as pontuações de código pra além de 95% no SWE-bench Verified, e cortar os preços de cache em 75%, tudo no mesmo lançamento, é muita coisa pra acontecer de uma vez. Se você constrói agentes de código ou pesquisa pesada sobre o Claude, vale a pena migrar; o ganho de performance e o corte de preço apontam na mesma direção.
 
+## Leia Também
+
+- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026-gpt-6-1-sol-codex-cloud/)
+- [GPT-6 Astra explicado: benchmarks e preço](/gpt-6-astra/)
+- [API do Grok vs GPT-6 Astra e Claude Opus 5: as contas](/grok-api-preco/)
+- [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)
+
 ---
 
 *Fontes: [Anthropic — Introducing Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1), [VentureBeat — Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction](https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads), [Vellum — Claude Fable 5.1 & Mythos 5.1 Benchmarks Explained](https://www.vellum.ai/blog/claude-fable-5-1-mythos-5-1-benchmarks-explained), [llm-stats.com — Claude Fable 5.1](https://llm-stats.com/models/claude-fable-5-1).*

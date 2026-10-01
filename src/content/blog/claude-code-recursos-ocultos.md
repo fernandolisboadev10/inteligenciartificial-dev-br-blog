@@ -200,6 +200,13 @@ Rode `/context` dentro de uma sessão. Ele lista todo CLAUDE.md, regra e arquivo
 
 Plan mode, memória automática, subagentes, skills e hooks resolvem cinco incômodos específicos e nada glamourosos: chutes errados em pedidos vagos, correções repetidas, uma janela de contexto lotada, procedimentos redigitados, e regras que dá pra driblar na conversa. Nenhum deles precisa de plugin, upgrade de assinatura, ou mais que um arquivo de configuração pra ligar. Se você só usou o Claude Code como uma caixa de chat num terminal até agora, escolher um desses que resolve um problema que você tem essa semana é um uso melhor de vinte minutos do que ler o resto da documentação do início ao fim.
 
+## Leia Também
+
+- [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)
+- [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
+- [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)
+- [Vibe coding sem bagunça: 6 hábitos](/vibe-coding-6-habitos-sem-bagunca/)
+
 ---
 
 *Fontes: [Claude Code — Visão Geral](https://code.claude.com/docs/en/overview), [Claude Code — Como o Claude Lembra do Seu Projeto](https://code.claude.com/docs/en/memory), [Claude Code — Subagentes](https://code.claude.com/docs/en/sub-agents), [Claude Code — Skills](https://code.claude.com/docs/en/skills), [Claude Code — Hooks](https://code.claude.com/docs/en/hooks), [Claude Code — Fluxos de Trabalho Comuns](https://code.claude.com/docs/en/common-workflows).*

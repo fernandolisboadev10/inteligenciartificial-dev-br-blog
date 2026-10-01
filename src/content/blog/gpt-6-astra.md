@@ -124,6 +124,13 @@ O GPT-6 Astra é menos sobre respostas melhores e mais sobre delegar tarefas int
 
 Se ele merece o rótulo de AGI é uma questão separada de se ele é útil. Pra quem faz trabalho sério agêntico ou de uso de computador, vale a pena testar nas suas próprias tarefas antes de decidir, independente de como o marketing enquadra isso.
 
+## Leia Também
+
+- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026-gpt-6-1-sol-codex-cloud/)
+- [Claude Fable 5.1 explicado: benchmarks e preços](/claude-fable-5-1/)
+- [API do Grok vs GPT-6 Astra e Claude Opus 5: as contas](/grok-api-preco/)
+- [Modelos Sol, Terra e Luna do ChatGPT: com quem você fala](/chatgpt-modelos-sol-terra-lua/)
+
 ---
 
 *Fontes: [OpenAI — GPT-6 Astra: A new generation of intelligence](https://openai.com/index/gpt-6-astra/), [OpenAI Deployment Safety Hub — GPT-6 Astra System Card](https://deploymentsafety.openai.com/gpt-6-astra), [CNBC — OpenAI announces rollout of GPT-6 Astra model](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html), [Axios — OpenAI releases new model GPT-6 Astra, says it may represent AGI](https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman), [Yotta Labs — GPT-6 Astra: Release Date, Pricing, Benchmarks, and Rollout](https://www.yottalabs.ai/post/gpt-6-release-date-rumors-what-is-known-2026).*

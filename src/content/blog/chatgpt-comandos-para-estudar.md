@@ -205,3 +205,9 @@ Rode isso depois de tudo o resto pra checar o que realmente ficou. Formatos de p
 O prompt de configuração só dura na conversa atual, a menos que você salve em algum lugar permanente. Se você tem o ChatGPT Plus, cole em **Instruções Personalizadas** (Configurações → Personalização) ou nas instruções de um **Projeto**, pra que toda conversa nova dentro daquele projeto já conheça os comandos. Claude e Gemini têm o mesmo recurso através das próprias instruções persistentes ou funcionalidades de "Projetos" — o prompt em si não precisa mudar, só onde você o salva.
 
 Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que usa o tempo todo — geralmente /flashcards, /cheatsheet, e qualquer um que combine com a forma natural de pensar, mapas mentais pra quem aprende visualmente, linhas do tempo pra quem estuda história ou processos. Teste nos seus próximos exercícios de leitura e fique com os que realmente mudarem a forma como você revisa.
+
+## Leia Também
+
+- [Gemini grátis pra estudante no Brasil](/gemini-estudante/)
+- [Detectores de IA e falsos positivos em redações humanas](/chatgpt-detector-falsos-positivos/)
+- [12 comandos personalizados pra programadores](/chatgpt-comandos-para-programadores/)

@@ -147,6 +147,12 @@ Os nomes dos modelos vão continuar mudando. Isso é verdade desde o GPT-3.5. Ma
 
 Na próxima vez que alguém perguntar qual modelo do ChatGPT está usando, você vai saber a resposta de verdade.
 
+## Leia Também
+
+- [GPT-6 Astra explicado: benchmarks e preço](/gpt-6-astra/)
+- [ChatGPT Plus, Claude Pro ou Google AI Pro: qual assinar no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/)
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)
+
 ---
 
 *Fontes: [OpenAI — GPT-5.6](https://openai.com/index/gpt-5-6/), [OpenAI — Previewing GPT-5.6 Sol](https://openai.com/index/previewing-gpt-5-6-sol/), [OpenAI Help Center](https://help.openai.com/en/articles/20001354-gpt-56-in-chatgpt), [AI Toolbox](https://www.ai-toolbox.co/chatgpt-models/chatgpt-models-explained-complete-comparison-2026), [MindStudio](https://www.mindstudio.ai/blog/what-is-gpt-5-6-sol-terra-luna-explained).*
