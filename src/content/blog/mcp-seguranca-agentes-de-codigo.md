@@ -4,6 +4,8 @@ description: "O MCP virou o jeito padrão de ligar agentes de IA a ferramentas, 
 category: "Ferramentas de IA para Código"
 date: 2026-10-01
 readingTime: "8 min"
+image: "./images/mcp-seguranca-agentes-de-codigo.webp"
+imageAlt: "Foto editorial por cima do ombro de um desenvolvedor à noite diante de um notebook com terminal desfocado, com um cadeado e uma chave de segurança USB sobre a mesa e uma luminária acesa ao lado"
 ---
 
 Se você usa o Claude Code, o Cursor, o Copilot ou o Gemini CLI, provavelmente já instalou um servidor MCP. O Model Context Protocol é o que deixa o agente falar com o GitHub, o banco de dados, o Figma, o Slack e qualquer outra coisa que tenha um conector. É prático, e por isso mesmo virou alvo.

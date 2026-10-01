@@ -4,6 +4,8 @@ description: "O que a OpenAI anunciou no DevDay de 29 de setembro e o que muda p
 category: "Ferramentas de IA para Código"
 date: 2026-10-01
 readingTime: "7 min"
+image: "./images/openai-devday-2026-gpt-6-1-sol-codex-cloud.webp"
+imageAlt: "Foto editorial de um desenvolvedor visto de costas num espaço de trabalho iluminado, com notebook mostrando código desfocado e um celular em suporte ao lado exibindo uma lista de tarefas, com colegas desfocados ao fundo"
 ---
 
 Em uma semana, os dois maiores laboratórios de IA mexeram no preço do código. Em 22 de setembro, a Anthropic lançou o **Claude Opus 5.5**. Em 29 de setembro, a OpenAI respondeu no DevDay 2026 com o **GPT-6.1 Sol**, o **Codex Cloud** e os agentes **Dots**. Foram mais de 20 anúncios, mas só alguns mudam a rotina de quem escreve código.
