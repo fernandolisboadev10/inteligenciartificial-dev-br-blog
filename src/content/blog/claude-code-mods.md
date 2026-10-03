@@ -4,6 +4,8 @@ description: "A Anthropic lançou os mods do Claude Code, pequenas funções em 
 category: "Ferramentas de IA para Código"
 date: 2026-10-03
 readingTime: "7 min"
+image: "./images/claude-code-mods.webp"
+imageAlt: "Ilustração de uma janela de terminal com um trecho de código TypeScript de um mod do Claude Code e um ícone laranja com o rótulo MODS, sobre fundo azul escuro"
 draft: false
 ---
 
@@ -72,6 +74,8 @@ Segundo a [Cellcog](https://cellcog.ai/blog/claude-code-mods/), um mod carregado
 
 Para quem acompanha o tema de segurança em agentes de código, isso soa familiar. É o mesmo tipo de risco de cadeia de suprimentos que discutimos no artigo sobre [segurança de MCP em agentes de código](/blog/mcp-seguranca-agentes-de-codigo): uma extensão aparentemente útil, instalada com um comando, ganha acesso amplo ao seu ambiente. A diferença é que aqui a extensão fica dentro do agente, no ponto exato em que as decisões são tomadas.
 
+![Ilustração de um escudo laranja com sinal de alerta cercado por ações que um mod pode executar, como ler o .env, acessar chaves de API e gastar uso](./images/claude-code-mods-security.webp)
+
 ### Controles que a Anthropic oferece
 
 - `claude plugin validate` para inspecionar um mod antes de instalar.
@@ -89,6 +93,8 @@ Este é o processo mínimo que eu seguiria antes de instalar qualquer mod que n�
 4. **Rode `claude plugin validate`** e só depois instale.
 5. **Teste num projeto descartável** antes de usar no repositório de trabalho ou numa máquina com credenciais de produção.
 6. **Saiba como desligar.** Memorize o `--safe-mode` antes de precisar dele.
+
+![Ilustração de um checklist com seis passos para conferir antes de instalar um mod do Claude Code](./images/claude-code-mods-checklist.webp)
 
 ## Atenção Com Material Desencontrado
 
