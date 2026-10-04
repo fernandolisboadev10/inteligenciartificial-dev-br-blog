@@ -112,9 +112,27 @@ const networks = [
   .copy-link.copied { background: var(--teal); }
 
   @media (max-width: 560px) {
+    .share {
+      gap: 8px;
+    }
+
+    .share-label {
+      width: 100%;
+    }
+
+    .share-list {
+      flex-wrap: nowrap;
+      gap: 8px;
+    }
+
     .share-btn {
-      width: 46px;
-      height: 46px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .share-btn svg {
+      width: 18px;
+      height: 18px;
     }
   }
 </style>
