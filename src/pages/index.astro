@@ -44,8 +44,9 @@ $ <span class="cursor">_</span></code></pre>
       <a href="/blog">Ver todos →</a>
     </div>
     <div class="grid">
-      {posts.map((post) => (
+      {posts.map((post, i) => (
         <PostCard
+          priority={i === 0}
           slug={post.id}
           title={post.data.title}
           description={post.data.description}

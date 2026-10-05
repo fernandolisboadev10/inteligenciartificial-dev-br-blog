@@ -20,9 +20,9 @@
 
   --gradient: linear-gradient(135deg, var(--rose-soft), var(--rose));
 
-  --font-display: 'Fraunces', serif;
-  --font-body: 'Inter', sans-serif;
-  --font-mono: 'IBM Plex Mono', monospace;
+  --font-display: var(--f-fraunces);
+  --font-body: var(--f-inter);
+  --font-mono: var(--f-plex-mono);
 
   --measure: 68ch;
 }
