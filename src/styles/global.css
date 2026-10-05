@@ -17,6 +17,7 @@
 
   --teal: #0d9488;
   --teal-soft: #5eead4;
+  --teal-text: #0f766e;
 
   --gradient: linear-gradient(135deg, var(--rose-soft), var(--rose));
 
@@ -45,6 +46,7 @@
     --rose-soft: #6ee7a8;
 
     --teal: #2dd4bf;
+    --teal-text: #2dd4bf;
   }
 }
 
@@ -65,6 +67,7 @@
   --rose-soft: #6ee7a8;
 
   --teal: #2dd4bf;
+  --teal-text: #2dd4bf;
 }
 
 * {
