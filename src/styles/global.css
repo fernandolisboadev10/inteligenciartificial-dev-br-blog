@@ -11,6 +11,8 @@
   --violet: #0ecc5a;
   --violet-soft: #6ee7a8;
   --violet-deep: #0a7a3d;
+  --link-line: rgba(14, 204, 90, 0.2);
+  --link-text: #0a7a3d;
 
   --rose: #064e2b;
   --rose-soft: #34d399;
@@ -41,6 +43,8 @@
     --violet: #0ecc5a;
     --violet-soft: #6ee7a8;
     --violet-deep: #17e068;
+  --link-line: rgba(14, 204, 90, 0.24);
+  --link-text: var(--violet);
 
     --rose: #34d399;
     --rose-soft: #6ee7a8;
@@ -62,6 +66,8 @@
   --violet: #0ecc5a;
   --violet-soft: #6ee7a8;
   --violet-deep: #17e068;
+  --link-line: rgba(14, 204, 90, 0.24);
+  --link-text: var(--violet);
 
   --rose: #34d399;
   --rose-soft: #6ee7a8;
@@ -113,6 +119,22 @@ img {
 
 .prose {
   max-width: var(--measure);
+}
+
+.prose a {
+  color: var(--link-text);
+  text-decoration: none;
+  background-image: linear-gradient(var(--link-line), var(--link-line));
+  background-repeat: no-repeat;
+  background-position: 0 92%;
+  background-size: 100% 0.42em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 0.2s ease;
+}
+
+.prose a:hover {
+  background-size: 100% 100%;
 }
 
 .prose p, .prose ul, .prose ol {
