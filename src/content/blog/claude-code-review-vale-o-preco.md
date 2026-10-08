@@ -110,7 +110,7 @@ O Claude Code é uma ferramenta poderosa cujo maior obstáculo não é a qualida
 
 - [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
 - [Vibe coding sem bagunça: 6 hábitos](/vibe-coding-6-habitos-sem-bagunca/)
-- [ChatGPT Plus, Claude Pro ou Google AI Pro: qual assinar no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/)
+- [ChatGPT Plus, Claude Pro ou Google AI Pro: qual assinar no Brasil](/chatgpt-claude-google-qual-assinar/)
 
 ---
 

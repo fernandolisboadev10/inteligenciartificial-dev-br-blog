@@ -150,8 +150,8 @@ Na próxima vez que alguém perguntar qual modelo do ChatGPT está usando, você
 ## Leia Também
 
 - [GPT-6 Astra explicado: benchmarks e preço](/gpt-6-astra/)
-- [ChatGPT Plus, Claude Pro ou Google AI Pro: qual assinar no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/)
-- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)
+- [ChatGPT Plus, Claude Pro ou Google AI Pro: qual assinar no Brasil](/chatgpt-claude-google-qual-assinar/)
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-ia/)
 
 ---
 

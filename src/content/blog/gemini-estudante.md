@@ -12,7 +12,7 @@ imageAlt: "Foto editorial em close-up da mesa de um universitário com um notebo
 
 Em 19 de agosto de 2026, o Google anunciou que universitários poderiam ganhar um ano inteiro de sua assinatura de IA de graça. A manchete é simples. A letra miúda não é, e ela começa já pelo nome: o que a maioria das pessoas está buscando como "Gemini Pro" na verdade se chama **Google AI Pro**, uma assinatura mais ampla que combina o Gemini com armazenamento do Google One, integrações com Gmail e Docs, e mais. Só alguns estudantes recebem esse nível de graça. Outros são discretamente rebaixados pra um nível mais barato.
 
-Aqui está o que realmente tem na oferta, quem realmente se qualifica, e o que acontece quando o ano grátis acaba. Se você ainda está na dúvida entre pagar ou não por uma IA, veja também nossa comparação de [ChatGPT Plus, Claude Pro e Google AI Pro no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/).
+Aqui está o que realmente tem na oferta, quem realmente se qualifica, e o que acontece quando o ano grátis acaba. Se você ainda está na dúvida entre pagar ou não por uma IA, veja também nossa comparação de [ChatGPT Plus, Claude Pro e Google AI Pro no Brasil](/chatgpt-claude-google-qual-assinar/).
 
 ## O Que Está Realmente Incluído
 
@@ -106,7 +106,7 @@ Dica prática: coloque um lembrete no calendário pra daqui 11 meses, não 12. I
 
 ## Gemini vs. ChatGPT e Claude Grátis
 
-Se você está pesando se isso vale a chateação do SheerID, aqui está a comparação honesta com o que já é grátis em outros lugares (os planos pagos estão no [comparativo de assinaturas no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/)):
+Se você está pesando se isso vale a chateação do SheerID, aqui está a comparação honesta com o que já é grátis em outros lugares (os planos pagos estão no [comparativo de assinaturas no Brasil](/chatgpt-claude-google-qual-assinar/)):
 
 - **O nível gratuito do ChatGPT** atualmente oferece chat de texto ilimitado, com limites diários separados pra geração de imagem e busca na web, além de anúncios aparecendo numa seção patrocinada sob as respostas.
 - **O nível gratuito do Claude** te limita a aproximadamente 15–40 mensagens por janela de 5 horas, restringe você a 2 dos 3 níveis de modelo da Anthropic (sem Opus), e não inclui o Claude Code.

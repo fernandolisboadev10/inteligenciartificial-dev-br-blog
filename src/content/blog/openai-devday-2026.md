@@ -4,7 +4,7 @@ description: "O que a OpenAI anunciou no DevDay de 29 de setembro e o que muda p
 category: "Ferramentas de IA para Código"
 date: 2026-10-01
 readingTime: "7 min"
-image: "./images/openai-devday-2026-gpt-6-1-sol-codex-cloud.webp"
+image: "./images/openai-devday-2026.webp"
 imageAlt: "Foto editorial de um desenvolvedor visto de costas num espaço de trabalho iluminado, com notebook mostrando código desfocado e um celular em suporte ao lado exibindo uma lista de tarefas, com colegas desfocados ao fundo"
 ---
 
@@ -87,13 +87,13 @@ Dois detalhes técnicos importantes de quem usa a API: o pensamento adaptativo d
   </table>
 </div>
 
-No papel, o Sol sai pela metade do preço do Opus 5.5. Mas preço por token não é custo por tarefa: um modelo que "pensa" mais gasta mais tokens, e um que erra obriga a repetir a tarefa. Foi exatamente o que vimos no [teste do mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/), em que o mais caro custou mais de 30 vezes o mais barato. E se o preço é seu critério principal, vale conferir também a [API do Grok](/grok-api-preco/).
+No papel, o Sol sai pela metade do preço do Opus 5.5. Mas preço por token não é custo por tarefa: um modelo que "pensa" mais gasta mais tokens, e um que erra obriga a repetir a tarefa. Foi exatamente o que vimos no [teste do mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-ia/), em que o mais caro custou mais de 30 vezes o mais barato. E se o preço é seu critério principal, vale conferir também a [API do Grok](/grok-api-preco/).
 
 ## O Que Isso Muda na Prática
 
 **Se você paga por API:** reveja o modelo padrão dos seus scripts e agentes. Rodar a mesma tarefa no Sol e no Opus 5.5 por uma semana e comparar custo e taxa de acerto custa pouco e pode cortar a conta de forma relevante.
 
-**Se você usa assinatura:** o que mais muda é o limite de uso e a velocidade. Antes de trocar de plano, veja o [comparativo de ChatGPT Plus, Claude Pro e Google AI Pro no Brasil](/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar/) e a [comparação entre Claude Code, Antigravity e Copilot](/claude-code-vs-antigravity-vs-copilot/).
+**Se você usa assinatura:** o que mais muda é o limite de uso e a velocidade. Antes de trocar de plano, veja o [comparativo de ChatGPT Plus, Claude Pro e Google AI Pro no Brasil](/chatgpt-claude-google-qual-assinar/) e a [comparação entre Claude Code, Antigravity e Copilot](/claude-code-vs-antigravity-vs-copilot/).
 
 **Se você ainda não usa agentes:** comece pelo básico. Antes de ligar um agente autônomo, vale ter os hábitos do [vibe coding sem bagunça](/vibe-coding-6-habitos-sem-bagunca/) e conhecer os [recursos do Claude Code que quase ninguém ativa](/claude-code-recursos-ocultos/).
 

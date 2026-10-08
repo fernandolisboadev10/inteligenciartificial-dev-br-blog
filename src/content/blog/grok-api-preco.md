@@ -242,10 +242,10 @@ O número de destaque se confirma na matemática real: no nível carro-chefe, a 
 
 ## Leia Também
 
-- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026-gpt-6-1-sol-codex-cloud/)
+- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026/)
 - [GPT-6 Astra explicado: benchmarks e preço](/gpt-6-astra/)
 - [Claude Fable 5.1 explicado: benchmarks e preços](/claude-fable-5-1/)
-- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-ia/)
 
 ---
 

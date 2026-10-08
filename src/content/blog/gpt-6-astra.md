@@ -126,7 +126,7 @@ Se ele merece o rótulo de AGI é uma questão separada de se ele é útil. Pra 
 
 ## Leia Também
 
-- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026-gpt-6-1-sol-codex-cloud/)
+- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026/)
 - [Claude Fable 5.1 explicado: benchmarks e preços](/claude-fable-5-1/)
 - [API do Grok vs GPT-6 Astra e Claude Opus 5: as contas](/grok-api-preco/)
 - [Modelos Sol, Terra e Luna do ChatGPT: com quem você fala](/chatgpt-modelos-sol-terra-lua/)

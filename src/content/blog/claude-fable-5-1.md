@@ -115,7 +115,7 @@ O Fable 5.1 não é um lançamento de ponto menor. Dobrar um benchmark de ciênc
 
 ## Leia Também
 
-- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026-gpt-6-1-sol-codex-cloud/)
+- [OpenAI DevDay 2026 pra quem programa: GPT-6.1 Sol, Codex Cloud e Dots](/openai-devday-2026/)
 - [GPT-6 Astra explicado: benchmarks e preço](/gpt-6-astra/)
 - [API do Grok vs GPT-6 Astra e Claude Opus 5: as contas](/grok-api-preco/)
 - [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)

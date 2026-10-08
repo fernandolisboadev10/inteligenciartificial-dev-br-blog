@@ -142,4 +142,4 @@ Colocando os estudos de caso das quatro maiores ferramentas de IA de código lad
 
 - [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)
 - [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)
-- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-ia/)

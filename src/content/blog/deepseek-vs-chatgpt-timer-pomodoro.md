@@ -111,6 +111,6 @@ Os dois timers continuam ativos acima. Pause um, troque de aba por um minuto, vo
 
 ## Leia Também
 
-- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/)
+- [O mesmo prompt de landing page em quatro modelos](/mesmo-prompt-landing-page-ia/)
 - [Estudos de caso de Claude Code, Codex, Copilot e Antigravity](/estudos-de-caso-ferramentas-ia-codigo/)
 - [Vibe coding sem bagunça: 6 hábitos](/vibe-coding-6-habitos-sem-bagunca/)

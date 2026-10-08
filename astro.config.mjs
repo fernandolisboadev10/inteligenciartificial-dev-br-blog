@@ -28,6 +28,10 @@ export default defineConfig({
     '/grok-api-pricing': '/grok-api-preco',
     '/claude-code-hidden-features': '/claude-code-recursos-ocultos',
     '/deepseek-vs-chatgpt-pomodoro-timer': '/deepseek-vs-chatgpt-timer-pomodoro',
+    '/trump-super-inteligencia-ordem-executiva-desenvolvedores': '/trump-super-inteligencia-ordem',
+    '/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek': '/mesmo-prompt-landing-page-ia',
+    '/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar': '/chatgpt-claude-google-qual-assinar',
+    '/openai-devday-2026-gpt-6-1-sol-codex-cloud': '/openai-devday-2026',
   },
   // Self-hosted fonts: no Google Fonts round trips, preloaded and with metric-matched fallbacks.
   fonts: [

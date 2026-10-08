@@ -4,7 +4,7 @@ description: "Uma ordem executiva de 29 de setembro de 2026 manda as agências f
 category: "Tutoriais"
 date: 2026-10-08
 readingTime: "8 min"
-image: "./images/trump-super-inteligencia-ordem-executiva-desenvolvedores.webp"
+image: "./images/trump-super-inteligencia-ordem.webp"
 imageAlt: "Foto editorial de um documento oficial assinado e uma caneta-tinteiro sobre uma mesa de madeira polida num escritório de estilo governamental, com uma bandeira americana e um notebook com editor de código desfocado ao fundo"
 ---
 
@@ -20,7 +20,7 @@ Com base na [ficha informativa da Casa Branca](https://www.whitehouse.gov/fact-s
 - **Uma definição de trabalho (Seção 3).** Para os fins da ordem, "Super Intelligence" tem o mesmo significado de "artificial intelligence" em [15 U.S.C. § 9401(3)](https://www.law.cornell.edu/uscode/text/15/9401), a definição federal que já existe.
 - **Um prazo.** O assessor de ciência do presidente deve enviar uma proposta de texto legal com uma definição federal do novo termo até **28 de novembro de 2026**, avaliando se ela deve modificar, ampliar ou substituir a definição atual de IA.
 
-![Uma mão segurando uma caneta vermelha riscando uma palavra num memorando impresso, com um notebook com terminal desfocado sobre a mesa](./images/trump-super-inteligencia-ordem-executiva-desenvolvedores-rename.webp)
+![Uma mão segurando uma caneta vermelha riscando uma palavra num memorando impresso, com um notebook com terminal desfocado sobre a mesa](./images/trump-super-inteligencia-ordem-rename.webp)
 
 Dois detalhes importam para quem programa. A ordem não obriga as agências a reescrever regulamentos, contratos ou convênios já existentes. E, como "SI" hoje significa o mesmo que "AI" na lei, nenhuma categoria jurídica nova de software passa a existir.
 
@@ -54,7 +54,7 @@ No mesmo dia, a Casa Branca reuniu executivos de tecnologia e anunciou um "White
 
 Segundo a Freshfields, o acordo pede que desenvolvedores de modelos de ponta adotem controles internos, monitoramento e correção, avaliações externas independentes e supervisão no nível do conselho. Ele não cria mecanismo de fiscalização e não exige que os signatários adotem a nova terminologia.
 
-![Uma mesa de sala de reuniões com tablets e notebooks de telas desfocadas e uma mão assinando um documento](./images/trump-super-inteligencia-ordem-executiva-desenvolvedores-accord.webp)
+![Uma mesa de sala de reuniões com tablets e notebooks de telas desfocadas e uma mão assinando um documento](./images/trump-super-inteligencia-ordem-accord.webp)
 
 Para devs, "controles internos" e "camadas de revisão" são a parte a observar, porque descrevem os mesmos problemas que você já enfrenta com agentes de código. Como impedir que um agente faça algo irreversível? O [modo de planejamento, os hooks e os subagentes do Claude Code](/claude-code-recursos-ocultos/) são uma resposta. Como evitar que código escrito por IA sobrecarregue quem revisa? Mostramos o lado dos mantenedores em [Mantenedores de Open Source Estão Fechando a Porta para Pull Requests Gerados por IA](/slop-de-ia-pull-requests-open-source/). E se você usa agentes conectados a ferramentas externas, vale ler [7 cuidados de segurança antes de instalar um servidor MCP](/mcp-seguranca-agentes-de-codigo/) e entender [o que é injeção de prompt](/injecao-de-prompt-o-que-e/).
 
@@ -76,11 +76,11 @@ Nada disso exige reescrever código. É uma lista curta:
 4. **Reforce seus próprios controles de qualquer forma.** Os temas do acordo (revisão, monitoramento, checagem externa) são boa higiene de engenharia. Comece pelos hábitos de [Vibe Coding sem Bagunça: 6 Hábitos](/vibe-coding-6-habitos-sem-bagunca/).
 5. **Escolha ferramentas por evidência, não por rótulo.** Os nomes vão continuar mudando. Antes de decidir, veja [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/) e [o review do Claude Code em 2026](/claude-code-review-vale-o-preco/). Se quer conhecer o Antigravity, comece por [Google Antigravity explicado](/google-antigravity/). E veja o que dá para personalizar nos [mods do Claude Code](/claude-code-mods/).
 6. **Estudantes: usem a IA como tutor, não como ghostwriter.** [Comandos do ChatGPT para estudar](/chatgpt-comandos-para-estudar/) e o [ano grátis do Gemini Pro para estudantes](/gemini-estudante/) são bons pontos de partida. Antes de entregar qualquer trabalho feito com ajuda de IA, leia [por que detectores de IA acusam estudantes de verdade](/chatgpt-detector-falsos-positivos/).
-7. **Teste você mesmo.** O [nosso experimento com ChatGPT grátis e DeepSeek](/deepseek-vs-chatgpt-timer-pomodoro/) leva dez minutos e ensina mais sobre o que um modelo faz do que qualquer comunicado de imprensa. Para ir além, veja o [teste do mesmo prompt de landing page em Claude, GPT, Gemini e DeepSeek](/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek/) e a [cobertura do OpenAI DevDay 2026](/openai-devday-2026-gpt-6-1-sol-codex-cloud/).
+7. **Teste você mesmo.** O [nosso experimento com ChatGPT grátis e DeepSeek](/deepseek-vs-chatgpt-timer-pomodoro/) leva dez minutos e ensina mais sobre o que um modelo faz do que qualquer comunicado de imprensa. Para ir além, veja o [teste do mesmo prompt de landing page em Claude, GPT, Gemini e DeepSeek](/mesmo-prompt-landing-page-ia/) e a [cobertura do OpenAI DevDay 2026](/openai-devday-2026/).
 
 ## O Que Acompanhar Daqui Pra Frente
 
-![Um calendário de parede de papel com uma data circulada em marcador vermelho ao lado de um notebook e uma caneca de café](./images/trump-super-inteligencia-ordem-executiva-desenvolvedores-deadline.webp)
+![Um calendário de parede de papel com uma data circulada em marcador vermelho ao lado de um notebook e uma caneca de café](./images/trump-super-inteligencia-ordem-deadline.webp)
 
 *Imagem ilustrativa: a data circulada não é o prazo real.*
 
