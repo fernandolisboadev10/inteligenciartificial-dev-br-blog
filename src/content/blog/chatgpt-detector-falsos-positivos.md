@@ -115,7 +115,6 @@ Os detectores de IA não estão mentindo quando devolvem uma porcentagem, mas es
 ## Leia Também
 
 - [12 comandos personalizados do ChatGPT para estudar](/chatgpt-comandos-para-estudar/)
-- [Gemini grátis pra estudante no Brasil](/gemini-estudante/)
 - [Modelos Sol, Terra e Luna do ChatGPT: com quem você fala](/chatgpt-modelos-sol-terra-lua/)
 
 ---

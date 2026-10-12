@@ -209,6 +209,5 @@ Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou qua
 
 ## Leia Também
 
-- [Gemini grátis pra estudante no Brasil](/gemini-estudante/)
 - [Detectores de IA e falsos positivos em redações humanas](/chatgpt-detector-falsos-positivos/)
 - [12 comandos personalizados pra programadores](/chatgpt-comandos-para-programadores/)

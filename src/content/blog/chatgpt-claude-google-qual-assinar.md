@@ -60,7 +60,7 @@ O Google AI Pro custa R$ 96,99 por mês no Brasil, segundo a Exame. A [página o
 
 Existe ainda o **Google AI Plus**, a R$ 24,99 por mês, com 400 GB de armazenamento e o dobro do acesso ao Gemini 3.1 Pro em relação ao gratuito. É o plano pago mais barato dos três grandes, considerando os dois planos de entrada.
 
-**Pra quem é:** quem já vive no ecossistema Google (Gmail, Docs, Drive) e aproveita o armazenamento e os extras. Se você é universitário, vale conferir antes se a oferta de estudante se aplica, como detalhamos em [O Google Vai Te Dar 1 Ano de IA Grátis pra Estudante no Brasil](/gemini-estudante).
+**Pra quem é:** quem já vive no ecossistema Google (Gmail, Docs, Drive) e aproveita o armazenamento e os extras. Se você é universitário, vale conferir antes se a oferta de estudante se aplica, como detalhamos em [o guia do Google AI Plus grátis para estudantes no Brasil](https://techonplay.com.br/google-ai-plus-para-estudantes/).
 
 ## Lado a Lado
 

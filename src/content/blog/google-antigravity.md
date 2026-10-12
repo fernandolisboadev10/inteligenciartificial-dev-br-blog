@@ -132,7 +132,6 @@ Se você ainda tem a memória muscular do Gemini CLI, o nível gratuito é a for
 ## Leia Também
 
 - [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)
-- [Gemini grátis pra estudante no Brasil](/gemini-estudante/)
 - [MCP no Claude Code, Cursor e Copilot: 7 cuidados de segurança](/mcp-seguranca-agentes-de-codigo/)
 
 ---
