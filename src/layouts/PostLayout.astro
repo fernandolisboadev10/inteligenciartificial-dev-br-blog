@@ -18,7 +18,7 @@ interface Props {
 const { title, description, category, date, translation, readingTime, image, imageAlt } = Astro.props;
 
 const alternate = translation
-  ? { lang: 'en', href: `https://inteligenciaartificialdev.com/${translation}/` }
+  ? { lang: 'es', href: `https://inteligenciaartificialdev.com/${translation}/` }
   : undefined;
 
 const formattedDate = date.toLocaleDateString('pt-BR', {
@@ -34,7 +34,7 @@ const formattedDate = date.toLocaleDateString('pt-BR', {
     <h1>{title}</h1>
     <p class="meta">Por <span class="author">Fernando Lisboa</span> <span class="sep">|</span> {formattedDate}{readingTime && ` · ${readingTime}`}</p>
     {alternate && (
-      <p class="translation"><a href={alternate.href} hreflang="en" lang="en">Read in English</a></p>
+      <p class="translation"><a href={alternate.href} hreflang="es" lang="es">Leer en español</a></p>
     )}
     <ShareButtons title={title} />
 

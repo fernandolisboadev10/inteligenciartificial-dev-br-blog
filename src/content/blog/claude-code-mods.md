@@ -3,6 +3,7 @@ title: "Claude Code Mods: a Anthropic Deixou Você Reescrever o Agente com TypeS
 description: "A Anthropic lançou os mods do Claude Code, pequenas funções em TypeScript que reescrevem prompts, bloqueiam chamadas de ferramenta, decidem permissões e redigem segredos. Entenda como funcionam, o que dá para construir e um checklist de segurança antes de instalar o primeiro."
 category: "Ferramentas de IA"
 date: 2026-10-03
+translation: "claude-code-mods"
 readingTime: "7 min"
 image: "./images/claude-code-mods.webp"
 imageAlt: "Ilustração de uma janela de terminal com um trecho de código TypeScript de um mod do Claude Code e um ícone laranja com o rótulo MODS, sobre fundo azul escuro"

@@ -3,6 +3,7 @@ title: "Review do Claude Code em 2026: Vale o Preço? O Que Funciona, Onde Trava
 description: "O Claude Code entra no plano de US$ 20, mas a cota é opaca e o uso pesado sai caro. Veja o que ele faz bem, como o limite realmente funciona, quanto custa por desenvolvedor e pra quem vale a pena."
 category: "Ferramentas de IA"
 date: 2026-09-28
+translation: "claude-code-review-vale-el-precio"
 readingTime: "9 min"
 image: "./images/claude-code-review-vale-o-preco.webp"
 imageAlt: "Foto editorial da mesa de um desenvolvedor com um notebook mostrando um terminal de código desfocado, ao lado de uma xícara de café, um caderno aberto e uma calculadora, luz natural de janela"

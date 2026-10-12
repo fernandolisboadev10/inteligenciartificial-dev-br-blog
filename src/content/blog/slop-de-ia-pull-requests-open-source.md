@@ -3,7 +3,7 @@ title: "Mantenedores de Open Source Estão Fechando a Porta para Pull Requests F
 description: "O cURL encerrou seu programa de bug bounty, o Ghostty restringiu código de IA e o tldraw fecha PRs externos automaticamente. O que é 'AI slop' para quem mantém projetos e um checklist de 7 passos para usar IA em open source do jeito certo."
 category: "Ferramentas de IA"
 date: 2026-10-02
-translation: "ai-slop-pull-requests-open-source"
+translation: "slop-de-ia-pull-requests-open-source"
 readingTime: "7 min"
 image: "./images/slop-de-ia-pull-requests-open-source.webp"
 imageAlt: "Foto editorial por cima do ombro de um mantenedor de open source cansado, à noite, diante de um monitor com uma lista enorme e desfocada de pull requests, luz quente de abajur e uma xícara de café sobre a mesa de madeira"

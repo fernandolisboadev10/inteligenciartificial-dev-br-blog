@@ -3,7 +3,7 @@ title: "AI-900 em 2026: Vale a Pena? A Prova Foi Trocada pelo AI-901 (o Que Mudo
 description: "O AI-900 foi aposentado em 30 de junho de 2026 e o certificado Azure AI Fundamentals agora se tira com o AI-901. Veja o que a prova cobra, quanto dela é prática, o que esperar da dificuldade e pra quem vale a pena."
 category: "Carreira"
 date: 2026-10-12
-translation: "ai-900-ai-901-worth-it"
+translation: "ai-900-ai-901-vale-la-pena"
 readingTime: "8 min"
 image: "./images/ai-900-ai-901-vale-a-pena.webp"
 imageAlt: "Foto editorial de uma mesa de estudo com um notebook aberto mostrando um painel de nuvem desfocado, um caderno com anotações à mão e uma xícara de café, luz natural de janela"

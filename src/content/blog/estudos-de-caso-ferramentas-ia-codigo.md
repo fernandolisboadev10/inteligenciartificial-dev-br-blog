@@ -3,7 +3,7 @@ title: "Investigamos os Estudos de Caso do Claude Code, Codex, Copilot e Antigra
 description: "Anthropic, OpenAI, Microsoft e Google divulgam estudos de caso brilhantes pras próprias ferramentas de IA de código. Fomos atrás do que está sendo medido de verdade, quem publicou e se existe pesquisa independente por trás dos números."
 category: "Estudos de Caso"
 date: 2026-09-27
-translation: "ai-coding-tools-case-studies"
+translation: "estudios-de-caso-herramientas-ia-codigo"
 readingTime: "9 min"
 image: "./images/estudos-de-caso-ferramentas-ia-codigo.webp"
 imageAlt: "Foto editorial da mesa de um desenvolvedor com um notebook mostrando um editor de código desfocado ao lado de uma pilha de relatórios impressos cobertos de marcações de caneta destaque e post-its, luz suave de janela, profundidade de campo rasa"

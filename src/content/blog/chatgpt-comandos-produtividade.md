@@ -3,6 +3,7 @@ title: "12 Comandos Personalizados que Transformam o ChatGPT numa Ferramenta de 
 description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de escrever e-mails genéricos e passa a montar pautas, resumos de reunião e planilhas sob demanda. Prontos pra copiar e colar."
 category: "Prompts"
 date: 2026-09-18
+translation: "chatgpt-comandos-productividad"
 readingTime: "6 min"
 image: "./images/chatgpt-comandos-produtividade.webp"
 imageAlt: "Foto editorial em close-up da mesa de escritório de um profissional, tela do notebook mostrando uma interface de chat desfocada, post-its coloridos na mesa com nomes de comandos de produtividade escritos, uma xícara de café e um caderno por perto, luz natural de dia pela janela do escritório"

@@ -3,7 +3,7 @@ title: "12 Comandos Personalizados que Transformam o ChatGPT numa Ferramenta de 
 description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de dar respostas genéricas e passa a montar mapas mentais, flashcards e palácios da memória sob demanda. Prontos pra copiar e colar."
 category: "Prompts"
 date: 2026-09-07
-translation: "chatgpt-study-commands"
+translation: "chatgpt-comandos-para-estudiar"
 readingTime: "5 min"
 image: "./images/chatgpt-comandos-para-estudar.webp"
 imageAlt: "Foto editorial em close-up da mesa de um estudante à noite, tela do notebook mostrando uma interface de chat desfocada, post-its coloridos na mesa com nomes de comandos de estudo escritos, livros didáticos empilhados e um marca-texto por perto, luz quente de luminária de mesa"
