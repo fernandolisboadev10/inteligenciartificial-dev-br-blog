@@ -9,15 +9,15 @@ image: "./images/ai-900-ai-901-vale-a-pena.webp"
 imageAlt: "Foto editorial de uma mesa de estudo com um notebook aberto mostrando um painel de nuvem desfocado, um caderno com anotações à mão e uma xícara de café, luz natural de janela"
 ---
 
-**Resposta rápida:** o **AI-900 não pode mais ser feito**. Ele foi aposentado em **30 de junho de 2026** e substituído pelo **AI-901**. O certificado continua com o mesmo nome (*Microsoft Certified: Azure AI Fundamentals*); o que mudou foi a prova. Vale a pena se você está começando em IA aplicada e quer uma base estruturada com a nuvem da Microsoft. Não vale se o que você quer é um diploma que "abra portas sozinho" ou se já constrói aplicações de IA no dia a dia.
+**Resposta rápida:** o **AI-900 não pode mais ser feito**. Ele foi aposentado em **30 de junho de 2026** e substituído pelo [**AI-901**](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-901/). O certificado continua com o mesmo nome ([*Microsoft Certified: Azure AI Fundamentals*](https://learn.microsoft.com/pt-br/credentials/certifications/azure-ai-fundamentals/)); o que mudou foi a prova. Vale a pena se você está começando em IA aplicada e quer uma base estruturada com a nuvem da Microsoft. Não vale se o que você quer é um diploma que "abra portas sozinho" ou se já constrói aplicações de IA no dia a dia.
 
 Se você pesquisou "AI-900" nos últimos meses, vai encontrar muito material desatualizado. Boa parte dos cursos, simulados e vídeos ainda fala do exame antigo como se ele existisse. Este guia junta o que a Microsoft publica sobre a prova atual, o que mudou e pra quem ela faz sentido.
 
-**Um aviso de método:** isto é uma análise das páginas oficiais da Microsoft (certificação, exame, guia de estudo e políticas), não um relato de quem fez a prova. Não citamos preço de propósito: ele varia por país e a Microsoft pede que você confira no agendamento.
+**Um aviso de método:** isto é uma análise das páginas oficiais da Microsoft ([certificação](https://learn.microsoft.com/pt-br/credentials/certifications/azure-ai-fundamentals/), [exame](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/), [guia de estudo](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901) e [políticas](https://learn.microsoft.com/en-us/credentials/certifications/frequently-asked-questions)), não um relato de quem fez a prova. Não citamos preço de propósito: ele varia por país e a Microsoft pede que você confira no agendamento.
 
 ## O que aconteceu com o AI-900
 
-A página da certificação **Azure AI Fundamentals** na Microsoft Learn hoje lista um único exame obrigatório: o **AI-901**. O AI-900 saiu de linha e, segundo a própria Microsoft, depois da data de baixa vale a certificação relacionada pra saber os requisitos.
+A [página da certificação **Azure AI Fundamentals**](https://learn.microsoft.com/pt-br/credentials/certifications/azure-ai-fundamentals/) na Microsoft Learn hoje lista um único exame obrigatório: o **AI-901**. O AI-900 saiu de linha e, segundo a própria Microsoft, depois da data de baixa vale a certificação relacionada pra saber os requisitos.
 
 Na prática:
 
@@ -27,12 +27,14 @@ Na prática:
 
 ## O que o AI-901 cobra
 
-A prova se divide em dois blocos, segundo o guia de estudo oficial:
+A prova se divide em dois blocos, segundo o [guia de estudo oficial](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901) (em inglês):
 
 | Bloco | Peso | O que entra |
 |---|---|---|
 | **Identificar conceitos e capacidades de IA** | 40–45% | IA responsável (justiça, confiabilidade, privacidade, inclusão, transparência, responsabilidade), como modelos generativos funcionam, escolher modelo e configuração, cargas de trabalho como texto, fala, visão e extração de informação |
 | **Implementar soluções de IA com o Microsoft Foundry** | 55–60% | Escrever prompts de sistema e de usuário, implantar um modelo, criar um cliente de chat com o SDK, criar e testar um agente, aplicações de texto, fala, visão e extração de informação |
+
+A parte de IA responsável pesa na prova e conversa com riscos reais de segurança; se quiser um pé nisso antes de estudar, leia [o que é injeção de prompt e por que ainda não tem solução](/injecao-de-prompt-o-que-e/).
 
 O ponto que muda a conversa: **mais da metade da prova é implementação**. O guia pede, entre outras coisas, criar um cliente de chat leve com o SDK do Foundry, criar e testar um agente e extrair informação de documentos com o Content Understanding. A Microsoft também diz que o candidato deve conhecer **sintaxe de Python** e estar **familiarizado com recursos do Azure**.
 
@@ -47,20 +49,20 @@ Não existe taxa de aprovação oficial publicada, então qualquer número que c
 - **Pra quem já programa em Python e usa APIs de IA,** o bloco prático costuma ser terreno conhecido; o trabalho é aprender os nomes e o fluxo do ecossistema Azure.
 - **Pra quem nunca programou,** o salto é maior do que o nome "Fundamentals" sugere.
 
-O ponto de partida honesto é a **Avaliação Prática gratuita** da Microsoft, no AI Skills Navigator. Ela mostra o estilo das questões e onde você está. Precisa estar logado.
+O ponto de partida honesto é a **Avaliação Prática gratuita** da Microsoft, no [AI Skills Navigator](https://aiskillsnavigator.microsoft.com/credentials/cert-83587e0a0754cfee561ade3e27d9fa1cdaf15ae03be52d2413b2b858d1b4eda4). Ela mostra o estilo das questões e onde você está. Precisa estar logado.
 
 ## O que considerar no custo (sem número)
 
 - **O preço depende do país** onde a prova é feita e aparece na página do exame na hora de agendar. A Microsoft avisa que ele muda sem aviso e que não inclui impostos.
-- **Estudantes têm preço acadêmico** em alguns países, com verificação que vale 12 meses. Precisa estar verificado *antes* de pagar: não há reembolso depois.
-- **Reprovar custa de novo.** Se não passar, você espera 24 horas pra tentar de novo; entre as tentativas seguintes, 14 dias, com no máximo 5 tentativas em 12 meses. Cada nova tentativa é paga.
+- **Estudantes têm [preço acadêmico](https://learn.microsoft.com/en-us/credentials/certifications/student-discounts)** em alguns países, com verificação que vale 12 meses. Precisa estar verificado *antes* de pagar: não há reembolso depois.
+- **Reprovar custa de novo.** Pela [política de reaplicação](https://learn.microsoft.com/en-us/credentials/support/retake-policy), se não passar, você espera 24 horas pra tentar de novo; entre as tentativas seguintes, 14 dias, com no máximo 5 tentativas em 12 meses. Cada nova tentativa é paga.
 - **Sem reembolso** por reprovação nem por falta no horário marcado.
 - **Estudo e prática** tendem a custar tempo mais do que dinheiro, mas a prática em Foundry usa recursos do Azure: confira antes se sua conta cobre isso.
 
 ## Pra quem vale a pena
 
 - **Estudante ou iniciante em tecnologia** que quer um roteiro de estudo claro em IA aplicada, com uma meta e um selo no fim.
-- **Dev que está migrando pra IA** e quer organizar o que sabe de APIs e prompts num vocabulário que o mercado de nuvem reconhece.
+- **Dev que está migrando pra IA** e quer organizar o que sabe de APIs e prompts (talvez depois de aprender [hábitos pra não deixar projetos gerados por IA desmoronarem](/vibe-coding-6-habitos-sem-bagunca/)) num vocabulário que o mercado de nuvem reconhece.
 - **Quem trabalha em ambiente Microsoft/Azure** (empresa, consultoria ou time que já usa a plataforma), onde a credencial fala a língua do cliente.
 - **Profissional de áreas vizinhas** (dados, produto, suporte técnico) que precisa conversar com times de IA com mais precisão.
 
@@ -68,7 +70,7 @@ O ponto de partida honesto é a **Avaliação Prática gratuita** da Microsoft, 
 
 - **Quem espera que o certificado, sozinho, consiga emprego.** É uma credencial de entrada. Ela ajuda a mostrar que você estudou de forma estruturada, mas não substitui projeto, portfólio e experiência.
 - **Quem quer se aprofundar em machine learning.** O foco é consumir e implantar serviços e modelos, não treinar modelos do zero.
-- **Quem já constrói aplicações de IA em produção.** Você provavelmente já tem as habilidades; o selo pode servir pra requisito de empresa ou licitação, mas não vai te ensinar muito.
+- **Quem já constrói aplicações de IA em produção** e escolhe entre ferramentas como [Claude Code, Antigravity e Copilot](/claude-code-vs-antigravity-vs-copilot/). Você provavelmente já tem as habilidades; o selo pode servir pra requisito de empresa ou licitação, mas não vai te ensinar muito.
 - **Quem trabalha só com outras nuvens** e não pretende tocar em Azure. O conteúdo é específico do ecossistema Microsoft.
 
 ## Como começar sem desperdiçar tempo
