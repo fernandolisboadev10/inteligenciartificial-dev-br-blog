@@ -3,6 +3,7 @@ title: "Demos o Mesmo Prompt de Pomodoro pro DeepSeek e pro ChatGPT (Grátis). V
 description: "Mesmo prompt, palavra por palavra, os dois níveis gratuitos, zero edições depois. Testamos os dois timers Pomodoro na mão — pausar, retomar, trocar de aba — e encontramos diferenças reais no tratamento de atraso de tempo, acessibilidade e escopo."
 category: "Estudos de Caso"
 date: 2026-09-14
+translation: "deepseek-vs-chatgpt-pomodoro-timer"
 readingTime: "6 min"
 image: "./images/deepseek-vs-chatgpt-timer-pomodoro.webp"
 imageAlt: "Foto editorial em close-up de dois notebooks lado a lado numa mesa de madeira, cada tela mostrando uma interface de cronômetro regressivo desfocada, com um pequeno timer de cozinha em formato de tomate suavemente fora de foco em primeiro plano"

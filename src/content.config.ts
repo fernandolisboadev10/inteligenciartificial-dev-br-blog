@@ -16,6 +16,7 @@ const blog = defineCollection({
         'Reviews',
       ]),
       date: z.date(),
+      translation: z.string().optional(),
       readingTime: z.string().optional(),
       draft: z.boolean().optional().default(false),
       image: image().optional(),

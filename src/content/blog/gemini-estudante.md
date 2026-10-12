@@ -3,6 +3,7 @@ title: "Gemini Grátis pra Estudante no Brasil: Como Resgatar 1 Ano de Google AI
 description: "Estudante no Brasil ganha 1 ano grátis de Google AI Plus, não de Google AI Pro. Veja quem se qualifica, como resgatar em gemini.google/students, o que vem incluído, o preço depois (R$ 24,99/mês) e as pegadinhas do SheerID."
 category: "Tutoriais"
 date: 2026-09-08
+translation: "gemini-student"
 readingTime: "8 min"
 image: "./images/gemini-estudante.webp"
 imageAlt: "Foto editorial em close-up da mesa de um universitário com um notebook desfocado mostrando uma interface de chat de IA, uma carteirinha de estudante e um cartão de crédito suavemente fora de foco em primeiro plano"

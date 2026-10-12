@@ -3,6 +3,7 @@ title: "Os Modelos Sol, Terra e Luna do ChatGPT: Com Quem Você Está Falando de
 description: "Descubra o que os modelos Sol, Terra e Luna do ChatGPT realmente fazem, e veja a qual deles a sua assinatura te dá acesso."
 category: "Chatbots"
 date: 2026-09-03
+translation: "chatgpt-sol-terra-luna-models"
 readingTime: "7 min"
 image: "./images/chatgpt-modelos-sol-terra-lua.webp"
 imageAlt: "Foto editorial em close-up da tela de um notebook mostrando três janelas de conversa de chat desfocadas abertas lado a lado para comparação, com um caderno pequeno na mesa mostrando nomes de modelos escritos à mão, iluminação quente de escritório interno"

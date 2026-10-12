@@ -3,6 +3,7 @@ title: "Trump Renomeou a Inteligência Artificial para 'Super Inteligência'. O 
 description: "Uma ordem executiva de 29 de setembro de 2026 manda as agências federais dos EUA dizerem 'Super Inteligência' em vez de 'inteligência artificial'. O que ela faz de verdade, o que não faz e um checklist para devs."
 category: "Tutoriais"
 date: 2026-10-08
+translation: "trump-super-intelligence-order"
 readingTime: "8 min"
 image: "./images/trump-super-inteligencia-ordem.webp"
 imageAlt: "Foto editorial de um documento oficial assinado e uma caneta-tinteiro sobre uma mesa de madeira polida num escritório de estilo governamental, com uma bandeira americana e um notebook com editor de código desfocado ao fundo"

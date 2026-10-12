@@ -3,6 +3,7 @@ title: "Alimentamos Detectores de IA com Redações Escritas por Humanos. Eles M
 description: "Detectores de IA marcaram uma redação de 1841 e um artigo da Wikipédia de 2012 como 'falsos' no nosso próprio teste. Aqui estão os dados reais sobre falsos positivos, e como se proteger."
 category: "Tutoriais"
 date: 2026-09-08
+translation: "chatgpt-detector-false-positives"
 readingTime: "9 min"
 image: "./images/chatgpt-detector-falsos-positivos.webp"
 imageAlt: "Foto editorial em close-up de uma redação impressa com frases destacadas em vermelho e uma caneta vermelha em cima, ao lado de um notebook mostrando uma pontuação de detecção de IA desfocada"

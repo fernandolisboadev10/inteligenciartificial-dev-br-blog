@@ -3,6 +3,7 @@ title: "Claude Fable 5.1 Explicado: Benchmarks, Preços e Novidades"
 description: "O Claude Fable 5.1 da Anthropic chega com uma pontuação quase perfeita no SWE-bench e um preço mais baixo. Veja o que mudou, o que é o Mythos 5.1, e quanto custa."
 category: "Chatbots"
 date: 2026-09-07
+translation: "claude-fable-5-1"
 readingTime: "7 min"
 image: "./images/claude-fable-5-1.webp"
 imageAlt: "Foto editorial em close-up da tela do notebook de um desenvolvedor mostrando um gráfico de comparação de benchmarks de chatbots de IA desfocado, com um caderno aberto cheio de anotações de preços feitas à mão e uma xícara de café quente numa mesa de madeira, luz de dia suave"

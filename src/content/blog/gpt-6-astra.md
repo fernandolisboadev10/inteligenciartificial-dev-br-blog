@@ -3,6 +3,7 @@ title: "GPT-6 Astra Explicado: O Novo Carro-Chefe da OpenAI, Benchmarks e Preço
 description: "O GPT-6 Astra da OpenAI foi lançado em setembro de 2026 com habilidades de uso de computador e uma afirmação de AGI vinda de Greg Brockman. Veja o que ele faz, quanto custa, e o trade-off de segurança."
 category: "Chatbots"
 date: 2026-09-07
+translation: "gpt-6-astra"
 readingTime: "8 min"
 image: "./images/gpt-6-astra.webp"
 imageAlt: "Foto editorial em close-up da tela de um notebook mostrando uma janela de navegador desfocada em meio a uma ação automatizada com um cursor visível, a mão de um desenvolvedor perto do trackpad, mesa minimalista moderna, luz de dia suave pela janela"

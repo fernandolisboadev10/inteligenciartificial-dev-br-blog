@@ -3,6 +3,7 @@ title: "Vibe Coding sem Bagunça: 6 Hábitos que Evitam que Projetos Gerados por
 description: "Vibe coding te leva a 80% do caminho rápido, aí algo quebra e ninguém sabe por quê. Seis hábitos, com prompts prontos pra copiar, que mantêm um projeto feito por IA consertável."
 category: "Tutoriais"
 date: 2026-09-21
+translation: "vibe-coding-habits"
 readingTime: "6 min"
 image: "./images/vibe-coding-6-habitos-sem-bagunca.webp"
 imageAlt: "Foto editorial por cima do ombro de um jovem desenvolvedor numa mesa de madeira trabalhando num notebook com um editor de código desfocado na tela e um post-it de checklist ao lado do monitor, luz quente de janela pela manhã"
