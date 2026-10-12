@@ -1,7 +1,7 @@
 ---
 title: "12 Comandos Personalizados que Transformam o ChatGPT numa Ferramenta de Produtividade no Trabalho"
 description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de escrever e-mails genéricos e passa a montar pautas, resumos de reunião e planilhas sob demanda. Prontos pra copiar e colar."
-category: "Engenharia de Prompt"
+category: "Prompts"
 date: 2026-09-18
 readingTime: "6 min"
 image: "./images/chatgpt-comandos-produtividade.webp"

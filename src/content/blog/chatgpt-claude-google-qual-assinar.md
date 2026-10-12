@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Plus, Claude Pro ou Google AI Pro: Qual Assinar no Brasil em 2026 (e Qual Plano Mais Barato Resolve)"
 description: "Os três custam por volta de US$ 20, mas o ChatGPT e o Claude cobram em dólar com IOF, e o Google cobra em reais. Veja preço real no Brasil, o que cada plano inclui e qual faz sentido pro seu uso."
-category: "Reviews"
+category: "Ferramentas de IA"
 date: 2026-09-28
 readingTime: "8 min"
 image: "./images/chatgpt-plus-claude-pro-google-ai-pro.webp"

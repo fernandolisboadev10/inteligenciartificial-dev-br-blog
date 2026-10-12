@@ -1,7 +1,7 @@
 ---
 title: "12 Comandos Personalizados que Transformam o ChatGPT (ou Claude) num Parceiro de Código"
 description: "Configure 12 comandos no estilo slash uma vez, e a IA para de responder com textão e passa a explicar erro, revisar código, gerar testes e escrever mensagem de commit sob demanda. Prontos pra copiar e colar."
-category: "Engenharia de Prompt"
+category: "Prompts"
 date: 2026-09-28
 readingTime: "7 min"
 image: "./images/chatgpt-comandos-para-programadores.webp"

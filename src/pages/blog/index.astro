@@ -8,12 +8,12 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
 );
 
 const categories = [
-  'Engenharia de Prompt',
-  'Ferramentas de IA para Código',
+  'Chatbots',
+  'Prompts',
+  'Ferramentas de IA',
   'Tutoriais',
   'Estudos de Caso',
-  'Chatbots',
-  'Reviews',
+  'Carreira',
 ];
 ---
 <BaseLayout title="Blog" description="Artigos sobre engenharia de prompt, ferramentas de IA e fluxos de trabalho para desenvolvedores.">

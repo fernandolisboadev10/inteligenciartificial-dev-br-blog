@@ -1,7 +1,7 @@
 ---
 title: "Google Antigravity Explicado: A Ferramenta de Código com Foco em Agentes do Gemini"
 description: "O Google Antigravity substituiu o Gemini CLI em 2026. Veja o que ele realmente faz, quanto custa, e como se compara ao Gemini Code Assist e ao Jules."
-category: "Ferramentas de IA para Código"
+category: "Ferramentas de IA"
 date: 2026-09-07
 translation: "google-antigravity"
 readingTime: "7 min"

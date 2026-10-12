@@ -1,7 +1,7 @@
 ---
 title: "Claude Code, Antigravity ou Copilot: Qual Escolher pro Seu Tipo de Trabalho (e Quanto Cada Um Custa)"
 description: "Os três cobram de jeitos diferentes: cota por janela de cinco horas, cota semanal e créditos por token. Veja preço, limites e qual ferramenta de IA de código faz mais sentido pra cada perfil de dev."
-category: "Ferramentas de IA para Código"
+category: "Ferramentas de IA"
 date: 2026-09-28
 readingTime: "7 min"
 image: "./images/claude-code-vs-antigravity-vs-copilot.webp"

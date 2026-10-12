@@ -1,7 +1,7 @@
 ---
 title: "Injeção de Prompt: O Que É, Como Funciona e Por Que Ainda Não Tem Solução"
 description: "Injeção de prompt é o ataque que faz uma IA obedecer ordens escondidas em um texto comum. Entenda a diferença entre injeção direta e indireta, veja exemplos simples e saiba por que ela lidera o ranking de riscos da OWASP para LLMs."
-category: "Engenharia de Prompt"
+category: "Prompts"
 date: 2026-10-04
 readingTime: "7 min"
 image: "./images/injecao-de-prompt-o-que-e.webp"
