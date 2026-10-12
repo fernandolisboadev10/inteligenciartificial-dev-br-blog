@@ -42,6 +42,7 @@ export default defineConfig({
   ],
   integrations: [
     sitemap({
+      filter: (page) => !page.endsWith('/free-prompts/'),
       serialize(item) {
         const slug = new URL(item.url).pathname.replace(/^\/|\/$/g, '');
         const date = dateBySlug.get(slug);
