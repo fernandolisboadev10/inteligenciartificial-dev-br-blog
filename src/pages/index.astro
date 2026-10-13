@@ -2,10 +2,13 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
+import FeaturedGrid from '../components/FeaturedGrid.astro';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 6);
+  .slice(0, 9);
+const featured = posts.slice(0, 3);
+const rest = posts.slice(3);
 ---
 <BaseLayout title="Prompts de IA para Desenvolvedores">
   <section class="hero container">
@@ -35,16 +38,26 @@ $ <span class="cursor">_</span></code></pre>
     </div>
   </section>
 
+  <section class="container featured-wrap">
+    <div class="recent-header">
+      <div>
+        <h2>Em destaque</h2>
+        <span class="underline"></span>
+      </div>
+    </div>
+    <FeaturedGrid posts={featured} />
+  </section>
+
   <section class="container recent">
     <div class="recent-header">
       <div>
-        <h2>Artigos recentes</h2>
+        <h2>Últimas publicações</h2>
         <span class="underline"></span>
       </div>
       <a href="/blog">Ver todos →</a>
     </div>
     <div class="grid">
-      {posts.map((post, i) => (
+      {rest.map((post, i) => (
         <PostCard
           priority={i === 0}
           slug={post.id}
@@ -162,6 +175,10 @@ $ <span class="cursor">_</span></code></pre>
     50% {
       opacity: 0;
     }
+  }
+
+  .featured-wrap {
+    padding-block: 32px 8px;
   }
 
   .recent {
