@@ -113,6 +113,8 @@ O AI-900 saiu de cena, mas o certificado continua, agora com uma prova mais prá
 
 ## Leia Também
 
+- [Profissões de IA no Brasil: quais existem de verdade e como entrar](/profissoes-de-ia-no-brasil/)
+- [Salários de IA no Brasil: quanto ganha cada profissão](/salarios-de-ia-no-brasil/)
 - [Vibe coding sem bagunça: 6 hábitos](/vibe-coding-6-habitos-sem-bagunca/)
 - [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)
 - [Estudos de caso de ferramentas de IA pra código: quais se sustentam](/estudos-de-caso-ferramentas-ia-codigo/)
