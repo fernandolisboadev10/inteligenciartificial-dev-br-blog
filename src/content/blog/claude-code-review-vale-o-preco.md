@@ -12,7 +12,7 @@ draft: false
 
 O Claude Code é a ferramenta de IA de código que mais gera opinião forte, dos dois lados. Tem quem diga que é o primeiro assistente que parece trabalhar com um engenheiro júnior de verdade, e tem quem desista na primeira semana por bater no limite de uso. As duas coisas são verdade, e o que decide de que lado você vai ficar é o tipo de trabalho que você faz e como você gasta a cota.
 
-**Um aviso de método, antes de tudo:** este review não é o relato de um mês de uso pessoal. Ele se baseia na documentação oficial da Anthropic, na página de preços e em avaliações públicas de terceiros, e diz de onde vem cada dado. Onde a informação é opinião de outros, está marcada como tal.
+**Antes de tudo, uma ressalva:** este review não é o relato de um mês de uso pessoal. Ele se baseia na documentação oficial da Anthropic, na página de preços e em avaliações públicas de terceiros, e diz de onde vem cada dado. Onde a informação é opinião de outros, está marcada como tal.
 
 ## O que ele é, em uma frase
 

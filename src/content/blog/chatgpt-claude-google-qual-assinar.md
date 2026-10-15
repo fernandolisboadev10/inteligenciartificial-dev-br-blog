@@ -12,7 +12,7 @@ draft: false
 
 Assinar uma IA paga parece uma decisão simples, porque os três nomes mais conhecidos cobram quase o mesmo: cerca de US$ 20 por mês. Só que, no Brasil, esse "quase o mesmo" esconde diferenças que pesam na fatura. Um cobra em dólar e soma IOF. Outro cobra em reais. E os planos mais baratos, que muita gente nem olha, podem resolver o que você realmente faz.
 
-Este guia junta o que cada empresa divulga nas páginas oficiais e o que a imprensa brasileira levantou sobre preços em reais. **Um aviso de método:** não é uma análise de uso de longo prazo. Não usamos os três planos durante meses, então o que segue é um comparativo de planos, preços e limites, e não um veredito de qualidade das respostas. Onde o dado é aproximado, dizemos.
+Este guia junta o que cada empresa divulga nas páginas oficiais e o que a imprensa brasileira levantou sobre preços em reais. **Vale deixar claro:** não é uma análise de uso de longo prazo. Não usamos os três planos durante meses, então o que segue é um comparativo de planos, preços e limites, e não um veredito de qualidade das respostas. Onde o dado é aproximado, dizemos.
 
 ## O que muda no Brasil: dólar, IOF e real
 

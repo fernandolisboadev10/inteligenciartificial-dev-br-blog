@@ -8,9 +8,9 @@ image: "./images/salarios-de-ia-no-brasil.webp"
 imageAlt: "Profissional brasileiro pensativo diante de um notebook com planilhas e gráficos de salários, caderno com anotações e uma xícara de café em um coworking com vista para a cidade"
 ---
 
-**Resposta rápida:** em 2026, quem trabalha com IA e dados no Brasil em regime CLT costuma estar entre **R$ 5 mil e R$ 9 mil no início**, **R$ 9 mil a R$ 15 mil no nível pleno** e **acima de R$ 15 mil no sênior**, com topo de mercado passando de R$ 25 mil em engenharia de IA. Mas o número depende muito da fonte: o guia da Robert Half (salários de contratação) e os dados do CAGED (todas as admissões CLT) mostram valores bem diferentes para o mesmo cargo. Abaixo você vê as duas leituras lado a lado.
+**Em resumo:** em 2026, quem trabalha com IA e dados no Brasil em regime CLT costuma estar entre **R$ 5 mil e R$ 9 mil no início**, **R$ 9 mil a R$ 15 mil no nível pleno** e **acima de R$ 15 mil no sênior**, com topo de mercado passando de R$ 25 mil em engenharia de IA. Mas o número depende muito da fonte: o guia da Robert Half (salários de contratação) e os dados do CAGED (todas as admissões CLT) mostram valores bem diferentes para o mesmo cargo. Abaixo você vê as duas leituras lado a lado.
 
-**Um aviso de método:** estas faixas são **referências, não promessas**. Reunimos números publicados por fontes identificáveis, com a data de coleta ao lado de cada uma (consultas feitas em 14 de outubro de 2026). Cada pesquisa usa metodologia própria, então não some nem compare linha a linha sem ler a nota. Onde não achamos dado confiável, dizemos isso. Nenhuma faixa aqui foi estimada por nós.
+**Sobre os números:** estas faixas são **referências, não promessas**. Reunimos números publicados por fontes identificáveis, com a data de coleta ao lado de cada uma (consultas feitas em 14 de outubro de 2026). Cada pesquisa usa metodologia própria, então não some nem compare linha a linha sem ler a nota. Onde não achamos dado confiável, dizemos isso. Nenhuma faixa aqui foi estimada por nós.
 
 ## Duas réguas para o mesmo mercado
 

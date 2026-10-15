@@ -8,9 +8,9 @@ image: "./images/profissoes-de-ia-no-brasil.webp"
 imageAlt: "Profissional pensativo diante de um notebook com o ChatGPT na tela em um escritório moderno com colegas ao fundo"
 ---
 
-**Resposta rápida:** "trabalhar com IA" não é uma profissão só. No Brasil de 2026, o mercado nomeia pelo menos sete funções diferentes, e os títulos se misturam de empresa pra empresa. As que têm mais demanda aparente são as de **engenharia** (engenheiro de IA, engenheiro de dados, MLOps), porque alguém precisa colocar modelos pra funcionar dentro de sistemas reais. Dá pra entrar vindo de programação, dados, produto ou até direito, mas cada porta pede uma base diferente.
+**Em resumo:** "trabalhar com IA" não é uma profissão só. No Brasil de 2026, o mercado nomeia pelo menos sete funções diferentes, e os títulos se misturam de empresa pra empresa. As que têm mais demanda aparente são as de **engenharia** (engenheiro de IA, engenheiro de dados, MLOps), porque alguém precisa colocar modelos pra funcionar dentro de sistemas reais. Dá pra entrar vindo de programação, dados, produto ou até direito, mas cada porta pede uma base diferente.
 
-**Um aviso de método:** este texto é uma análise qualitativa. Os dados confiáveis e públicos sobre vagas de IA no Brasil são escassos e quase sempre vêm de rankings de plataformas, não de estatística oficial. Onde existe um número com fonte, eu cito. Onde não existe, eu digo que não existe. Faixas de salário ficam para o artigo irmão, [quanto ganha cada uma](/salarios-de-ia-no-brasil/).
+**Sobre os dados:** este texto é uma análise qualitativa. Os dados confiáveis e públicos sobre vagas de IA no Brasil são escassos e quase sempre vêm de rankings de plataformas, não de estatística oficial. Onde existe um número com fonte, eu cito. Onde não existe, eu digo que não existe. Faixas de salário ficam para o artigo irmão, [quanto ganha cada uma](/salarios-de-ia-no-brasil/).
 
 ## O que os dados disponíveis dizem (e o que não dizem)
 
