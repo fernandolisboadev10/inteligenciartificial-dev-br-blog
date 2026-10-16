@@ -1,6 +1,6 @@
 ---
-title: "Claude Code Mods: a Anthropic Deixou Você Reescrever o Agente com TypeScript. Veja o Que Dá Para Fazer e o Risco Que Vem Junto."
-description: "A Anthropic lançou os mods do Claude Code, pequenas funções em TypeScript que reescrevem prompts, bloqueiam chamadas de ferramenta, decidem permissões e redigem segredos. Entenda como funcionam, o que dá para construir e um checklist de segurança antes de instalar o primeiro."
+title: "Claude Code Mods: o que são, como instalar e os riscos"
+description: "Claude Code mods são funções em TypeScript que mudam o agente. Veja como instalar, o que dá para fazer e o checklist de segurança antes do primeiro."
 category: "Ferramentas de IA"
 date: 2026-10-03
 translation: "claude-code-mods"
@@ -10,11 +10,11 @@ imageAlt: "Ilustração de uma janela de terminal com um trecho de código TypeS
 draft: false
 ---
 
-Até esta semana, mudar o comportamento do Claude Code significava mexer em arquivos de configuração, escrever scripts de shell e torcer para o evento certo existir. Em 1º de outubro de 2026, a Anthropic abriu outra porta: os **mods**, pequenas funções em TypeScript que se encaixam nos eventos internos do agente e mudam o que ele faz.
+Até esta semana, mudar o comportamento do Claude Code significava mexer em arquivos de configuração, escrever scripts de shell e torcer para o evento certo existir. Em 1º de outubro de 2026, a Anthropic abriu outra porta: os **Claude Code mods**, pequenas funções em TypeScript que se encaixam nos eventos internos do agente e mudam o que ele faz.
 
 A ideia é simples de explicar e grande nas consequências. O Claude Code deixa de ser só uma ferramenta que você usa e passa a ser uma ferramenta que você programa. Este artigo explica o que são os mods, o que eles conseguem fazer, como começar e, principalmente, por que você precisa tratar cada mod como um programa instalado na sua máquina.
 
-## O Que São os Mods
+## O Que São os Claude Code Mods
 
 Segundo o [anúncio oficial da Anthropic](https://claude.com/blog/claude-code-mods), um mod pode reescrever um prompt, adicionar uma interface nova, substituir um recurso embutido ou criar uma funcionalidade inteira. Eles funcionam ligando-se a eventos que o Claude Code emite durante o trabalho, e vários mods podem ser empilhados, rodando na ordem em que foram carregados.
 
@@ -28,7 +28,7 @@ Na prática, um único mod pode:
 
 Outro ponto que chama atenção: a própria Anthropic converteu três recursos que já eram do produto, o painel de diff, o carregador de `agents.md` e a telemetria, em mods. Isso indica que o sistema é infraestrutura de verdade, e não um experimento de fim de semana.
 
-## Como Instalar e Onde Funciona
+## Como Instalar os Mods do Claude Code
 
 Os mods viajam dentro de plugins, então a instalação segue o fluxo que você já conhece. De acordo com a [cobertura da Cellcog](https://cellcog.ai/blog/claude-code-mods/), os requisitos são:
 
@@ -100,6 +100,23 @@ Este é o processo mínimo que eu seguiria antes de instalar qualquer mod que n�
 ## Atenção Com Material Desencontrado
 
 Como o lançamento é muito recente, já circulam guias de terceiros com detalhes diferentes entre si, como nomes de eventos e flags de ativação que não aparecem no anúncio oficial. Trate esses detalhes com cuidado e confirme na documentação da Anthropic antes de copiar código de blog, incluindo este. Neste artigo usei só o que aparece no anúncio oficial e nas coberturas que o confirmam.
+
+## Perguntas Frequentes sobre os Claude Code Mods
+
+**O que são os Claude Code mods?**
+São pequenas funções em TypeScript que se ligam aos eventos do Claude Code e mudam o que ele faz: reescrever prompts, bloquear ferramentas, decidir permissões e editar a interface.
+
+**Como instalar um mod no Claude Code?**
+Os mods viajam dentro de plugins. Use `/plugin install nome@marketplace` e recarregue com `/reload-plugins`, numa versão 2.1.287 ou superior, no terminal ou na aba Code do app desktop.
+
+**Os mods do Claude Code são seguros?**
+Depende da origem. Um mod roda com as mesmas permissões do Claude Code e sem sandbox, então leia o código e valide com `claude plugin validate` antes de instalar.
+
+**Como desligar todos os mods?**
+Abra a sessão com `--safe-mode` ou use `disableAllHooks` para desligá-los globalmente.
+
+**Preciso saber programar para usar mods?**
+Não necessariamente. A Anthropic diz que dá para pedir ao próprio Claude que gere, instale e recarregue o mod na mesma sessão. Mesmo assim, peça para ver o código antes de aprovar.
 
 ## O Que Levar Daqui
 

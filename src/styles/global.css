@@ -13,6 +13,8 @@
   --violet-deep: #0a7a3d;
   --link-line: rgba(14, 204, 90, 0.2);
   --link-text: #0a7a3d;
+  --code-bg: #d1fae5;
+  --code-ink: #064e2b;
 
   --rose: #064e2b;
   --rose-soft: #34d399;
@@ -45,6 +47,8 @@
     --violet-deep: #17e068;
   --link-line: rgba(14, 204, 90, 0.24);
   --link-text: var(--violet);
+    --code-bg: rgba(14, 204, 90, 0.16);
+    --code-ink: #bbf7d0;
 
     --rose: #34d399;
     --rose-soft: #6ee7a8;
@@ -68,6 +72,8 @@
   --violet-deep: #17e068;
   --link-line: rgba(14, 204, 90, 0.24);
   --link-text: var(--violet);
+  --code-bg: rgba(14, 204, 90, 0.16);
+  --code-ink: #bbf7d0;
 
   --rose: #34d399;
   --rose-soft: #6ee7a8;
@@ -199,7 +205,8 @@ img {
 
 .prose code {
   font-family: var(--font-mono);
-  background: #d1fae5;
+  background: var(--code-bg);
+  color: var(--code-ink);
   padding: 2px 6px;
   border-radius: 3px;
   font-size: 0.9em;
@@ -207,6 +214,7 @@ img {
 
 .prose pre code {
   background: none;
+  color: inherit;
   padding: 0;
 }
 
