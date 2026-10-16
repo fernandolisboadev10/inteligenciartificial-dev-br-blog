@@ -5,7 +5,7 @@ const whatsappNumber = '5599984912523';
 const whatsappDisplay = '(99) 98491-2523';
 const contactEmail = 'inteligenciartificial.dev@gmail.com';
 ---
-<BaseLayout title="Contate-nos" description="Fale com o Inteligência Artificial Dev por WhatsApp, e-mail ou pelo formulário de contato.">
+<BaseLayout title="Contate-nos" description="Fale com o Inteligência Artificial Dev por WhatsApp ou e-mail.">
   <section class="container contact">
     <h1>Contate-nos</h1>
 
@@ -26,17 +26,13 @@ const contactEmail = 'inteligenciartificial.dev@gmail.com';
         </a>
       </div>
 
-      <!--
-        Sem backend próprio (site estático) — este formulário precisa apontar
-        pro endpoint de um serviço externo (ex.: Formspree). Troque a `action`
-        abaixo pelo endpoint real quando escolher um.
-      -->
-      <form class="form" action="https://formspree.io/f/your-form-id" method="POST">
-        <input type="text" name="name" placeholder="Nome" required aria-label="Nome" />
-        <input type="email" name="email" placeholder="E-mail" required aria-label="E-mail" />
-        <textarea name="message" placeholder="Mensagem" rows="6" required aria-label="Mensagem"></textarea>
-        <button type="submit" class="button button-primary">Enviar</button>
-      </form>
+      <div class="form">
+        <p>
+          Tem uma dúvida, sugestão de pauta, correção ou proposta de parceria?
+          Escreva para nós por e-mail ou WhatsApp e respondemos o mais rápido possível.
+        </p>
+        <a class="button button-primary" href={`mailto:${contactEmail}`}>Enviar e-mail</a>
+      </div>
     </div>
   </section>
 </BaseLayout>

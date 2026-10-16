@@ -1,6 +1,4 @@
 ---
-import NewsletterForm from './NewsletterForm.astro';
-
 const categories = [
   { label: 'Início', href: '/' },
   { label: 'Chatbots', href: '/blog?category=Chatbots' },
@@ -50,11 +48,6 @@ const quickLinks = [
       </ul>
     </div>
 
-    <div>
-      <p class="col-title">Newsletter</p>
-      <p class="newsletter-copy">Assine nossa newsletter e receba novidades, notícias e prompts gratuitos.</p>
-      <NewsletterForm compact />
-    </div>
   </div>
 
   <div class="bottom">
@@ -78,7 +71,7 @@ const quickLinks = [
 
   .grid {
     display: grid;
-    grid-template-columns: 1.4fr 0.9fr 1.5fr 1.2fr;
+    grid-template-columns: 1.6fr 0.9fr 1.5fr;
     gap: 40px;
     padding-block: 56px 40px;
   }
