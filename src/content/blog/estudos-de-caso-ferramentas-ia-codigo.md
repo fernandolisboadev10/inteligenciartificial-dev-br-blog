@@ -32,7 +32,7 @@ O número que a OpenAI usa como carro-chefe, porém, é uma estatística de uso:
 
 ## GitHub Copilot (Microsoft): A Evidência Mais Contestada, o Que a Torna a Mais Honesta
 
-A própria pesquisa do GitHub, feita em parceria com a Accenture, reporta ganhos operacionais reais: o tempo médio até abrir um pull request caiu de 9,6 dias pra 2,4 dias, o volume de PRs subiu 10,6%, e o tempo de ciclo caiu 3,5 horas. Dados de pesquisa por cima disso mostram satisfação alta, 88% dizem que completam tarefas mais rápido, 90% se sentem mais realizados no trabalho, 73% relatam ficar mais tempo em estado de flow.
+A própria pesquisa do GitHub, feita em parceria com a Accenture, reporta ganhos operacionais: o número de builds bem-sucedidos subiu 84%, os desenvolvedores aceitaram cerca de 30% das sugestões e mantiveram 88% dos caracteres gerados no editor. Os dados de pesquisa por cima disso mostram satisfação alta: 90% dizem ter se sentido mais realizados no trabalho e 95% afirmam que gostaram mais de programar. A página não informa o tamanho da amostra, e isso pesa na hora de avaliar. Números como a queda do tempo de abertura de pull request de 9,6 para 2,4 dias circulam atribuídos a esse estudo, mas não aparecem na página oficial, então não os usamos aqui.
 
 Aqui está o que diferencia o Copilot das outras três ferramentas: existe um [estudo de caso longitudinal independente, com metodologia mista e sem financiamento de fornecedor, publicado no arXiv](https://arxiv.org/abs/2509.20353), que analisou produtividade de desenvolvedores com e sem o Copilot, e não encontrou mudança estatisticamente significativa na atividade de commits depois da adoção. Isso contradiz diretamente os números de satisfação, e é um dado genuinamente útil justamente porque ninguém da Microsoft assinou embaixo dele. Desenvolvedor *sentir* que está mais produtivo e desenvolvedor *entregar* mensuravelmente mais estão se mostrando duas afirmações diferentes, e o Copilot é a única das quatro ferramentas em que um estudo externo de fato testou essa lacuna.
 
@@ -73,7 +73,7 @@ Parte disso é simplesmente uma questão de idade: o Antigravity foi lançado em
       </tr>
       <tr style="border-bottom:1px solid #eee;">
         <td style="padding:12px 16px;font-weight:600;">GitHub Copilot</td>
-        <td style="padding:12px 16px;">Tempo de PR caiu de 9,6 pra 2,4 dias</td>
+        <td style="padding:12px 16px;">Builds bem-sucedidos subiram 84% (estudo com a Accenture)</td>
         <td style="padding:12px 16px;">Sim (arXiv, resultado misto)</td>
         <td style="padding:12px 16px;font-weight:600;color:var(--teal);">A-</td>
       </tr>
@@ -105,7 +105,7 @@ Um checklist de cinco perguntas que continua valendo não importa quais ferramen
 
 1. **Quem publicou?** Uma página de cliente hospedada no domínio do próprio fornecedor é, antes de tudo, texto de marketing. Trate todo número dela como o melhor cenário possível, não a média.
 2. **O que está sendo medido de verdade?** Fatia de uso, pesquisa de satisfação e qualidade do código entregue são três coisas diferentes. Saiba qual delas está por trás do número de destaque.
-3. **Existe uma base de comparação?** "88% dizem que estão mais rápidos" é uma sensação. "O tempo de abertura de PR caiu de 9,6 pra 2,4 dias" é uma medição. Só uma das duas pode estar errada de um jeito que você perceberia.
+3. **Existe uma base de comparação?** "90% dizem que se sentem mais realizados" é uma sensação. "O número de builds bem-sucedidos subiu 84%" é uma medição. Só uma das duas pode estar errada de um jeito que você perceberia.
 4. **Existe algum estudo independente pra essa ferramenta?** Procure especificamente por ele. A existência importa mais do que a conclusão.
 5. **O que não foi mencionado?** Nenhuma divulgação de segurança, nenhuma certificação de compliance, nenhum caso de falha, num produto novo ou em crescimento acelerado, isso costuma ser uma lacuna na evidência, não prova de que não há nada a reportar.
 
@@ -137,7 +137,7 @@ Colocando os estudos de caso das quatro maiores ferramentas de IA de código lad
 
 ---
 
-*Fontes: [Anthropic — Estudo de caso Classmethod](https://claude.com/customers/classmethod), [Anthropic — Estudo de caso HubSpot](https://claude.com/customers/hubspot), [Anthropic — Como a IA está transformando o trabalho na Anthropic](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic), [OpenAI — Da assistência à execução: como empresas colocam a IA pra trabalhar](https://openai.com/index/how-enterprises-put-ai-to-work/), [RuntimeWire — Basis, Clay e Exa sobre fluxos de agente do Codex da OpenAI](https://runtimewire.com/article/basis-clay-exa-agent-workflows-openai-codex), [Blog do GitHub — Quantificando o impacto do Copilot com a Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise/), [arXiv — Produtividade de Desenvolvedores Com e Sem o GitHub Copilot](https://arxiv.org/abs/2509.20353), [Blog do Google Cloud — Expandindo o Antigravity pra empresas](https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers/), [Augment Code — Antigravity vs. Gemini Code Assist](https://www.augmentcode.com/tools/google-antigravity-vs-gemini-code-assist).*
+*Fontes: [Anthropic — Estudo de caso Classmethod](https://claude.com/customers/classmethod), [Anthropic — Estudo de caso HubSpot](https://claude.com/customers/hubspot), [Anthropic — Como a IA está transformando o trabalho na Anthropic](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic), [OpenAI — Da assistência à execução: como empresas colocam a IA pra trabalhar](https://openai.com/index/how-enterprises-put-ai-to-work/), [RuntimeWire — Basis, Clay e Exa sobre fluxos de agente do Codex da OpenAI](https://runtimewire.com/article/basis-clay-exa-agent-workflows-openai-codex), [Blog do GitHub — Quantificando o impacto do Copilot com a Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/), [arXiv — Produtividade de Desenvolvedores Com e Sem o GitHub Copilot](https://arxiv.org/abs/2509.20353), [Blog do Google Cloud — Expandindo o Antigravity pra empresas](https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers/), [Augment Code — Antigravity vs. Gemini Code Assist](https://www.augmentcode.com/tools/google-antigravity-vs-gemini-code-assist).*
 
 ## Leia Também
 
