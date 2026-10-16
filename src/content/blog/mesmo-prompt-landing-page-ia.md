@@ -95,7 +95,7 @@ O custo foi o que mais destoou. O GPT-6 Luna gerou a página inteira por meio ce
 
 Preenchemos o formulário vazio, com e-mail inválido, com data no passado e, por fim, com dados corretos.
 
-- **Claude:** mostra uma mensagem de erro por campo ("Informe seu nome.", "Escolha a data da reserva."), marca os campos com `aria-invalid` e, na confirmação, esconde o formulário e mostra "Reserva confirmada".
+- **Claude:** mostra uma mensagem de erro por campo ("Informe seu nome.", "Escolha a data da reserva."), marca os campos com [`aria-invalid`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid) e, na confirmação, esconde o formulário e mostra "Reserva confirmada".
 - **Gemini:** também valida campo por campo, com as mensagens mais detalhadas das quatro ("Insira um e-mail válido (ex: nome@dominio.com)", "Selecione uma data a partir de hoje").
 - **DeepSeek:** validação própria com uma mensagem por campo, e uma confirmação que repete o número de pessoas, a data e o e-mail digitado.
 - **GPT-6 Luna:** usa só a validação nativa do navegador. Funciona, e rejeitou e-mail inválido e data passada, mas não escreve nenhuma mensagem própria, então o texto do erro depende do navegador e do idioma dele.
@@ -157,7 +157,7 @@ Aqui as quatro páginas ficaram mais distantes, e é o tipo de coisa que quase n
   </table>
 </div>
 
-O Claude foi o único a incluir o link de pular navegação, e junto com o DeepSeek foi o que marcou os campos com erro pra leitores de tela. O Gemini foi o mais enxuto: cerca de seis atributos de acessibilidade no arquivo inteiro, o botão de menu sem indicar se está aberto ou fechado, e nenhuma preocupação com quem desativa animações no sistema. A contagem de atributos é uma medida grosseira, e o número maior não garante uma página melhor, mas a diferença de 50 pra 6 se confirma nos itens individuais da tabela.
+O Claude foi o único a incluir o [link de pular navegação](https://www.w3.org/WAI/WCAG22/Techniques/general/G1), e junto com o DeepSeek foi o que marcou os campos com erro pra leitores de tela. O Gemini foi o mais enxuto: cerca de seis atributos de acessibilidade no arquivo inteiro, o botão de menu sem indicar se está aberto ou fechado ([`aria-expanded`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-expanded)), e nenhuma preocupação com quem desativa animações no sistema ([`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)). A contagem de atributos é uma medida grosseira, e o número maior não garante uma página melhor, mas a diferença de 50 pra 6 se confirma nos itens individuais da tabela.
 
 Essa é a lição que o teste deixa: a página do Gemini parece tão boa quanto a das outras quando você olha, e é exatamente por isso que a diferença passa despercebida.
 

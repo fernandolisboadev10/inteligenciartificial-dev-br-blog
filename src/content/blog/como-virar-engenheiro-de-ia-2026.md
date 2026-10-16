@@ -49,7 +49,7 @@ Python até o conforto com funções, classes, arquivos, JSON, `requests`, ambie
 
 ### 2. APIs de LLM (3 a 4 semanas)
 
-Chame um modelo por API, controle `system prompt`, temperatura e tamanho de contexto, receba **saída estruturada** (JSON validado, por exemplo com Pydantic) e use streaming. Entenda tokens, porque é neles que vem a conta. Teste mais de um provedor para sentir a diferença de qualidade, preço e limite.
+Chame um modelo por API, controle `system prompt`, temperatura e tamanho de contexto, receba [**saída estruturada**](https://developers.openai.com/api/docs/guides/structured-outputs) (JSON validado, por exemplo com Pydantic) e use streaming. Entenda tokens, porque é neles que vem a conta. Teste mais de um provedor para sentir a diferença de qualidade, preço e limite.
 
 Aqui entra uma disciplina que quase todo iniciante pula: **versionar prompts** e guardar os casos que deram errado.
 
@@ -57,13 +57,13 @@ Aqui entra uma disciplina que quase todo iniciante pula: **versionar prompts** e
 
 ### 3. RAG (4 a 6 semanas)
 
-Receita básica: dividir documentos em trechos, gerar embeddings, guardar num banco vetorial (pgvector, Qdrant, Chroma, o que combinar com seu projeto), buscar os trechos relevantes e passar ao modelo com a pergunta. O difícil não é montar, é **fazer funcionar bem**: tamanho do trecho, busca híbrida (palavra-chave mais vetor), reordenação, citação da fonte e a resposta honesta "não achei isso nos documentos".
+Receita básica: dividir documentos em trechos, gerar embeddings, guardar num banco vetorial ([pgvector](https://github.com/pgvector/pgvector), Qdrant, Chroma, o que combinar com seu projeto), buscar os trechos relevantes e passar ao modelo com a pergunta. O difícil não é montar, é **fazer funcionar bem**: tamanho do trecho, busca híbrida (palavra-chave mais vetor), reordenação, citação da fonte e a resposta honesta "não achei isso nos documentos".
 
 **Marco:** um assistente sobre um conjunto real de documentos (legislação, manual, documentação técnica) que cita de qual trecho tirou cada resposta.
 
 ### 4. Agentes e uso de ferramentas (4 a 6 semanas)
 
-Tool calling é o núcleo: o modelo decide chamar uma função, você executa, devolve o resultado e o ciclo continua. Comece escrevendo o laço você mesmo, sem framework, para entender o que acontece. Depois, se fizer sentido, adote LangGraph ou similar. Estude também o protocolo MCP, que virou a forma comum de plugar ferramentas em agentes.
+[Tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview) é o núcleo: o modelo decide chamar uma função, você executa, devolve o resultado e o ciclo continua. Comece escrevendo o laço você mesmo, sem framework, para entender o que acontece. Depois, se fizer sentido, adote LangGraph ou similar. Estude também o [protocolo MCP](https://modelcontextprotocol.io/docs/getting-started/intro), que virou a forma comum de plugar ferramentas em agentes.
 
 E leve a sério a segurança desde já: um agente com acesso a ferramentas é um alvo. Leia [injeção de prompt: o que é](/injecao-de-prompt-o-que-e/) e [segurança de MCP em agentes de código](/mcp-seguranca-agentes-de-codigo/) antes de dar permissão de escrita a qualquer coisa.
 
@@ -77,7 +77,7 @@ Esta é a etapa que separa quem brinca de quem trabalha. Monte um **conjunto de 
 
 ### 6. Deploy, custo e observabilidade (3 a 4 semanas)
 
-Contêiner com Docker, API com FastAPI (ou equivalente), variáveis de ambiente para chaves, fila para tarefas longas, cache, limites de uso, logs de entrada e saída (cuidando de dados pessoais, por causa da LGPD) e alertas. Aprenda a reduzir custo: modelo menor onde dá, cache de resposta, contexto enxuto. Rode em uma nuvem qualquer; saber AWS, Azure ou GCP aparece bastante nas vagas. Se quiser um degrau estruturado em nuvem, veja se a [certificação AI-900/AI-901](/ai-900-ai-901-vale-a-pena/) faz sentido para você, sabendo que ela ajuda na conversa, mas não substitui projeto.
+Contêiner com Docker, API com FastAPI (ou equivalente), variáveis de ambiente para chaves, fila para tarefas longas, cache, limites de uso, logs de entrada e saída (cuidando de dados pessoais, por causa da LGPD) e alertas. Aprenda a reduzir custo: modelo menor onde dá, cache de resposta, contexto enxuto. Rode em uma nuvem qualquer; saber AWS, Azure ou GCP aparece bastante nas vagas. Se quiser um degrau estruturado em nuvem, veja se a [certificação AI-900/AI-901](/ai-900-ai-901-vale-a-pena/) faz sentido para você, sabendo (a [página oficial da Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) mostra o exame atual) que ela ajuda na conversa, mas não substitui projeto.
 
 **Marco:** um dos seus projetos acessível por URL pública, com README explicando custo mensal.
 

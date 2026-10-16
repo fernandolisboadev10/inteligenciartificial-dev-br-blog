@@ -71,7 +71,7 @@ Depois de cada passo que funcionar, rode:
 git commit -m "Add the save button"</code></pre>
 </div>
 
-Quando um prompt dá errado e você ainda não commitou o resultado, isso descarta as mudanças não commitadas nos arquivos que o Git já rastreia e te coloca de volta no seu último save:
+Quando um prompt dá errado e você ainda não commitou o resultado, o [`git restore`](https://git-scm.com/docs/git-restore) descarta as mudanças não commitadas nos arquivos que o Git já rastreia e te coloca de volta no seu último save (na prática, o estado do último `git add` ou commit, o que vier por último):
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -88,7 +88,7 @@ Cuidado: isso realmente descarta essas mudanças, então é pra "essa tentativa 
 
 Mais cedo ou mais tarde seu projeto vai precisar de uma API key, uma senha de banco de dados, ou um token. O erro a evitar é colar isso no chat ou fixar no código, porque a IA vai escrever isso direto no seu código-fonte com todo gosto, e código-fonte acaba no GitHub.
 
-Coloque segredos num arquivo `.env`, e garanta que `.env` está listado no `.gitignore` **antes** do seu primeiro commit, não depois. Diga pra IA que essa é a regra:
+Coloque segredos num arquivo `.env`, e garanta que `.env` está listado no [`.gitignore`](https://git-scm.com/docs/gitignore) **antes** do seu primeiro commit, não depois. Diga pra IA que essa é a regra:
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -102,7 +102,7 @@ is in .gitignore, and add a .env.example with the variable names
 but no values.</code></pre>
 </div>
 
-Se uma chave chegar a ser commitada ou colada em algum lugar público, não basta apagar ela do arquivo. Trate como comprometida: revogue no painel do provedor e crie uma nova, porque o histórico do Git e repositórios públicos guardam o valor antigo.
+Se uma chave chegar a ser commitada ou colada em algum lugar público, não basta apagar ela do arquivo. Trate como comprometida: [revogue no painel do provedor e crie uma nova](https://docs.github.com/en/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/remediating-a-leaked-secret), porque o histórico do Git e repositórios públicos guardam o valor antigo.
 
 ## 5. Faça a IA Revisar o Próprio Trabalho
 
