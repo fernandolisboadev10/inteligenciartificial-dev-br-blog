@@ -1,11 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import DocLayout from '../layouts/DocLayout.astro';
 ---
 <BaseLayout title="Transparência" description="Como o Inteligência Artificial Dev garante fontes confiáveis, independência editorial e correção transparente de conteúdo.">
-  <section class="container legal-page">
-    <h1>Transparência</h1>
-
-    <div class="prose">
+  <DocLayout title="Transparência">
       <p>
         Bem-vindo ao Inteligência Artificial Dev, um espaço dedicado ao
         universo em constante transformação da tecnologia e da inteligência
@@ -98,13 +96,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         Atenciosamente,<br />
         Equipe Inteligência Artificial Dev
       </p>
-    </div>
-  </section>
+  </DocLayout>
 </BaseLayout>
-
-<style>
-  .legal-page {
-    padding-block: 56px 80px;
-    max-width: 68ch;
-  }
-</style>

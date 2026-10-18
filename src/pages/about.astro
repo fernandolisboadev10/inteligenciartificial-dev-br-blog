@@ -1,10 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import DocLayout from '../layouts/DocLayout.astro';
 ---
 <BaseLayout title="Sobre Nós" description="Conheça o Inteligência Artificial Dev, portal criado por Fernando Lisboa sobre inteligência artificial para estudantes, profissionais e entusiastas de tecnologia.">
-  <section class="container about">
-    <h1>Sobre Nós</h1>
-    <div class="prose">
+  <DocLayout title="Sobre Nós">
       <p>
         O Inteligência Artificial Dev é um portal criado por Fernando
         Lisboa, redator profissional, professor e consultor de IA, com o
@@ -27,17 +26,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         quiser falar conosco, visite nossa <a href="/contact">página de
         contato</a>.
       </p>
-    </div>
-  </section>
+  </DocLayout>
 </BaseLayout>
-
-<style>
-  .about {
-    padding-block: 56px 80px;
-    max-width: 68ch;
-  }
-
-  .about h1 {
-    margin-bottom: 32px;
-  }
-</style>

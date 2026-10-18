@@ -1,4 +1,6 @@
 ---
+import Brand from './Brand.astro';
+
 const categories = [
   { label: 'Início', href: '/' },
   { label: 'Chatbots', href: '/blog?category=Chatbots' },
@@ -18,10 +20,7 @@ const quickLinks = [
 <footer class="site-footer">
   <div class="container grid">
     <div class="about-col">
-      <a href="/" class="brand">
-        <img src="/images/robot-logo.png" alt="" width="26" height="26" />
-        <span class="brand-text"><span class="brand-gradient">Inteligência Artificial</span><span class="brand-divider">|</span>Dev</span>
-      </a>
+      <Brand size={26} />
       <p class="tagline">
         Inteligência Artificial Dev é seu guia prático de engenharia de
         prompt e ferramentas de IA para desenvolvedores. Entregamos prompts
@@ -67,41 +66,19 @@ const quickLinks = [
 <style>
   .site-footer {
     margin-top: 80px;
+    border-top: 1px solid var(--line);
+    background: var(--surface);
   }
 
   .grid {
     display: grid;
     grid-template-columns: 1.6fr 0.9fr 1.5fr;
     gap: 40px;
-    padding-block: 56px 40px;
+    padding-block: 52px 40px;
   }
 
-  .brand {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
+  .about-col :global(.brand) {
     margin: 0 0 16px;
-  }
-
-  .brand-text {
-    font-family: var(--font-mono);
-    font-weight: 700;
-    font-size: 0.9rem;
-    letter-spacing: 0.01em;
-    color: var(--ink-strong);
-  }
-
-  .brand-gradient {
-    background: linear-gradient(135deg, var(--violet), var(--rose));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-
-  .brand-divider {
-    margin: 0 6px;
-    color: var(--line);
   }
 
   .tagline {
@@ -112,29 +89,18 @@ const quickLinks = [
   }
 
   .col-title {
-    position: relative;
-    font-size: 0.95rem;
+    margin: 0 0 18px;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
     color: var(--ink-strong);
-    font-weight: 700;
-    margin: 0 0 20px;
-    padding-bottom: 12px;
   }
 
-  .col-title::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 32px;
-    height: 3px;
-    border-radius: 2px;
-    background: linear-gradient(135deg, var(--violet), var(--rose));
-  }
-
-  .newsletter-copy {
-    color: var(--ink-soft);
-    font-size: 0.9rem;
-    margin: 0 0 16px;
+  .col-title::before {
+    content: '// ';
+    color: var(--link-text);
   }
 
   ul {
@@ -157,10 +123,11 @@ const quickLinks = [
     text-decoration: none;
     color: var(--ink-soft);
     font-size: 0.9rem;
+    transition: color 0.15s ease;
   }
 
   ul a:hover {
-    color: var(--teal);
+    color: var(--link-text);
   }
 
   .bottom {
@@ -173,13 +140,15 @@ const quickLinks = [
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 12px;
-    padding-block: 20px;
+    padding-block: 18px;
   }
 
   .bottom-inner p {
     margin: 0;
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.75);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.7);
   }
 
   .legal-links {
@@ -190,8 +159,10 @@ const quickLinks = [
 
   .legal-links a {
     text-decoration: none;
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.75);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.7);
   }
 
   .legal-links a:hover {

@@ -1,14 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import DocLayout from '../layouts/DocLayout.astro';
 
 const lastUpdated = '7 de setembro de 2026';
 ---
 <BaseLayout title="Política de Cookies" description="Como o Inteligência Artificial Dev (inteligenciartificial.dev.br) usa cookies.">
-  <section class="container legal-page">
-    <h1>Política de Cookies</h1>
-    <p class="updated">Última atualização: {lastUpdated}</p>
-
-    <div class="prose">
+  <DocLayout title="Política de Cookies" updated={`Última atualização: ${lastUpdated}`}>
       <p>
         Esta Política de Cookies explica o que são cookies, como o
         Inteligência Artificial Dev (inteligenciartificial.dev.br) os usa, e
@@ -74,19 +71,5 @@ const lastUpdated = '7 de setembro de 2026';
         Dúvidas sobre nosso uso de cookies? Entre em contato pela nossa
         {' '}<a href="/contact">página de contato</a>.
       </p>
-    </div>
-  </section>
+  </DocLayout>
 </BaseLayout>
-
-<style>
-  .legal-page {
-    padding-block: 56px 80px;
-    max-width: 68ch;
-  }
-
-  .updated {
-    color: var(--ink-soft);
-    font-size: 0.9rem;
-    margin: 12px 0 32px;
-  }
-</style>

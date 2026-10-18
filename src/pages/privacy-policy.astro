@@ -1,14 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import DocLayout from '../layouts/DocLayout.astro';
 
 const lastUpdated = '10 de setembro de 2026';
 ---
 <BaseLayout title="Política de Privacidade" description="Como o Inteligência Artificial Dev (inteligenciartificial.dev.br) coleta, usa e protege suas informações.">
-  <section class="container legal-page">
-    <h1>Política de Privacidade</h1>
-    <p class="updated">Última atualização: {lastUpdated}</p>
-
-    <div class="prose">
+  <DocLayout title="Política de Privacidade" updated={`Última atualização: ${lastUpdated}`}>
       <p>
         A sua privacidade é muito importante para nós. Esta Política de
         Privacidade descreve como o site Inteligência Artificial Dev
@@ -92,19 +89,5 @@ const lastUpdated = '10 de setembro de 2026';
         Recomendamos que o usuário consulte periodicamente esta página para
         se manter atualizado.
       </p>
-    </div>
-  </section>
+  </DocLayout>
 </BaseLayout>
-
-<style>
-  .legal-page {
-    padding-block: 56px 80px;
-    max-width: 68ch;
-  }
-
-  .updated {
-    color: var(--ink-soft);
-    font-size: 0.9rem;
-    margin: 12px 0 32px;
-  }
-</style>

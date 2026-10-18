@@ -1,14 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import DocLayout from '../layouts/DocLayout.astro';
 
 const lastUpdated = '7 de setembro de 2026';
 ---
 <BaseLayout title="Termos de Uso" description="Os termos que regem o uso do Inteligência Artificial Dev (inteligenciartificial.dev.br).">
-  <section class="container legal-page">
-    <h1>Termos de Uso</h1>
-    <p class="updated">Última atualização: {lastUpdated}</p>
-
-    <div class="prose">
+  <DocLayout title="Termos de Uso" updated={`Última atualização: ${lastUpdated}`}>
       <p>
         Bem-vindo ao Inteligência Artificial Dev! Estes Termos de Uso
         descrevem as regras e regulamentos para o uso do site do
@@ -99,19 +96,5 @@ const lastUpdated = '7 de setembro de 2026';
         Dúvidas sobre estes termos? Entre em contato pela nossa
         {' '}<a href="/contact">página de contato</a>.
       </p>
-    </div>
-  </section>
+  </DocLayout>
 </BaseLayout>
-
-<style>
-  .legal-page {
-    padding-block: 56px 80px;
-    max-width: 68ch;
-  }
-
-  .updated {
-    color: var(--ink-soft);
-    font-size: 0.9rem;
-    margin: 12px 0 32px;
-  }
-</style>
