@@ -4,7 +4,7 @@ description: "A DeepSeek lançou em 17 de outubro a atualização V4.1 Flash-101
 category: "Chatbots"
 date: 2026-10-17T21:15:00-03:00
 readingTime: "6 min"
-image: "./images/deepseek-v4-1-flash-1017-novidades.webp"
+image: "./images/deepseek-novidades.webp"
 imageAlt: "Foto editorial em close-up de um notebook numa mesa de trabalho com uma conversa de chatbot desfocada na tela, ao lado de um caderno com anotações e uma xícara de café, luz quente de fim de tarde"
 ---
 
