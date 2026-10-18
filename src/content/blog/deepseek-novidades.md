@@ -5,7 +5,7 @@ category: "Chatbots"
 date: 2026-10-17T21:15:00-03:00
 readingTime: "6 min"
 image: "./images/deepseek-novidades.webp"
-imageAlt: "Foto editorial em close-up de um notebook numa mesa de trabalho com uma conversa de chatbot desfocada na tela, ao lado de um caderno com anotações e uma xícara de café, luz quente de fim de tarde"
+imageAlt: "Notebook aberto sobre uma mesa de madeira com a tela mostrando a mensagem de boas-vindas do chatbot DeepSeek, ao lado de uma xícara de café e um caderno de anotações, com o pôr do sol sobre a cidade ao fundo"
 ---
 
 O DeepSeek não parou de se mexer desde que virou assunto no mundo inteiro. Neste sábado, 17 de outubro de 2026, a empresa chinesa soltou mais uma atualização do seu chatbot, e ela veio acompanhada de uma novidade que interessa a quem programa: a busca própria da DeepSeek agora está aberta para qualquer desenvolvedor.
