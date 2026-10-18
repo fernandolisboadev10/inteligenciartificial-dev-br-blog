@@ -61,6 +61,7 @@ Sobre restrições: não encontrei nenhuma proibição nova nos últimos meses. 
 ## O que isso muda para quem usa
 
 - **Quem usa o app grátis:** o chat já roda a versão nova. Respostas mais enxutas e visão de imagens são o que você deve sentir. Teste com suas próprias tarefas.
+- **Quem está conhecendo o DeepSeek agora:** para entender o básico (se é gratuito, o que mudou no V4 e o que pesar antes de usar), o [guia completo do DeepSeek no TechOnPlay](https://techonplay.com.br/deepseek-2026-guia-completo/) é o melhor ponto de partida. Este texto cobre só o que mudou na atualização de 17 de outubro.
 - **Quem programa:** custo baixo e contexto longo tornam o Flash atraente para testar, principalmente em tarefas feitas à noite ou nos fins de semana, fora do pico. A busca própria abre espaço para assistentes que pesquisam.
 - **Quem trabalha com dados sensíveis:** fique no cuidado. O fato de os pesos do modelo serem abertos, segundo o Crypto Briefing, permite rodar por conta própria, mas isso exige estrutura técnica e é outra conversa.
 - **Quem compara chatbots:** não existe vencedor único. No nosso [teste de landing pages com quatro modelos](/mesmo-prompt-landing-page-ia/), o DeepSeek V4.1 Flash disputou com Claude Sonnet 5.5, GPT-6 Luna e Gemini 3.8 Flash. Quer entender a briga do outro lado? Veja os [modelos Sol, Terra e Luna do ChatGPT](/chatgpt-modelos-sol-terra-lua/).
