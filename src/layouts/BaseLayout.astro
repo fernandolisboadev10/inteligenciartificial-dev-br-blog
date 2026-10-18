@@ -71,7 +71,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
           }
         };
 
-        // Load gtag.js after the page is idle (or on first interaction) so it stays off the critical path.
+        // Load gtag.js after the page has loaded (or on first interaction) so it stays off the critical path.
         var loaded = false;
         function loadGtag() {
           if (loaded) return;
@@ -84,9 +84,8 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
         ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
           window.addEventListener(ev, loadGtag, { once: true, passive: true });
         });
-        window.addEventListener('load', function () {
-          setTimeout(loadGtag, 3500);
-        });
+        // Load right after the page finished loading so short visits are still counted.
+        window.addEventListener('load', loadGtag);
       })();
     </script>
 
