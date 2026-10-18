@@ -1,10 +1,10 @@
 ---
-title: "DeepSeek V4.1 Flash-1017: o Que Mudou no Chatbot Chinês e o Que Isso Significa Para Você"
+title: "DeepSeek V4.1 Flash-1017: o Que Mudou na Atualização e na API de Busca"
 description: "A DeepSeek lançou em 17 de outubro a atualização V4.1 Flash-1017, abriu a API de busca e manteve preços baixos. Veja o que é novo, quanto custa e o que ainda não dá para confirmar."
 category: "Chatbots"
 date: 2026-10-17T21:15:00-03:00
 readingTime: "6 min"
-image: "./images/deepseek-novidades.webp"
+image: "./images/deepseek-v4-1-atualizacao.webp"
 imageAlt: "Notebook aberto sobre uma mesa de madeira com a tela mostrando a mensagem de boas-vindas do chatbot DeepSeek, ao lado de uma xícara de café e um caderno de anotações, com o pôr do sol sobre a cidade ao fundo"
 ---
 
