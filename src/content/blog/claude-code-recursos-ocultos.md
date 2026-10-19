@@ -1,7 +1,7 @@
 ---
 title: "5 Recursos do Claude Code que a Maioria dos Devs Nunca Ativa"
 description: "Plan mode, memória automática, subagentes, skills e hooks transformam o Claude Code de uma janela de chat num fluxo de trabalho de verdade. Veja como cada um funciona na prática, com configuração real."
-category: "Ferramentas de IA"
+category: "Tutoriais"
 date: 2026-09-12
 translation: "claude-code-funciones-ocultas"
 readingTime: "8 min"
