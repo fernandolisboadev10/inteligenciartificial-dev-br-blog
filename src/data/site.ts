@@ -27,6 +27,7 @@ export const site = {
     articles: 'artigos',
     blog: 'Blog',
     blogDesc: 'Engenharia de prompt, ferramentas de IA e fluxos de trabalho pra devs.',
+    heroTitle: 'Prompts de IA testados pra quem escreve código.',
     all: 'Todos',
     noResults: 'Nenhum artigo corresponde à sua busca.',
     inThisArticle: 'Neste artigo',
