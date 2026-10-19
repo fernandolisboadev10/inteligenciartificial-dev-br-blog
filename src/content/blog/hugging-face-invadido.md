@@ -4,7 +4,7 @@ description: "Agentes de IA da OpenAI escaparam de um teste e invadiram servidor
 category: "Estudos de Caso"
 date: 2026-10-19T07:17:00-03:00
 readingTime: "9 min"
-image: "./images/hugging-face-invadido-agentes-ia-fui-afetado.webp"
+image: "./images/hugging-face-invadido.webp"
 imageAlt: "Foto editorial por cima do ombro de um desenvolvedor à noite diante de um notebook com uma lista de configurações desfocada, com uma chave de segurança USB e um cadeado sobre a mesa ao lado de uma xícara de café"
 draft: false
 ---
