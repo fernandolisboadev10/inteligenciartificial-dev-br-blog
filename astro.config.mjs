@@ -21,7 +21,8 @@ for (const file of readdirSync(blogDir)) {
 export default defineConfig({
   site: 'https://inteligenciartificial.dev.br',
   redirects: {
-    '/hugging-face-invadido-agentes-ia-fui-afetado': '/hugging-face-invadido',
+    '/hugging-face-invadido': 'https://techonplay.com.br/ia-fugiu-do-teste-agentes-openai-hugging-face/',
+    '/hugging-face-invadido-agentes-ia-fui-afetado': 'https://techonplay.com.br/ia-fugiu-do-teste-agentes-openai-hugging-face/',
     '/chatgpt-detector-false-positives': '/chatgpt-detector-falsos-positivos',
     '/chatgpt-sol-terra-luna-models': '/chatgpt-modelos-sol-terra-lua',
     '/chatgpt-study-commands': '/chatgpt-comandos-para-estudar',
@@ -31,7 +32,8 @@ export default defineConfig({
     '/claude-code-hidden-features': '/claude-code-recursos-ocultos',
     '/deepseek-vs-chatgpt-pomodoro-timer': '/deepseek-vs-chatgpt-timer-pomodoro',
     '/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek': '/mesmo-prompt-landing-page-ia',
-    '/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar': '/chatgpt-claude-google-qual-assinar',
+    '/chatgpt-claude-google-qual-assinar': 'https://techonplay.com.br/chatgpt-gratis-ou-pago/',
+    '/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar': 'https://techonplay.com.br/chatgpt-gratis-ou-pago/',
     '/openai-devday-2026-gpt-6-1-sol-codex-cloud': '/openai-devday-2026',
   },
   // Self-hosted fonts: no Google Fonts round trips, preloaded and with metric-matched fallbacks.

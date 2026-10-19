@@ -94,7 +94,7 @@ No papel, o Sol sai pela metade do preço do Opus 5.5. Mas preço por token não
 
 **Se você paga por API:** reveja o modelo padrão dos seus scripts e agentes. Rodar a mesma tarefa no Sol e no Opus 5.5 por uma semana e comparar custo e taxa de acerto custa pouco e pode cortar a conta de forma relevante.
 
-**Se você usa assinatura:** o que mais muda é o limite de uso e a velocidade. Antes de trocar de plano, veja o [comparativo de ChatGPT Plus, Claude Pro e Google AI Pro no Brasil](/chatgpt-claude-google-qual-assinar/) e a [comparação entre Claude Code, Antigravity e Copilot](/claude-code-vs-antigravity-vs-copilot/).
+**Se você usa assinatura:** o que mais muda é o limite de uso e a velocidade. Antes de trocar de plano, veja o guia [ChatGPT grátis ou pago: Go, Plus ou Free? Preços em reais](https://techonplay.com.br/chatgpt-gratis-ou-pago/) e a [comparação entre Claude Code, Antigravity e Copilot](/claude-code-vs-antigravity-vs-copilot/).
 
 **Se você ainda não usa agentes:** comece pelo básico. Antes de ligar um agente autônomo, vale ter os hábitos do [vibe coding sem bagunça](/vibe-coding-6-habitos-sem-bagunca/) e conhecer os [recursos do Claude Code que quase ninguém ativa](/claude-code-recursos-ocultos/).
 

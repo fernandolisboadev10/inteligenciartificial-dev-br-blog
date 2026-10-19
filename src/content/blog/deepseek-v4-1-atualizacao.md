@@ -50,7 +50,7 @@ Para quem desenvolve, a página oficial de preços mostra os valores por milhão
 | deepseek-flash | US$ 0,15 | US$ 0,60 | US$ 0,30 | US$ 1,20 |
 | deepseek-v4-pro | US$ 0,66 | US$ 1,98 | US$ 1,32 | US$ 3,96 |
 
-O horário de pico vai de 01h às 04h e de 06h às 10h (UTC), de segunda a sexta, exceto feriados chineses. Em horário de Brasília, isso cai de madrugada em dias úteis. Os dois modelos aceitam contexto de 1 milhão de tokens. Para comparar com outros chatbots, veja nosso comparativo [ChatGPT, Claude ou Google: qual assinar](/chatgpt-claude-google-qual-assinar/), que trata das assinaturas, já que o app do DeepSeek é grátis.
+O horário de pico vai de 01h às 04h e de 06h às 10h (UTC), de segunda a sexta, exceto feriados chineses. Em horário de Brasília, isso cai de madrugada em dias úteis. Os dois modelos aceitam contexto de 1 milhão de tokens. Para comparar com os planos do ChatGPT, o TechOnPlay tem o guia [ChatGPT grátis ou pago: Go, Plus ou Free? Preços em reais](https://techonplay.com.br/chatgpt-gratis-ou-pago/), já que o app do DeepSeek é grátis.
 
 ## Chips, Huawei e a pergunta sobre privacidade
 
