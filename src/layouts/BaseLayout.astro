@@ -30,7 +30,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex, follow" />}
     <meta name="google-site-verification" content="-tDgPKFSgBPg9tLKzyO5i2wvzNrYFMj0jC9yy8IaT5c" />
-    <!-- TODO: verificação do Bing Webmaster Tools pendente pra este domínio -->
+    <meta name="msvalidate.01" content="7F1E88061119512AF9AED1A7622C0E92" />
     <link rel="canonical" href={canonicalUrl} />
     {alternate && <link rel="alternate" hreflang="pt-BR" href={canonicalUrl} />}
     {alternate && <link rel="alternate" hreflang={alternate.lang} href={alternate.href} />}
