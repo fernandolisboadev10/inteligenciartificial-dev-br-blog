@@ -3,6 +3,7 @@ title: "Prompt Engineering Para Devs: O Que Funciona, O Que Virou Mito e Como Me
 description: "Prompt engineering para devs sem frases mágicas: contrato de entrada e saída, JSON validado, versionamento e um teste real com 5 modelos e 24 casos."
 category: "Prompts"
 date: 2026-10-19T22:11:47-03:00
+translation: "prompt-engineering-para-devs"
 readingTime: "9 min"
 image: "./images/prompt-engineering-para-devs.webp"
 imageAlt: "Foto editorial da mesa de um desenvolvedor com um notebook mostrando um editor de código e uma tabela de resultados de testes ao lado de cadernos com anotações à mão, luz suave de fim de tarde, profundidade de campo rasa"
