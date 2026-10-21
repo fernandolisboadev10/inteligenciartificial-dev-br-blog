@@ -8,12 +8,22 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  type?: 'website' | 'article';
   alternate?: { lang: string; href: string };
   noindex?: boolean;
 }
 
-const { title, description = 'Prompts de IA testados e fluxos de trabalho para desenvolvedores.', alternate, noindex = false } = Astro.props;
+const {
+  title,
+  description = 'Prompts de IA testados e fluxos de trabalho para desenvolvedores.',
+  image = '/images/robot-logo.png',
+  type = 'website',
+  alternate,
+  noindex = false,
+} = Astro.props;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const imageUrl = new URL(image, Astro.site).toString();
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -35,6 +45,19 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
     {alternate && <link rel="alternate" hreflang="pt-BR" href={canonicalUrl} />}
     {alternate && <link rel="alternate" hreflang={alternate.lang} href={alternate.href} />}
     <title>{title} · inteligenciartificial.dev.br</title>
+
+    <meta property="og:site_name" content="inteligenciartificial.dev.br" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:url" content={canonicalUrl} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
 
     <Font cssVariable="--f-inter" preload />
     <Font cssVariable="--f-plex-mono" />
