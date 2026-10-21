@@ -21,8 +21,6 @@ for (const file of readdirSync(blogDir)) {
 export default defineConfig({
   site: 'https://inteligenciartificial.dev.br',
   redirects: {
-    '/hugging-face-invadido': 'https://techonplay.com.br/ia-fugiu-do-teste-agentes-openai-hugging-face/',
-    '/hugging-face-invadido-agentes-ia-fui-afetado': 'https://techonplay.com.br/ia-fugiu-do-teste-agentes-openai-hugging-face/',
     '/chatgpt-detector-false-positives': '/chatgpt-detector-falsos-positivos',
     '/chatgpt-sol-terra-luna-models': '/chatgpt-modelos-sol-terra-lua',
     '/chatgpt-study-commands': '/chatgpt-comandos-para-estudar',
