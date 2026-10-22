@@ -3,6 +3,7 @@ title: "Como Virar Engenheiro de IA em 2026: Roteiro Realista, Passo a Passo, Se
 description: "Roteiro para virar engenheiro de IA em 2026 sem mestrado: 7 etapas (Python, LLMs, RAG, agentes, deploy), prazos realistas e como conseguir a 1ª vaga."
 category: "Carreira"
 date: 2026-10-16T17:39:00-03:00
+translation: "como-ser-ingeniero-de-ia-2026"
 readingTime: "9 min"
 image: "./images/como-virar-engenheiro-de-ia-2026.webp"
 imageAlt: "Jovem engenheiro de IA com fones no pescoço digitando em um teclado mecânico cinza, diante de dois monitores com código e um diagrama de arquitetura, em um escritório de tecnologia com sala de servidores e colegas diante de um quadro branco ao fundo"

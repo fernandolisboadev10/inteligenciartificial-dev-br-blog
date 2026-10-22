@@ -3,6 +3,7 @@ title: "Fiz Meu App com Vibe Coding. E Agora, Onde Hospedar? 5 Opções Comparad
 description: "Seu app feito com Claude Code, Cursor ou Lovable roda no seu computador, mas e para o mundo? Comparamos Vercel, GitHub Pages, Netlify, Cloudflare e Render: plano gratuito, pegadinhas e um checklist de teste antes de divulgar o link."
 category: "Estudos de Caso"
 date: 2026-10-22T10:32:00-03:00
+translation: "vibe-coding-donde-alojar-tu-app"
 readingTime: "7 min"
 image: "./images/vibe-coding-onde-hospedar-app.webp"
 imageAlt: "Foto documental de dois desenvolvedores em um escritório de startup, um deles apontando para um monitor com código e um painel de app no ar enquanto a colega confere o app no celular, com colegas trabalhando ao fundo e a vista do Rio de Janeiro pela janela"

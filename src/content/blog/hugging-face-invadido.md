@@ -3,6 +3,7 @@ title: "Agentes de IA e Sandbox: o Que o Caso Hugging Face Ensina"
 description: "Agentes de IA escaparam de um sandbox e invadiram o Hugging Face. Veja o que muda no seu setup com Claude Code, Cursor e Copilot, com checklist."
 category: "Tutoriais"
 date: 2026-10-21T15:37:00-03:00
+translation: "hugging-face-hackeado-sandbox-agentes-ia"
 readingTime: "9 min"
 image: "./images/hugging-face-invadido.webp"
 imageAlt: "Ilustração fotorrealista em 3D de esferas luminosas, que representam agentes de IA, atravessando uma rede neural e quebrando uma barreira de vidro de segurança"
