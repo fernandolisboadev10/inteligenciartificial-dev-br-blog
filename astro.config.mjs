@@ -30,7 +30,6 @@ export default defineConfig({
     '/claude-code-hidden-features': '/claude-code-recursos-ocultos',
     '/deepseek-vs-chatgpt-pomodoro-timer': '/deepseek-vs-chatgpt-timer-pomodoro',
     '/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek': '/mesmo-prompt-landing-page-ia',
-    '/chatgpt-claude-google-qual-assinar': 'https://techonplay.com.br/chatgpt-gratis-ou-pago/',
     '/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar': 'https://techonplay.com.br/chatgpt-gratis-ou-pago/',
     '/openai-devday-2026-gpt-6-1-sol-codex-cloud': '/openai-devday-2026',
   },
