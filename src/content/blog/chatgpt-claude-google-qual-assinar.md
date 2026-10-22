@@ -4,8 +4,8 @@ description: "Codex no ChatGPT, Claude Code no Claude, Antigravity e Jules no Go
 category: "Ferramentas de IA"
 date: 2026-10-22T14:58:00-03:00
 readingTime: "7 min"
-# image: "./images/chatgpt-claude-google-qual-assinar.webp"
-# imageAlt: "Foto documental de uma desenvolvedora em um escritório de startup de programação no Brasil, trabalhando em um notebook com três janelas de terminal lado a lado, luz natural da tarde"
+image: "./images/chatgpt-claude-google-qual-assinar.webp"
+imageAlt: "Desenvolvedora pensativa, com o queixo apoiado na mão e uma caneta na outra, diante de um monitor ultrawide com código e um painel de configurações, ao lado de um caderno de anotações, em um escritório de startup com colega ao fundo desenhando em um quadro branco e a vista de uma cidade pela janela"
 draft: false
 ---
 
