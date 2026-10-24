@@ -32,6 +32,7 @@ export default defineConfig({
     '/mesmo-prompt-landing-page-claude-gpt-gemini-deepseek': '/mesmo-prompt-landing-page-ia',
     '/chatgpt-plus-claude-pro-google-ai-pro-qual-assinar': 'https://techonplay.com.br/chatgpt-gratis-ou-pago/',
     '/openai-devday-2026-gpt-6-1-sol-codex-cloud': '/openai-devday-2026',
+    '/ferramentas-vibe-coding-criar-apps-ia-2026': '/ferramentas-vibe-coding-criar-apps-ia',
   },
   // Self-hosted fonts: no Google Fonts round trips, preloaded and with metric-matched fallbacks.
   fonts: [

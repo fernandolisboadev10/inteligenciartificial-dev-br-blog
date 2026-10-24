@@ -5,7 +5,7 @@ category: "Ferramentas de IA"
 date: 2026-10-24T07:47:00-03:00
 translation: "herramientas-vibe-coding-crear-apps-ia-2026"
 readingTime: "7 min"
-image: "./images/ferramentas-vibe-coding-criar-apps-ia-2026.webp"
+image: "./images/ferramentas-vibe-coding-criar-apps-ia.webp"
 imageAlt: "Desenvolvedor de costas, pensativo, diante de dois notebooks lado a lado que mostram ferramentas de IA para criar apps, com painéis flutuantes com os nomes ChatGPT, Lovable, Replit, v0 e Gemini e a vista do Pão de Açúcar ao pôr do sol pela janela"
 draft: false
 ---
