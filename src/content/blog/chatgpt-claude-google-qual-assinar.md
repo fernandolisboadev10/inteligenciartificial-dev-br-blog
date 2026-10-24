@@ -12,7 +12,7 @@ draft: false
 
 Quem programa com IA precisa de um agente que lê o projeto, edita vários arquivos, roda testes e aguenta horas de trabalho sem travar. O preço de tabela dos três grandes é parecido, perto de US$ 20 por mês, mas o que decide a escolha é o limite de uso e o ambiente onde o agente roda.
 
-Este guia olha as assinaturas do ChatGPT, do Claude e do Google só pelo ângulo de quem escreve código, do iniciante ao profissional. A comparação por ferramenta (Lovable, Cursor, Replit e companhia) fica para um artigo à parte. Aqui a pergunta é outra: qual plano pagar.
+Este guia olha as assinaturas do ChatGPT, do Claude e do Google só pelo ângulo de quem escreve código, do iniciante ao profissional. Para a comparação por ferramenta (Lovable, Cursor, Replit e companhia), veja o [comparativo de ferramentas de vibe coding](/ferramentas-vibe-coding-criar-apps-ia-2026/). Aqui a pergunta é outra: qual plano pagar.
 
 Os preços abaixo estão em dólares, antes de impostos e IOF, e foram conferidos nas páginas oficiais em 22 de outubro de 2026. Planos e limites mudam rápido (neste mês o Cursor reorganizou os dele), então confira os links no fim antes de assinar. Não usamos os planos por meses: o que segue é leitura das páginas e da documentação, não teste de longo prazo.
 
@@ -123,6 +123,7 @@ Para programar, a pergunta útil não é qual IA é mais esperta, e sim qual cot
 
 - [Review do Claude Code em 2026: vale o preço?](/claude-code-review-vale-o-preco/)
 - [Claude Code, Antigravity ou Copilot: qual escolher](/claude-code-vs-antigravity-vs-copilot/)
+- [10 ferramentas de vibe coding pra criar apps com IA](/ferramentas-vibe-coding-criar-apps-ia-2026/)
 
 ---
 
