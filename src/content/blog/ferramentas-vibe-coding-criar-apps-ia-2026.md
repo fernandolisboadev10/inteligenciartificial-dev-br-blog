@@ -2,12 +2,12 @@
 title: "10 Ferramentas de Vibe Coding pra Criar Apps com IA em 2026: Preço, Plano Grátis e Qual Escolher"
 description: "Lovable, Claude Code, Codex, Cursor, Replit, Bolt, v0, Copilot, Devin Desktop (ex-Windsurf) e Google AI Studio comparados: pra quem serve cada um, o que o plano gratuito oferece, quanto custa o pago e como escolher sem queimar dinheiro."
 category: "Ferramentas de IA"
-date: 2026-10-24T08:00:00-03:00
+date: 2026-10-24T07:47:00-03:00
 translation: "herramientas-vibe-coding-crear-apps-ia-2026"
 readingTime: "7 min"
 image: "./images/ferramentas-vibe-coding-criar-apps-ia-2026.webp"
-imageAlt: "Desenvolvedor visto de costas diante de um notebook que mostra um chat com IA ao lado da prévia de um app de viagens no celular, com painéis flutuantes de código, ferramentas e checklist ao redor, em uma mesa de trabalho com plantas e vista da janela"
-draft: true
+imageAlt: "Desenvolvedor de costas, pensativo, diante de dois notebooks lado a lado que mostram ferramentas de IA para criar apps, com painéis flutuantes com os nomes ChatGPT, Lovable, Replit, v0 e Gemini e a vista do Pão de Açúcar ao pôr do sol pela janela"
+draft: false
 ---
 
 Até pouco tempo atrás, criar um aplicativo parecia coisa de quem domina programação, banco de dados e servidores. Em outubro de 2026, essa barreira caiu bastante: dá para descrever a ideia em português, receber algo que funciona e refinar tudo por conversa. É o que chamam de vibe coding.
