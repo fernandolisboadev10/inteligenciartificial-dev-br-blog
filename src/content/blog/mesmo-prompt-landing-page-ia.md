@@ -3,6 +3,7 @@ title: "Demos o Mesmo Prompt de Landing Page pra Claude, GPT-6 Luna, Gemini e De
 description: "Mesmo prompt, palavra por palavra, quatro modelos, zero edições depois. Abrimos os quatro sites no celular e no computador, testamos o formulário na mão e comparamos acessibilidade, validação e custo por página."
 category: "Estudos de Caso"
 date: 2026-09-28
+updated: 2026-10-26T08:16:00-03:00
 translation: "mismo-prompt-landing-page-ia"
 readingTime: "8 min"
 image: "./images/mesmo-prompt-landing-page.webp"
