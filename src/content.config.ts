@@ -16,6 +16,7 @@ const blog = defineCollection({
         'Carreira',
       ]),
       date: z.date(),
+      updated: z.date().optional(),
       translation: z.string().optional(),
       readingTime: z.string().optional(),
       draft: z.boolean().optional().default(false),
