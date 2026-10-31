@@ -4,7 +4,7 @@ export const site = {
   lang: 'pt-BR',
   locale: 'pt-BR',
   name: 'Inteligência Artificial Dev',
-  categories: ['Chatbots', 'Prompts', 'Ferramentas de IA', 'Tutoriais', 'Estudos de Caso', 'Carreira'],
+  categories: ['Chatbots', 'Prompts', 'Ferramentas de IA', 'Tutoriais', 'Estudos de Caso', 'Carreira', 'Certificações'],
   // Artigos por página e quantos entram no mosaico da home (página 1).
   perPage: 9,
   featuredCount: 6,

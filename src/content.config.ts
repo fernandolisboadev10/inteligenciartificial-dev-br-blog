@@ -14,6 +14,7 @@ const blog = defineCollection({
         'Tutoriais',
         'Estudos de Caso',
         'Carreira',
+        'Certificações',
       ]),
       date: z.date(),
       updated: z.date().optional(),
