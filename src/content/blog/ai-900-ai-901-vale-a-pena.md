@@ -3,10 +3,11 @@ title: "AI-900 em 2026: Vale a Pena? A Prova Foi Trocada pelo AI-901 (o Que Mudo
 description: "O AI-900 foi aposentado em 30 de junho de 2026 e o certificado Azure AI Fundamentals agora se tira com o AI-901. Veja o que a prova cobra, quanto dela é prática, o que esperar da dificuldade e pra quem vale a pena."
 category: "Certificações"
 date: 2026-10-12
+updated: 2026-10-31T20:31:00-03:00
 translation: "ai-900-ai-901-vale-la-pena"
 readingTime: "8 min"
 image: "./images/ai-900-ai-901-vale-a-pena.webp"
-imageAlt: "Foto editorial de uma mesa de estudo com um notebook aberto mostrando um painel de nuvem desfocado, um caderno com anotações à mão e uma xícara de café, luz natural de janela"
+imageAlt: "Capa em estilo thumbnail: homem de moletom preto com a mão no queixo e expressão de dúvida, segurando um certificado com selo, diante de um painel de nuvem azul brilhante, com o título AI-901: VALE A PENA? em verde neon"
 ---
 
 O **AI-900 não pode mais ser feito**. A prova foi aposentada em **30 de junho de 2026** e substituído pelo [**AI-901**](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-901/). O certificado continua com o mesmo nome ([*Microsoft Certified: Azure AI Fundamentals*](https://learn.microsoft.com/pt-br/credentials/certifications/azure-ai-fundamentals/)); o que mudou foi a prova. Ela vale a pena se você está começando em IA aplicada e quer uma base estruturada na nuvem da Microsoft, mas não se o que você procura é um diploma que "abra portas sozinho" ou se já constrói aplicações de IA no dia a dia.
