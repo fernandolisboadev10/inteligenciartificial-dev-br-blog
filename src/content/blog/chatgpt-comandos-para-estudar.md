@@ -3,10 +3,11 @@ title: "12 Comandos Personalizados que Transformam o ChatGPT numa Ferramenta de 
 description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de dar respostas genéricas e passa a montar mapas mentais, flashcards e palácios da memória sob demanda. Prontos pra copiar e colar."
 category: "Prompts"
 date: 2026-09-07
+updated: 2026-11-01T21:06:00-03:00
 translation: "chatgpt-comandos-para-estudiar"
 readingTime: "5 min"
 image: "./images/chatgpt-comandos-para-estudar.webp"
-imageAlt: "Foto editorial em close-up da mesa de um estudante à noite, tela do notebook mostrando uma interface de chat desfocada, post-its coloridos na mesa com nomes de comandos de estudo escritos, livros didáticos empilhados e um marca-texto por perto, luz quente de luminária de mesa"
+imageAlt: "Foto editorial da mesa de um programador estudando à noite: monitor com chat de IA e um mapa mental colorido, notebook com código aberto, post-its com os comandos /flashcards, /mapamental, /resumo e /quiz, pilha de livros, flashcards com código, marca-texto, caderno com fluxograma desenhado à mão e luz quente de luminária, com a cidade iluminada pela janela"
 ---
 
 Digitar um prompt novo e detalhado toda vez que você quer que o ChatGPT te faça perguntas ou resuma um capítulo cansa rápido. Existe um padrão mais simples que tem circulado entre estudantes nas redes sociais: ensinar ao modelo um punhado de comandos curtos uma única vez, e depois acioná-los com uma linha só pelo resto da sua sessão de estudo.

@@ -3,10 +3,11 @@ title: "12 Comandos Personalizados que Transformam o ChatGPT numa Ferramenta de 
 description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de escrever e-mails genéricos e passa a montar pautas, resumos de reunião e planilhas sob demanda. Prontos pra copiar e colar."
 category: "Prompts"
 date: 2026-09-18
+updated: 2026-11-01T21:06:00-03:00
 translation: "chatgpt-comandos-productividad"
 readingTime: "6 min"
 image: "./images/chatgpt-comandos-produtividade.webp"
-imageAlt: "Foto editorial em close-up da mesa de escritório de um profissional, tela do notebook mostrando uma interface de chat desfocada, post-its coloridos na mesa com nomes de comandos de produtividade escritos, uma xícara de café e um caderno por perto, luz natural de dia pela janela do escritório"
+imageAlt: "Foto editorial de uma estação de trabalho de programador à noite: monitor ultrawide com editor de código em tema escuro e chat de IA ao lado, post-its coloridos com os comandos /email, /pauta, /resumo e /planilha na borda da tela, teclado mecânico com luz RGB, xícara de café, caderno e luminária, com as luzes da cidade ao fundo"
 ---
 
 Escrever um prompt novo toda vez que você precisa de um resumo de reunião, um e-mail de cobrança educado ou uma pauta organizada consome um tempo que ninguém tem sobrando no meio do expediente. O mesmo padrão que circula entre estudantes, ensinar ao modelo um punhado de comandos curtos uma única vez, funciona igual de bem pro trabalho, só que com formatos pensados pra rotina de escritório em vez de prova.
