@@ -1,20 +1,20 @@
 ---
 title: "12 Comandos Personalizados que Transformam o ChatGPT numa Ferramenta de Estudo"
-description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de dar respostas genéricas e passa a montar mapas mentais, flashcards e palácios da memória sob demanda. Prontos pra copiar e colar."
+description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de dar respostas genéricas e passa a montar mapas mentais, flashcards e fluxogramas sobre programação e TI sob demanda. Prontos pra copiar e colar."
 category: "Prompts"
 date: 2026-09-07
-updated: 2026-11-01T21:06:00-03:00
+updated: 2026-11-01T21:08:00-03:00
 translation: "chatgpt-comandos-para-estudiar"
 readingTime: "5 min"
 image: "./images/chatgpt-comandos-para-estudar.webp"
 imageAlt: "Foto editorial da mesa de um programador estudando à noite: monitor com chat de IA e um mapa mental colorido, notebook com código aberto, post-its com os comandos /flashcards, /mapamental, /resumo e /quiz, pilha de livros, flashcards com código, marca-texto, caderno com fluxograma desenhado à mão e luz quente de luminária, com a cidade iluminada pela janela"
 ---
 
-Digitar um prompt novo e detalhado toda vez que você quer que o ChatGPT te faça perguntas ou resuma um capítulo cansa rápido. Existe um padrão mais simples que tem circulado entre estudantes nas redes sociais: ensinar ao modelo um punhado de comandos curtos uma única vez, e depois acioná-los com uma linha só pelo resto da sua sessão de estudo.
+Digitar um prompt novo e detalhado toda vez que você quer que o ChatGPT te faça perguntas ou resuma a documentação de uma biblioteca cansa rápido. Existe um padrão mais simples que tem circulado entre quem estuda programação nas redes sociais: ensinar ao modelo um punhado de comandos curtos uma única vez, e depois acioná-los com uma linha só pelo resto da sua sessão de estudo.
 
-A ideia é direta. Você cola uma mensagem de configuração que define o que cada comando significa. A partir daí, digitar algo como `/flashcards Mitose vs Meiose` te dá um conjunto de flashcards formatado em vez de uma parede de texto que você precisa reorganizar sozinho.
+A ideia é direta. Você cola uma mensagem de configuração que define o que cada comando significa. A partir daí, digitar algo como `/flashcards Git merge vs Git rebase` te dá um conjunto de flashcards formatado em vez de uma parede de texto que você precisa reorganizar sozinho.
 
-Abaixo está um prompt de configuração funcional com 12 comandos, mais um exemplo de uso pra cada um. Cole a configuração uma vez no início de uma conversa (ou salve como instrução personalizada / instrução de Projeto, se o seu plano suportar), e depois use os comandos curtos em cada assunto que você estiver estudando.
+Abaixo está um prompt de configuração funcional com 12 comandos, mais um exemplo de uso pra cada um. Cole a configuração uma vez no início de uma conversa (ou salve como instrução personalizada / instrução de Projeto, se o seu plano suportar), e depois use os comandos curtos em cada tecnologia que você estiver estudando.
 
 ## O prompt de configuração
 
@@ -26,16 +26,16 @@ Cole isto uma vez, no topo de uma conversa nova:
     <span class="prompt-card-label">setup.txt</span>
     <button class="copy-btn" data-copy-target="prompt-setup">Copiar</button>
   </div>
-  <pre id="prompt-setup"><code>Você é meu assistente de estudos pessoal. A partir de agora, sempre que uma mensagem começar com um dos comandos abaixo, responda usando exatamente aquele formato em vez de uma resposta normal. Ignore esta instrução para qualquer mensagem que não comece com um comando.
+  <pre id="prompt-setup"><code>Você é meu assistente de estudos pessoal. Estudo programação e informática, então use exemplos, trechos de código curtos e termos técnicos dessa área sempre que fizer sentido. A partir de agora, sempre que uma mensagem começar com um dos comandos abaixo, responda usando exatamente aquele formato em vez de uma resposta normal. Ignore esta instrução para qualquer mensagem que não comece com um comando.
 
 /mindmap [assunto] -> Monte um mapa mental em texto: uma ideia central, 4 a 6 ramos principais, 2 a 3 subpontos em cada ramo.
-/cheatsheet [assunto] -> Cola de uma página: só definições-chave, fórmulas e fatos. Sem explicações longas.
+/cheatsheet [assunto] -> Cola de uma página: só definições-chave, comandos, sintaxe e fatos. Sem explicações longas.
 /explodedview [assunto] -> Divida o assunto nas suas partes individuais, explicando o que cada uma faz e como se conecta com o resto.
 /blueprint [assunto] -> Trilha de aprendizado passo a passo pra dominar esse assunto do zero, na ordem certa, com estimativas de tempo aproximadas.
-/flowchart [assunto] -> Transforme o processo num fluxograma em texto usando setas: Início -> Etapa -> Decisão -> Fim.
+/flowchart [assunto] -> Transforme o processo ou algoritmo num fluxograma em texto usando setas: Início -> Etapa -> Decisão -> Fim.
 /flashcards [assunto] -> Gere 10 flashcards de pergunta e resposta, um par por linha, formatados como P: / R:.
 /diagram [assunto] -> Descreva um diagrama rotulado mostrando como as partes desse assunto se relacionam entre si.
-/timeline [assunto] -> Liste eventos ou etapas principais em ordem cronológica, com uma linha de contexto cada.
+/timeline [assunto] -> Liste versões, eventos ou etapas principais em ordem cronológica, com uma linha de contexto cada.
 /comparison [A] vs [B] -> Tabela comparativa com pelo menos 5 critérios, mostrando diferenças e semelhanças.
 /conceptmap [assunto] -> Mapeie como os conceitos dentro desse assunto se conectam e se influenciam.
 /memorypalace [assunto] -> Transforme os fatos principais num palácio da memória: associe cada um a um lugar vívido numa casa imaginária, em ordem.
@@ -56,12 +56,12 @@ Use quando você precisa do panorama geral antes dos detalhes — como um assunt
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-mindmap">Copiar</button>
   </div>
-  <pre id="prompt-mindmap"><code>/mindmap Fotossíntese</code></pre>
+  <pre id="prompt-mindmap"><code>/mindmap Arquitetura de uma Aplicação Web</code></pre>
 </div>
 
 ## /cheatsheet
 
-Ótimo na noite anterior a uma prova, quando você já entende a matéria e só precisa de cada fórmula e definição num lugar só, sem enrolação.
+Ótimo na noite anterior a uma prova ou entrevista técnica, quando você já entende a matéria e só precisa de cada comando e definição num lugar só, sem enrolação.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -69,12 +69,12 @@ Use quando você precisa do panorama geral antes dos detalhes — como um assunt
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-cheatsheet">Copiar</button>
   </div>
-  <pre id="prompt-cheatsheet"><code>/cheatsheet Reações de Química Orgânica</code></pre>
+  <pre id="prompt-cheatsheet"><code>/cheatsheet Comandos Essenciais do Git</code></pre>
 </div>
 
 ## /explodedview
 
-Bom pra qualquer coisa feita de partes que interagem — uma célula, um motor, uma lei. Isso força o modelo a nomear cada componente em vez de descrever o assunto como um bloco só.
+Bom pra qualquer coisa feita de partes que interagem — um computador, uma API, um compilador. Isso força o modelo a nomear cada componente em vez de descrever o assunto como um bloco só.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -100,7 +100,7 @@ Pra quando você está começando um assunto do zero absoluto e não sabe em que
 
 ## /flowchart
 
-Ideal pra processos com etapas e pontos de decisão — ciclos, algoritmos, fluxos de trabalho. Setas em texto já bastam pra enxergar o formato sem desenhar nada.
+Ideal pra processos com etapas e pontos de decisão — algoritmos, pipelines de deploy, fluxos de autenticação. Setas em texto já bastam pra enxergar o formato sem desenhar nada.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -108,7 +108,7 @@ Ideal pra processos com etapas e pontos de decisão — ciclos, algoritmos, flux
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-flowchart">Copiar</button>
   </div>
-  <pre id="prompt-flowchart"><code>/flowchart O Ciclo da Água</code></pre>
+  <pre id="prompt-flowchart"><code>/flowchart Pipeline de CI/CD: do Commit ao Deploy em Produção</code></pre>
 </div>
 
 ## /flashcards
@@ -121,7 +121,7 @@ O cavalo de batalha da repetição espaçada. Peça isso regularmente sobre o me
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-flashcards">Copiar</button>
   </div>
-  <pre id="prompt-flashcards"><code>/flashcards Causas da Revolução Francesa</code></pre>
+  <pre id="prompt-flashcards"><code>/flashcards Verbos HTTP e Códigos de Status</code></pre>
 </div>
 
 ## /diagram
@@ -134,12 +134,12 @@ Uma versão mais solta do /explodedview — use quando você se importa mais com
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-diagram">Copiar</button>
   </div>
-  <pre id="prompt-diagram"><code>/diagram O Sistema Imunológico Humano</code></pre>
+  <pre id="prompt-diagram"><code>/diagram O Caminho de uma Requisição: DNS, Load Balancer, Servidor e Banco de Dados</code></pre>
 </div>
 
 ## /timeline
 
-Ordem importa nesse aqui — história, fases de projeto, estágios biológicos. Ele evita que você confunda sequência com importância.
+Ordem importa nesse aqui — versões de uma linguagem, história da computação, fases de um projeto de software. Ele evita que você confunda sequência com importância.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -147,7 +147,7 @@ Ordem importa nesse aqui — história, fases de projeto, estágios biológicos.
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-timeline">Copiar</button>
   </div>
-  <pre id="prompt-timeline"><code>/timeline Principais Eventos da Segunda Guerra Mundial</code></pre>
+  <pre id="prompt-timeline"><code>/timeline Evolução do HTTP: do HTTP/1.0 ao HTTP/3</code></pre>
 </div>
 
 ## /comparison
@@ -160,12 +160,12 @@ Sempre que dois conceitos se confundem entre si, isso coloca eles lado a lado em
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-comparison">Copiar</button>
   </div>
-  <pre id="prompt-comparison"><code>/comparison Mitose vs Meiose</code></pre>
+  <pre id="prompt-comparison"><code>/comparison SQL vs NoSQL</code></pre>
 </div>
 
 ## /conceptmap
 
-Parecido com o /mindmap, mas focado em causa e efeito e influência em vez de hierarquia — útil pra assuntos como economia, onde tudo empurra tudo.
+Parecido com o /mindmap, mas focado em causa e efeito e influência em vez de hierarquia — útil pra assuntos como performance de um site, onde tudo empurra tudo.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -173,12 +173,12 @@ Parecido com o /mindmap, mas focado em causa e efeito e influência em vez de hi
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-conceptmap">Copiar</button>
   </div>
-  <pre id="prompt-conceptmap"><code>/conceptmap Oferta e Demanda</code></pre>
+  <pre id="prompt-conceptmap"><code>/conceptmap Cache, CDN, Latência e Desempenho de um Site</code></pre>
 </div>
 
 ## /memorypalace
 
-A técnica clássica dos loci, gerada pra você. Ótimo pra listas ordenadas de fatos que são difíceis de decorar mecanicamente — nomes de nervos, ossos, capitais.
+A técnica clássica dos loci, gerada pra você. Ótimo pra listas ordenadas de fatos que são difíceis de decorar mecanicamente — camadas do modelo OSI, etapas do ciclo de vida de um software, portas de rede.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -186,7 +186,7 @@ A técnica clássica dos loci, gerada pra você. Ótimo pra listas ordenadas de 
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-memorypalace">Copiar</button>
   </div>
-  <pre id="prompt-memorypalace"><code>/memorypalace Os 12 Nervos Cranianos</code></pre>
+  <pre id="prompt-memorypalace"><code>/memorypalace As 7 Camadas do Modelo OSI</code></pre>
 </div>
 
 ## /quizboard
@@ -199,14 +199,14 @@ Rode isso depois de tudo o resto pra checar o que realmente ficou. Formatos de p
     <span class="prompt-card-label">exemplo</span>
     <button class="copy-btn" data-copy-target="prompt-quizboard">Copiar</button>
   </div>
-  <pre id="prompt-quizboard"><code>/quizboard A Tabela Periódica</code></pre>
+  <pre id="prompt-quizboard"><code>/quizboard Fundamentos de Redes de Computadores</code></pre>
 </div>
 
 ## Fazendo isso pegar
 
 O prompt de configuração só dura na conversa atual, a menos que você salve em algum lugar permanente. Se você tem o ChatGPT Plus, cole em **Instruções Personalizadas** (Configurações → Personalização) ou nas instruções de um **Projeto**, pra que toda conversa nova dentro daquele projeto já conheça os comandos. Claude e Gemini têm o mesmo recurso através das próprias instruções persistentes ou funcionalidades de "Projetos" — o prompt em si não precisa mudar, só onde você o salva.
 
-Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que usa o tempo todo — geralmente /flashcards, /cheatsheet, e qualquer um que combine com a forma natural de pensar, mapas mentais pra quem aprende visualmente, linhas do tempo pra quem estuda história ou processos. Teste nos seus próximos exercícios de leitura e fique com os que realmente mudarem a forma como você revisa.
+Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que usa o tempo todo — geralmente /flashcards, /cheatsheet, e qualquer um que combine com a forma natural de pensar, mapas mentais pra quem aprende visualmente, fluxogramas pra quem estuda algoritmos e pipelines. Teste na sua próxima sessão de estudo de uma tecnologia nova e fique com os que realmente mudarem a forma como você revisa.
 
 ## Leia Também
 
