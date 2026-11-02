@@ -21,8 +21,6 @@ interface Props {
   imageAlt?: string;
 }
 const { slug, title, description, category, date, updated, translation, readingTime, image, imageAlt } = Astro.props;
-// Capas da série Certificações são thumbnails 3:2 com texto: aparecem inteiras, sem o corte panorâmico.
-const fullCover = category === 'Certificações';
 const { t } = site;
 
 // "Atualizado" só aparece quando o artigo foi editado em um dia depois da publicação.
@@ -98,12 +96,12 @@ const articleSchema = {
     </header>
 
     {image && (
-      <figure class:list={['container', 'cover', { 'cover-full': fullCover }]}>
+      <figure class="container cover">
         <Image
           src={image}
           alt={imageAlt ?? title}
           width={1200}
-          height={fullCover ? 800 : 540}
+          height={800}
           widths={[480, 800, 1200]}
           sizes="(max-width: 1180px) 100vw, 1132px"
           quality={72}
@@ -372,23 +370,16 @@ const articleSchema = {
 
   .cover {
     margin: 32px auto 0;
+    max-width: 860px;
   }
 
   .cover :global(img) {
     width: 100%;
     height: auto;
-    aspect-ratio: 1200 / 540;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
     border: 1px solid var(--line);
     border-radius: 6px;
-  }
-
-  .cover-full {
-    max-width: 860px;
-  }
-
-  .cover-full :global(img) {
-    aspect-ratio: 3 / 2;
   }
 
   .art-layout {
@@ -584,14 +575,6 @@ const articleSchema = {
 
     .pn {
       grid-template-columns: 1fr;
-    }
-
-    .cover :global(img) {
-      aspect-ratio: 16 / 10;
-    }
-
-    .cover-full :global(img) {
-      aspect-ratio: 3 / 2;
     }
   }
 
