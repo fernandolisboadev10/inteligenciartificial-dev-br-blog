@@ -3,6 +3,7 @@ title: "A API do Grok da xAI É Mais Barata que o GPT-6 Astra e o Claude Opus 5.
 description: "O modelo carro-chefe do Grok custa uma fração do GPT-6 Astra e é mais barato que o Claude Opus 5. Veja a matemática real por token, um exemplo de código funcional, e onde o preço baixo para de ser vantagem."
 category: "Estudos de Caso"
 date: 2026-09-08
+updated: 2026-11-01T21:18:00-03:00
 translation: "grok-api-precio"
 readingTime: "7 min"
 image: "./images/grok-api-preco.webp"
@@ -140,7 +141,7 @@ Aqui está o que cada provedor cobra por milhão de tokens em três níveis comp
 
 ## Fizemos as Contas
 
-Taxas por milhão de tokens não significam muito até você aplicá-las numa carga de trabalho real. Digamos que você roda um assistente de código com IA em produção que processa **10 milhões de tokens de entrada e 2 milhões de tokens de saída por mês** — uma carga realista pra uma ferramenta interna de um time pequeno com uso diário constante.
+Taxas por milhão de tokens não significam muito até você aplicá-las numa carga de trabalho real. Digamos que você roda um assistente de código com IA em produção que processa **10 milhões de tokens de entrada e 2 milhões de tokens de saída por mês**, uma carga realista pra uma ferramenta interna de um time pequeno com uso diário constante.
 
 <div style="max-width:900px;margin:24px auto;overflow-x:auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
   <table style="width:100%;border-collapse:collapse;background:#ffffff;box-shadow:0 1px 4px rgba(0,0,0,0.08);border-radius:8px;overflow:hidden;">
@@ -201,13 +202,13 @@ Taxas por milhão de tokens não significam muito até você aplicá-las numa ca
   </table>
 </div>
 
-Duas coisas chamam atenção. Primeiro, no nível carro-chefe, o Grok 4.6 não é só mais barato, está numa classe de preço diferente: $32 contra $100 do Claude Opus 5 e $200 do GPT-6 Astra pro mesmo uso. Segundo, o Grok não é automaticamente a opção mais barata em todo lugar — o GPT-5.6 Luna fica abaixo de todos os níveis do Grok na ponta econômica, porque o Luna é o modelo deliberadamente enxuto e de alto volume da OpenAI. O barato tem um teto e um piso em cada provedor; a vantagem do Grok se concentra no topo.
+Duas coisas chamam atenção. Primeiro, no nível carro-chefe, o Grok 4.6 não é só mais barato, está numa classe de preço diferente: $32 contra $100 do Claude Opus 5 e $200 do GPT-6 Astra pro mesmo uso. Segundo, o Grok não é automaticamente a opção mais barata em todo lugar: o GPT-5.6 Luna fica abaixo de todos os níveis do Grok na ponta econômica, porque o Luna é o modelo deliberadamente enxuto e de alto volume da OpenAI. O barato tem um teto e um piso em cada provedor; a vantagem do Grok se concentra no topo.
 
 ## Onde o Grok Realmente Ganha ou Perde
 
 **Ele ganha em custo-benefício no topo.** Avaliações independentes da Vals AI colocam o Grok 4.6 em torno de 95,6% no SWE-bench Verified, na mesma faixa dos ~96% relatados pelo Claude Opus 5 e bem à frente do que a maioria dos modelos intermediários pontua, por uma fração do preço do Opus 5. Se sua carga de trabalho depende de um modelo de nível carro-chefe de qualquer forma, o Grok é a forma mais barata de entrar nessa faixa de performance agora.
 
-**Ele ganha em acesso a dados em tempo real.** A API do Grok tem busca na web e no X embutida como uma ferramenta chamável ($5 por 1.000 chamadas), algo que a OpenAI e a Anthropic não oferecem nativamente da mesma forma — normalmente você teria que montar sua própria integração de busca. Pra qualquer coisa que precisa de informação atual no meio da conversa, isso é uma conveniência real, não só uma nota de rodapé de preço.
+**Ele ganha em acesso a dados em tempo real.** A API do Grok tem busca na web e no X embutida como uma ferramenta chamável ($5 por 1.000 chamadas), algo que a OpenAI e a Anthropic não oferecem nativamente da mesma forma; normalmente você teria que montar sua própria integração de busca. Pra qualquer coisa que precisa de informação atual no meio da conversa, isso é uma conveniência real, não só uma nota de rodapé de preço.
 
 **Ele perde em maturidade de ecossistema.** OpenAI e Anthropic têm anos a mais de ferramentas de terceiros, integrações de frameworks, bibliotecas de avaliação e respostas no Stack Overflow construídas em torno delas. A API compatível com a OpenAI do Grok fecha a maior parte dessa lacuna pro uso básico, mas pra qualquer coisa que depende de recursos específicos do SDK de um provedor, você vai encontrar menos exemplos.
 

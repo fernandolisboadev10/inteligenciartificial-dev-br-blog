@@ -3,7 +3,7 @@ title: "12 Comandos Personalizados que Transformam o ChatGPT numa Ferramenta de 
 description: "Configure 12 comandos no estilo slash uma vez, e o ChatGPT para de dar respostas genéricas e passa a montar mapas mentais, flashcards e fluxogramas sobre programação e TI sob demanda. Prontos pra copiar e colar."
 category: "Prompts"
 date: 2026-09-07
-updated: 2026-11-01T21:08:00-03:00
+updated: 2026-11-01T21:18:00-03:00
 translation: "chatgpt-comandos-para-estudiar"
 readingTime: "5 min"
 image: "./images/chatgpt-comandos-para-estudar.webp"
@@ -48,7 +48,7 @@ Com isso configurado, aqui está pra que serve cada comando.
 
 ## /mindmap
 
-Use quando você precisa do panorama geral antes dos detalhes — como um assunto se ramifica e onde tudo se encaixa em relação ao resto.
+Use quando você precisa do panorama geral antes dos detalhes: como um assunto se ramifica e onde tudo se encaixa em relação ao resto.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -74,7 +74,7 @@ Use quando você precisa do panorama geral antes dos detalhes — como um assunt
 
 ## /explodedview
 
-Bom pra qualquer coisa feita de partes que interagem — um computador, uma API, um compilador. Isso força o modelo a nomear cada componente em vez de descrever o assunto como um bloco só.
+Bom pra qualquer coisa feita de partes que interagem: um computador, uma API, um compilador. Isso força o modelo a nomear cada componente em vez de descrever o assunto como um bloco só.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -100,7 +100,7 @@ Pra quando você está começando um assunto do zero absoluto e não sabe em que
 
 ## /flowchart
 
-Ideal pra processos com etapas e pontos de decisão — algoritmos, pipelines de deploy, fluxos de autenticação. Setas em texto já bastam pra enxergar o formato sem desenhar nada.
+Ideal pra processos com etapas e pontos de decisão: algoritmos, pipelines de deploy, fluxos de autenticação. Setas em texto já bastam pra enxergar o formato sem desenhar nada.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -126,7 +126,7 @@ O cavalo de batalha da repetição espaçada. Peça isso regularmente sobre o me
 
 ## /diagram
 
-Uma versão mais solta do /explodedview — use quando você se importa mais com as relações do que com uma lista exaustiva de partes.
+Uma versão mais solta do /explodedview. Use quando você se importa mais com as relações do que com uma lista exaustiva de partes.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -139,7 +139,7 @@ Uma versão mais solta do /explodedview — use quando você se importa mais com
 
 ## /timeline
 
-Ordem importa nesse aqui — versões de uma linguagem, história da computação, fases de um projeto de software. Ele evita que você confunda sequência com importância.
+Ordem importa nesse aqui: versões de uma linguagem, história da computação, fases de um projeto de software. Ele evita que você confunda sequência com importância.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -165,7 +165,7 @@ Sempre que dois conceitos se confundem entre si, isso coloca eles lado a lado em
 
 ## /conceptmap
 
-Parecido com o /mindmap, mas focado em causa e efeito e influência em vez de hierarquia — útil pra assuntos como performance de um site, onde tudo empurra tudo.
+Parecido com o /mindmap, mas focado em causa e efeito e influência em vez de hierarquia. Útil pra assuntos como performance de um site, onde tudo empurra tudo.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -178,7 +178,7 @@ Parecido com o /mindmap, mas focado em causa e efeito e influência em vez de hi
 
 ## /memorypalace
 
-A técnica clássica dos loci, gerada pra você. Ótimo pra listas ordenadas de fatos que são difíceis de decorar mecanicamente — camadas do modelo OSI, etapas do ciclo de vida de um software, portas de rede.
+A técnica clássica dos loci, gerada pra você. Ótimo pra listas ordenadas de fatos que são difíceis de decorar mecanicamente: camadas do modelo OSI, etapas do ciclo de vida de um software, portas de rede.
 
 <div class="prompt-card">
   <div class="prompt-card-bar">
@@ -204,9 +204,9 @@ Rode isso depois de tudo o resto pra checar o que realmente ficou. Formatos de p
 
 ## Fazendo isso pegar
 
-O prompt de configuração só dura na conversa atual, a menos que você salve em algum lugar permanente. Se você tem o ChatGPT Plus, cole em **Instruções Personalizadas** (Configurações → Personalização) ou nas instruções de um **Projeto**, pra que toda conversa nova dentro daquele projeto já conheça os comandos. Claude e Gemini têm o mesmo recurso através das próprias instruções persistentes ou funcionalidades de "Projetos" — o prompt em si não precisa mudar, só onde você o salva.
+O prompt de configuração só dura na conversa atual, a menos que você salve em algum lugar permanente. Se você tem o ChatGPT Plus, cole em **Instruções Personalizadas** (Configurações → Personalização) ou nas instruções de um **Projeto**, pra que toda conversa nova dentro daquele projeto já conheça os comandos. Claude e Gemini têm o mesmo recurso através das próprias instruções persistentes ou funcionalidades de "Projetos"; o prompt em si não precisa mudar, só onde você o salva.
 
-Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que usa o tempo todo — geralmente /flashcards, /cheatsheet, e qualquer um que combine com a forma natural de pensar, mapas mentais pra quem aprende visualmente, fluxogramas pra quem estuda algoritmos e pipelines. Teste na sua próxima sessão de estudo de uma tecnologia nova e fique com os que realmente mudarem a forma como você revisa.
+Você não precisa usar os 12. A maioria das pessoas se acomoda com três ou quatro que usa o tempo todo: geralmente /flashcards, /cheatsheet, e qualquer um que combine com a forma natural de pensar, mapas mentais pra quem aprende visualmente, fluxogramas pra quem estuda algoritmos e pipelines. Teste na sua próxima sessão de estudo de uma tecnologia nova e fique com os que realmente mudarem a forma como você revisa.
 
 ## Leia Também
 

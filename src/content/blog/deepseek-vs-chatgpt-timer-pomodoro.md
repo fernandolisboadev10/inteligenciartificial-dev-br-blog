@@ -1,15 +1,16 @@
 ---
 title: "Demos o Mesmo Prompt de Pomodoro pro DeepSeek e pro ChatGPT (Grátis). Veja o Que Cada Um Construiu de Diferente."
-description: "Mesmo prompt, palavra por palavra, os dois níveis gratuitos, zero edições depois. Testamos os dois timers Pomodoro na mão — pausar, retomar, trocar de aba — e encontramos diferenças reais no tratamento de atraso de tempo, acessibilidade e escopo."
+description: "Mesmo prompt, palavra por palavra, os dois níveis gratuitos, zero edições depois. Testamos os dois timers Pomodoro na mão: pausar, retomar, trocar de aba, e encontramos diferenças reais no tratamento de atraso de tempo, acessibilidade e escopo."
 category: "Estudos de Caso"
 date: 2026-09-14
+updated: 2026-11-01T21:18:00-03:00
 translation: "deepseek-vs-chatgpt-temporizador-pomodoro"
 readingTime: "6 min"
 image: "./images/deepseek-vs-chatgpt-timer-pomodoro.webp"
 imageAlt: "Foto editorial em close-up de dois notebooks lado a lado numa mesa de madeira, cada tela mostrando uma interface de cronômetro regressivo desfocada, com um pequeno timer de cozinha em formato de tomate suavemente fora de foco em primeiro plano"
 ---
 
-Demos ao nível gratuito do DeepSeek e ao nível gratuito do ChatGPT o mesmo prompt, exatamente igual, palavra por palavra, e não tocamos em nenhum dos dois resultados depois: sem edição de acompanhamento, sem "conserta isso", sem segunda tentativa. Só o primeiro resultado bruto de um prompt de app web de arquivo único, testado na mão — iniciar, pausar, retomar, resetar, e trocar de aba pra ver o que quebra.
+Demos ao nível gratuito do DeepSeek e ao nível gratuito do ChatGPT o mesmo prompt, exatamente igual, palavra por palavra, e não tocamos em nenhum dos dois resultados depois: sem edição de acompanhamento, sem "conserta isso", sem segunda tentativa. Só o primeiro resultado bruto de um prompt de app web de arquivo único, testado na mão: iniciar, pausar, retomar, resetar, e trocar de aba pra ver o que quebra.
 
 Os dois widgets abaixo são o código real e sem edições que cada modelo produziu. Teste você mesmo antes de ler nossa opinião.
 
@@ -37,7 +38,7 @@ Give me the complete code in one HTML file, nothing else.</code></pre>
 
 <iframe src="/demos/pomodoro-chatgpt.html" title="Timer Pomodoro do ChatGPT, ao vivo e interativo" loading="lazy" style="width:100%;max-width:100%;height:560px;border:1px solid var(--line);border-radius:12px;background:#f5f5f5;"></iframe>
 
-O ChatGPT construiu exatamente o que o prompt descrevia e parou por aí. Um único `setInterval` conta o tempo regressivo uma vez por segundo, `Pause` o interrompe, `Start` cria um novo, `Reset` volta tudo pra 25:00. Ele toca um som de três notas pela Web Audio API quando uma sessão termina, e atualiza o título da aba do navegador em tempo real — um detalhe que ninguém pediu, mas genuinamente útil se você estiver fazendo Pomodoro numa aba em segundo plano.
+O ChatGPT construiu exatamente o que o prompt descrevia e parou por aí. Um único `setInterval` conta o tempo regressivo uma vez por segundo, `Pause` o interrompe, `Start` cria um novo, `Reset` volta tudo pra 25:00. Ele toca um som de três notas pela Web Audio API quando uma sessão termina, e atualiza o título da aba do navegador em tempo real, um detalhe que ninguém pediu mas genuinamente útil se você estiver fazendo Pomodoro numa aba em segundo plano.
 
 O que ele não fez: tocar em nada fora dos seis itens da lista. Sem barra de progresso, sem atalhos de teclado, sem atributos de acessibilidade além do que um `<button>` simples já dá de graça.
 
@@ -45,7 +46,7 @@ O que ele não fez: tocar em nada fora dos seis itens da lista. Sem barra de pro
 
 <iframe src="/demos/pomodoro-deepseek.html" title="Timer Pomodoro do DeepSeek, ao vivo e interativo" loading="lazy" style="width:100%;max-width:100%;height:560px;border:1px solid var(--line);border-radius:12px;background:#f4f5f7;"></iframe>
 
-O DeepSeek respondeu aos mesmos seis itens, e continuou. A contagem regressiva não é um decremento ingênuo — ela recalcula o tempo restante a partir do `Date.now()` comparado com um horário de término armazenado, a cada 100ms, o que significa que não sofre atraso mesmo se a aba for limitada em segundo plano, uma classe de bug real na abordagem "só faz `timeLeft--` a cada segundo" que o ChatGPT usou. Ele também trouxe uma barra de progresso, uma mudança de cor de vermelho (trabalho) pra verde (pausa), botões `Start`/`Pause` que se desabilitam corretamente conforme o estado, regiões `aria-live` pra leitores de tela, um fallback pra `prefers-reduced-motion`, vibração no celular ao fim da sessão, e atalhos de teclado (Espaço pra iniciar/pausar, R pra resetar) que nem estavam no prompt.
+O DeepSeek respondeu aos mesmos seis itens, e continuou. A contagem regressiva não é um decremento ingênuo: ela recalcula o tempo restante a partir do `Date.now()` comparado com um horário de término armazenado, a cada 100ms, o que significa que não sofre atraso mesmo se a aba for limitada em segundo plano, uma classe de bug real na abordagem "só faz `timeLeft--` a cada segundo" que o ChatGPT usou. Ele também trouxe uma barra de progresso, uma mudança de cor de vermelho (trabalho) pra verde (pausa), botões `Start`/`Pause` que se desabilitam corretamente conforme o estado, regiões `aria-live` pra leitores de tela, um fallback pra `prefers-reduced-motion`, vibração no celular ao fim da sessão, e atalhos de teclado (Espaço pra iniciar/pausar, R pra resetar) que nem estavam no prompt.
 
 ## Lado a Lado
 
@@ -104,7 +105,7 @@ A interface do DeepSeek mostrou um indicador visível de "pensou por 17 segundos
 
 ## Conclusão
 
-Nenhum dos dois modelos entregou código quebrado. Essa é a primeira descoberta que vale a pena parar pra pensar: a história de "IA escreve código cheio de bugs" é fácil de repetir, e simplesmente não aconteceu aqui, numa tarefa pequena o suficiente pra caber na cabeça. A diferença real foi o escopo. O ChatGPT leu seis itens e entregou seis itens, corretamente, sem nada a mais. O DeepSeek leu os mesmos seis itens e decidiu que um timer Pomodoro também precisava de cronometragem resistente a atraso, suporte a acessibilidade e atalhos de teclado — nada disso foi pedido.
+Nenhum dos dois modelos entregou código quebrado. Essa é a primeira descoberta que vale a pena parar pra pensar: a história de "IA escreve código cheio de bugs" é fácil de repetir, e simplesmente não aconteceu aqui, numa tarefa pequena o suficiente pra caber na cabeça. A diferença real foi o escopo. O ChatGPT leu seis itens e entregou seis itens, corretamente, sem nada a mais. O DeepSeek leu os mesmos seis itens e decidiu que um timer Pomodoro também precisava de cronometragem resistente a atraso, suporte a acessibilidade e atalhos de teclado, e nada disso foi pedido.
 
 Qual é "melhor" depende do que você está fazendo com ele. Prototipando uma ideia de interface que você vai reescrever de qualquer jeito? A saída enxuta e literal do ChatGPT é mais fácil de ler e simplificar. Lançando algo que uma pessoa de verdade vai usar num dia inteiro de trabalho, trocando de aba e deixando em segundo plano o tempo todo? A atenção não solicitada do DeepSeek a atraso e acessibilidade é a diferença entre um brinquedo e uma ferramenta.
 

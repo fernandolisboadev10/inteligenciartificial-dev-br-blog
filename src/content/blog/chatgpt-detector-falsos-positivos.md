@@ -3,6 +3,7 @@ title: "Alimentamos Detectores de IA com Redações Escritas por Humanos. Eles M
 description: "Detectores de IA marcaram uma redação de 1841 e um artigo da Wikipédia de 2012 como 'falsos' no nosso próprio teste. Aqui estão os dados reais sobre falsos positivos, e como se proteger."
 category: "Tutoriais"
 date: 2026-09-08
+updated: 2026-11-01T21:18:00-03:00
 translation: "chatgpt-detector-falsos-positivos"
 readingTime: "9 min"
 image: "./images/chatgpt-detector-falsos-positivos.webp"
@@ -17,10 +18,10 @@ Esse caso hoje é citado como a primeira vez que um aluno venceu um processo fed
 
 Montamos quatro amostras, cada uma claramente identificada pelo que ela realmente é:
 
-- **Amostra A — Humana, literária**: A abertura do ensaio "Self-Reliance" de Ralph Waldo Emerson, publicado em 1841. Inequivocamente humana, escrita 179 anos antes do ChatGPT existir.
-- **Amostra B — Humana, simples/enciclopédica**: O parágrafo de abertura do artigo "Fotossíntese" da Wikipédia, retirado de uma revisão de maio de 2012, muito antes de modelos de linguagem grandes escreverem conteúdo pra web. Usado sob a licença CC BY-SA da Wikipédia.
-- **Amostra C — 100% gerada por IA**: Um parágrafo explicando como funciona a memória imunológica, escrito pelo Claude (modelo de IA da Anthropic) pra este teste, sem nenhuma edição.
-- **Amostra D — Gerada por IA, depois editada**: O mesmo parágrafo da Amostra C, reescrito com contrações, transições informais e estrutura de frases mais solta, simulando um aluno que fez o rascunho com IA e depois reescreveu com a própria voz.
+- **Amostra A: Humana, literária**: A abertura do ensaio "Self-Reliance" de Ralph Waldo Emerson, publicado em 1841. Inequivocamente humana, escrita 179 anos antes do ChatGPT existir.
+- **Amostra B: Humana, simples/enciclopédica**: O parágrafo de abertura do artigo "Fotossíntese" da Wikipédia, retirado de uma revisão de maio de 2012, muito antes de modelos de linguagem grandes escreverem conteúdo pra web. Usado sob a licença CC BY-SA da Wikipédia.
+- **Amostra C: 100% gerada por IA**: Um parágrafo explicando como funciona a memória imunológica, escrito pelo Claude (modelo de IA da Anthropic) pra este teste, sem nenhuma edição.
+- **Amostra D: Gerada por IA, depois editada**: O mesmo parágrafo da Amostra C, reescrito com contrações, transições informais e estrutura de frases mais solta, simulando um aluno que fez o rascunho com IA e depois reescreveu com a própria voz.
 
 Passamos as quatro pelo detector gratuito de IA da Sapling, uma das ferramentas mais estabelecidas do setor. Também tentamos o GPTZero, o ZeroGPT e o detector do Quillbot, mas não conseguimos completar testes anônimos em nenhum deles; cada um exigia uma conta pra ver o resultado ou bloqueava totalmente o envio automatizado, o que já vale a pena notar; essas ferramentas ficaram mais difíceis de verificar casualmente desde 2023, não mais fáceis.
 
@@ -37,22 +38,22 @@ Passamos as quatro pelo detector gratuito de IA da Sapling, uma das ferramentas 
     </thead>
     <tbody>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;">A — Emerson, 1841</td>
+        <td style="padding:12px 16px;">A: Emerson, 1841</td>
         <td style="padding:12px 16px;">Humano</td>
         <td style="padding:12px 16px;font-weight:600;color:var(--rose);">84,2% Falso</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa;">
-        <td style="padding:12px 16px;">B — Wikipédia, 2012</td>
+        <td style="padding:12px 16px;">B: Wikipédia, 2012</td>
         <td style="padding:12px 16px;">Humano</td>
         <td style="padding:12px 16px;font-weight:600;color:var(--rose);">100,0% Falso</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:12px 16px;">C — Parágrafo de IA</td>
+        <td style="padding:12px 16px;">C: Parágrafo de IA</td>
         <td style="padding:12px 16px;">IA</td>
         <td style="padding:12px 16px;font-weight:600;">100,0% Falso</td>
       </tr>
       <tr>
-        <td style="padding:12px 16px;">D — IA, depois editado</td>
+        <td style="padding:12px 16px;">D: IA, depois editado</td>
         <td style="padding:12px 16px;">IA + edição humana</td>
         <td style="padding:12px 16px;font-weight:600;">100,0% Falso</td>
       </tr>
