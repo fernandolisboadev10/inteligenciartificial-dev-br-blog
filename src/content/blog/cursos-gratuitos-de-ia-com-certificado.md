@@ -1,7 +1,7 @@
 ---
 title: "10 indicações de cursos gratuitos de IA para estudar em 2026"
 description: "Veja os dez cursos de IA citados no vídeo, onde se inscrever e quais oferecem certificado, selo ou credencial. Há opções em português para iniciantes."
-category: "Certificações"
+category: "Carreira"
 date: 2026-11-21T13:50:00-03:00
 readingTime: "5 min"
 image: "./images/cursos-gratuitos-de-ia-com-certificado.webp"
