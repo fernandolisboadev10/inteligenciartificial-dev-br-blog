@@ -3,9 +3,10 @@ title: "10 indicações de cursos gratuitos de IA para estudar em 2026"
 description: "Veja os dez cursos de IA citados no vídeo, onde se inscrever e quais oferecem certificado, selo ou credencial. Há opções em português para iniciantes."
 category: "Carreira"
 date: 2026-11-21T13:50:00-03:00
+updated: 2026-11-21T14:33:00-03:00
 readingTime: "5 min"
-image: "./images/cursos-gratuitos-de-ia-com-certificado.webp"
-imageAlt: "Notebook aberto em uma plataforma de cursos, com um caderno de estudos e um certificado de conclusão sobre a mesa."
+image: "./images/cursos-gratuitos-de-ia-com-certificado-capa.webp"
+imageAlt: "Notebook sobre uma mesa de madeira exibe uma página de cursos de IA com três cartões. Ao lado, há um caderno e um certificado."
 ---
 
 Se você tem **45 minutos e quer começar em português**, a Introdução à IA Generativa do Google Skills é a opção mais rápida entre as que têm carga horária confirmada nesta lista. Para estudar com mais calma e sair com um certificado de conclusão, o FluêncIA da Fundação Bradesco tem quatro horas e inclui uma avaliação final. E, se você já programa, o curso Claude Code in Action é o mais diretamente ligado ao trabalho com código.
