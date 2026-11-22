@@ -4,6 +4,7 @@ description: "Veja os dez cursos de IA citados no vídeo, onde se inscrever e qu
 category: "Carreira"
 date: 2026-11-21T13:50:00-03:00
 updated: 2026-11-21T14:33:00-03:00
+translation: "cursos-gratis-de-ia-con-certificado"
 readingTime: "5 min"
 image: "./images/cursos-gratuitos-de-ia-com-certificado-capa.webp"
 imageAlt: "Notebook sobre uma mesa de madeira exibe uma página de cursos de IA com três cartões. Ao lado, há um caderno e um certificado."

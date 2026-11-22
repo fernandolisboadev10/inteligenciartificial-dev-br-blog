@@ -3,6 +3,7 @@ title: "AWS Machine Learning Engineer Associate: vale a pena?"
 description: "Entenda a certificação AWS Machine Learning Engineer Associate: perfil indicado, prova MLA-C01, custos, prática e um roteiro de preparação de oito semanas."
 category: "Certificações"
 date: 2026-11-09T18:48:00-03:00
+translation: "aws-machine-learning-engineer-associate-vale-la-pena"
 draft: false
 readingTime: "8 min"
 image: "./images/aws-machine-learning-engineer-associate.webp"

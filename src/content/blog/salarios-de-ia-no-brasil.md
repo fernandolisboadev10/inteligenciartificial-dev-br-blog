@@ -3,6 +3,7 @@ title: "Salários de IA no Brasil em 2026: Quanto Ganha Cientista de Dados, Enge
 description: "Faixas salariais de IA e dados no Brasil em 2026, com fonte e data: Robert Half, CAGED, State of Data. O que muda com senioridade, CLT x PJ e dólar."
 category: "Carreira"
 date: 2026-10-14
+translation: "salarios-de-ia-en-latinoamerica-y-espana"
 readingTime: "8 min"
 image: "./images/salarios-de-ia-no-brasil.webp"
 imageAlt: "Profissional brasileiro pensativo diante de um notebook com planilhas e gráficos de salários, caderno com anotações e uma xícara de café em um coworking com vista para a cidade"

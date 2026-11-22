@@ -4,6 +4,7 @@ description: "Veja onde encontrar vagas de especialista em IA no Brasil, compare
 category: "Carreira"
 date: 2026-11-17
 updated: 2026-11-22T13:17:30-03:00
+translation: "empleos-de-especialista-en-ia-en-brasil"
 readingTime: "5 min"
 image: "./images/vagas-de-especialista-em-ia.webp"
 imageAlt: "Jovem usando um notebook que mostra três cargos: Especialista em IA, Engenheiro de IA e Cientista de Dados."

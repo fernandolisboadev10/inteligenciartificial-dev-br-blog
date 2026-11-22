@@ -3,6 +3,7 @@ title: "Profissões de IA no Brasil em 2026: Quais Existem de Verdade, o Que Cad
 description: "Cientista de dados, engenheiro de IA, MLOps, governança e mais: o que cada profissão de IA faz no mercado brasileiro em 2026, que habilidades pede e por onde começar."
 category: "Carreira"
 date: 2026-10-14
+translation: "profesiones-de-ia-en-latinoamerica-y-espana"
 readingTime: "8 min"
 image: "./images/profissoes-de-ia-no-brasil.webp"
 imageAlt: "Profissional pensativo diante de um notebook com o ChatGPT na tela em um escritório moderno com colegas ao fundo"
